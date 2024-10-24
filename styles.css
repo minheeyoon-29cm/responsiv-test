@@ -450,89 +450,65 @@ h1, h2, h4, h5, h6, p {
   margin: 0;
 }
 
-h3 {
-  margin: 12px;
+.section-area {
+  height: 300px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: var(--ruler-scale-color-blue-200);
 }
 
-.width-display {
-  padding: 10px;
-  height: 42px;
-  width: 100%;
-  background-color: var(--ruler-scale-color-gray-900);
-  color: white;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
-.container {
-  height: 100%;
+.hero-content {
   margin: 0 auto;
-  padding-top: 42px;
+  width: 100%;
+  background-color: var(--ruler-scale-color-blue-300);
 }
 
-/* 콘텐츠 A타입 : 기본 콘텐츠 */
-.content-a-type {
-  background-color: var(--ruler-scale-color-blue-400);
-  padding: 32px 50px;
-  color: var(--ruler-static-scale-color-white);
+.logo-slider {
+  overflow: hidden;
+  width: 100%; /* 슬라이더의 너비를 설정 */
+  height: 100px; /* 슬라이더의 높이를 로고 높이에 맞게 설정 */
+  position: relative;
 }
 
-/* 카드 그리드 레이아웃 */
-.card-gird-view {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr); /* 기본 5개의 칼럼 */
-  gap: 8px;
-  background-color: var(--ruler-scale-color-gray-alpha-400);
-}
-
-/* 콘텐츠 B타입 : 마이페이지 */
-.contents-b-type {
-  display: grid;
-  grid-template-columns: 1fr 4fr; /* 사이드바와 콘텐츠 비율 */
-  gap: 8px;
-  background-color: var(--ruler-scale-color-yellow-500);
-  padding: 32px 50px;
-}
-
-/* 사이드바 : 스티키 처리 */
-.contents-b-type aside {
-  background-color: var(--ruler-scale-color-yellow-200);
-  border-radius: 8px;
-  width: 200px;
-  height: fit-content;
-  position: sticky;
-  top: 72px;
-}
-
-/* 유저 카드 스타일 */
-.user-card {
-  background-color: var(--ruler-scale-color-gray-alpha-300);
-  border-radius: 4px;
+.logo-slide-track {
   display: flex;
-  align-items: center;
-  padding: 12px;
-  margin-bottom: 24px;
+  animation: slide 4s linear infinite;
+  /* 너비를 동적으로 설정하므로 별도 고정 너비는 삭제 */
 }
 
-/* 카드 스타일 */
+.logo-slide-track img {
+  height: 100px;
+  margin-right: 72px;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-150%); /* 복제된 로고까지 고려하여 50%로 이동 */
+  }
+}
+
+.card-grid-view {
+  display: flex;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+  background-color: var(--ruler-scale-color-blue-600);
+}
+
 .card {
   width: 100%;
-  margin-bottom: 24px;
-}
-
-.card p {
-  font-size: 13px;
+  background-color: var(--ruler-scale-color-blue-400);
 }
 
 .card img {
   width: 100%;
-  border-radius: 4px;
-  margin-bottom: 6px;
 }
 
-/* 반응형 레이아웃 */
 
+
+/* 반응형 레이아웃 */
 /* 모바일 디바이스 (360px ~ 700px) */
 @media (max-width: 700px) {
   .content-a-type, 
@@ -563,7 +539,7 @@ h3 {
   }
 }
 
-/* 데스크탑 디바이스 (1180px 이상) 콘텐츠 1080px : 픽스 */
+/* 데스크탑 디바이스 (1180px 이상) 콘텐츠 마진없이 1080px : 픽스 */
 @media (min-width: 1180px) {
   .container {
     max-width: 1180px; /* 최대 너비 제한 */
