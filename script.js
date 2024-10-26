@@ -1,38 +1,39 @@
-window.addEventListener("load", updateWidth);
-window.addEventListener("resize", updateWidth);
+window.addEventListener("load", () => {
+  initLogoSlider(); // 로고 슬라이더 초기화
+  updateWidths(); // 섹션 너비 업데이트
+});
 
-function updateWidth() {
-  const windowWidthDisplay = document.getElementById("window-width-display");
-  const sectionWidthDisplay = document.getElementById("section-width-display");
-  const contentsWidthDisplay = document.getElementById("contents-width-display");
+window.addEventListener("resize", updateWidths); // 브라우저 크기 변경 시 너비 업데이트
 
-  const contentElement = document.querySelector(".section-area");
-  const contentContentsElement = document.querySelector(".plp-content");
+// 로고 슬라이더를 복제하여 초기화하는 함수
+function initLogoSlider() {
+  const marqueeGroups = document.querySelectorAll(".logo-slide-track");
 
-  // 창 가로값 및 콘텐츠 영역 가로값 표시
-  windowWidthDisplay.textContent = `브라우저 width: ${window.innerWidth}px`;
-  sectionWidthDisplay.textContent = `하나의 섹션 width: ${contentElement.offsetWidth}px`;
-  contentsWidthDisplay.textContent = `섹션안의 콘텐츠 width: ${contentContentsElement.offsetWidth}px`;
+  marqueeGroups.forEach((group) => {
+    const clone = group.cloneNode(true); // 로고 그룹 복제
+    group.parentNode.appendChild(clone); // 복제된 그룹 추가
+  });
 }
 
-window.addEventListener("DOMContentLoaded", function() {
-  const track = document.querySelector('.logo-slide-track');
-  
-  if (track) {
-    const logos = Array.from(track.children);
-    const originalLength = logos.length;
+// 각 섹션의 너비를 실시간으로 업데이트하는 함수
+function updateWidths() {
+  const heroContent = document.querySelector(".hero-content"); // 히어로 섹션
+  const plpContent = document.querySelector(".plp-content"); // PLP 섹션
+  const myContent = document.querySelector(".my-content"); // 마이페이지 섹션
 
-    // 원본 로고들을 복제
-    logos.forEach(logo => {
-      const clone = logo.cloneNode(true);
-      track.appendChild(clone);
-    });
+  const heroWidth = heroContent.offsetWidth; // 히어로 섹션의 너비
+  const plpWidth = plpContent.offsetWidth; // PLP 섹션의 너비
+  const myWidth = myContent.offsetWidth; // 마이페이지 섹션의 너비
+  const browserWidth = window.innerWidth; // 브라우저 너비
 
-    // 슬라이드 트랙의 너비를 복제된 로고들에 맞게 설정
-    const trackWidth = 100 * (originalLength * 2) + "px";
-    track.style.width = trackWidth;
+  // HTML에 각 섹션의 너비 표시
+  document.getElementById("hero-width").textContent = heroWidth;
+  document.getElementById("plp-width").textContent = plpWidth;
+  document.getElementById("my-width").textContent = myWidth;
+  document.getElementById("browser-width").textContent = browserWidth;
 
-  } else {
-    console.error("슬라이드 트랙을 찾을 수 없습니다.");
-  }
-});
+  // 콘솔에 너비 정보 출력
+  console.log(
+    `브라우저 너비: ${browserWidth}px, Hero: ${heroWidth}px, PLP: ${plpWidth}px, My: ${myWidth}px`
+  );
+}
