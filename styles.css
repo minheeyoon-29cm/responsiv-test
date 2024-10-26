@@ -108,19 +108,21 @@ header {
   background-color: #ccd1c1;
   display: flex;
   overflow-x: hidden;
-  mask-image: linear-gradient(
+  padding-top: 12px;
+  padding-bottom: 12px;
+  /* mask-image: linear-gradient(
     to right,
     rgba(0, 0, 0, 0),
     rgba(0, 0, 0, 1) 20%,
     rgba(0, 0, 0, 1) 80%,
     rgba(0, 0, 0, 0)
-  );
+  ); */
 }
 
 .logo-slide-track {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   min-width: 100%;
   gap: 62px;
   animation: scroll-x var(--duration) linear infinite;
@@ -155,6 +157,7 @@ header {
 }
 .my-content aside {
   width: 200px;
+  height: fit-content;
   margin-right: 12px;
   background-color: #ccd1c1;
   border-radius: 8px;
