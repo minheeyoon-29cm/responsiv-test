@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
 :root {
   /* 색상 스케일 (Scale Colors) */
   --ruler-scale-color-gray-00: #ffffff;
@@ -29,15 +31,17 @@
   --scroll-end: calc(-100%);
 }
 
+
 /* 기본 스타일 */
 html, body {
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-color: #edefeb;
 }
 
-h1, h2, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 
@@ -51,6 +55,7 @@ header {
 /* 섹션 공통 영역 */
 .section-area {
   margin: 0 50px;
+  box-sizing: border-box;
 }
 
 /* 그리드 뷰 - 카드 영역 */
@@ -69,6 +74,17 @@ header {
   border-radius: 4px;
 }
 
+.card p {
+  width: 80%;
+  font-size: 14px;
+  line-height: 150%;
+  display: -webkit-box; /* Flexbox와 비슷한 레이아웃 사용 */
+  -webkit-line-clamp: 2; /* 최대 2줄로 제한 */
+  -webkit-box-orient: vertical; /* 세로 방향으로 정렬 */
+  overflow: hidden; /* 넘치는 내용 숨김 */
+  text-overflow: ellipsis; /* 생략(...) 표시 */
+}
+
 /* 너비 표시 (실시간 브라우저 및 섹션 너비 표시) */
 .width-display {
   position: absolute;
@@ -79,6 +95,7 @@ header {
   padding: 10px 16px;
   border-radius: 8px;
   font-size: 14px;
+  font-weight: 600;
   z-index: 3;
 }
 
@@ -90,7 +107,9 @@ header {
   margin: 0 auto;
   background-color: #ccd1c1;
   overflow: hidden; /* 넘치는 콘텐츠 숨김 */
+  box-sizing: border-box;
 }
+
 .hero-video {
   position: absolute;
   top: 50%;
@@ -110,13 +129,6 @@ header {
   overflow-x: hidden;
   padding-top: 12px;
   padding-bottom: 12px;
-  /* mask-image: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 1) 20%,
-    rgba(0, 0, 0, 1) 80%,
-    rgba(0, 0, 0, 0)
-  ); */
 }
 
 .logo-slide-track {
@@ -141,41 +153,186 @@ header {
 
 /* B: PLP 콘텐츠 */
 .plp-content {
-  width: 1080px;
   margin: 0 auto;
   padding: 60px 0;
   position: relative;
+  border: 1px dashed #ccd1c1;
+  border-top: 0px;
+  border-bottom: 0px;
+  box-sizing: border-box;
 }
 
 /* C: 마이페이지 콘텐츠 */
 .my-content {
-  width: 1080px;
   margin: 0 auto;
   padding: 60px 0;
   display: flex;
   position: relative;
+  border: 1px dashed #ccd1c1;
+  border-top: 0px;
+  border-bottom: 0px;
+  box-sizing: border-box;
 }
+
 .my-content aside {
   width: 200px;
-  height: fit-content;
+  height: fit-content; /* 내용에 맞게 높이 조정 */
   margin-right: 12px;
+  padding: 12px;
   background-color: #ccd1c1;
-  border-radius: 8px;
+  border-radius: 4px;
+  
+  /* 스티키 메뉴 속성 추가 */
+  position: sticky;
+  top: 20px; /* 스크롤 시 상단에서 20px 떨어진 위치에 고정 */
+  z-index: 2; /* 콘텐츠 위에 표시되도록 설정 */
+
+  font-size: 14px;
+  line-height: 150%;
 }
 
-/* 반응형 레이아웃 */
+/* D: 캐러셀 케이스 */
+/* 캐러셀 전체 스타일 */
+.carousel {
+  position: relative;
+  max-width: 100%;
+  background-color: #ccd1c1;
+  margin: 0 auto;
+  overflow: hidden;
+}
 
+/* 트랙 컨테이너 */
+.carousel-track-container {
+  width: 1080px;
+  margin: 0 auto;
+  padding-top: 42px;
+  padding-bottom: 42px;
+  border: 1px dashed #fff;
+  border-top: 0px;
+  border-bottom: 0px;
+  box-sizing: border-box;
+}
+
+
+/* 슬라이드 트랙 */
+.carousel-track {
+  display: flex;
+  width: 100%;
+  transition: transform 0.5s ease-in-out;
+  padding-left: 0px;
+  gap: 7px;
+}
+
+/* 슬라이드 스타일 */
+.carousel-slide {
+  overflow: hidden;
+  min-width: 24.5%; /* 5개의 슬라이드가 보이도록 설정 */
+  position: relative;
+  list-style: none;
+  border-radius: 4px;
+}
+
+/* 이미지와 콘텐츠 스타일 */
+.carousel-slide img {
+  width: 100%;
+  display: block;
+  height: 100%; /* 부모 요소의 높이에 맞춤 */
+  object-fit: cover; /* 이미지를 비율에 맞게 채움 */
+}
+
+
+.slide-content {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  right: 16px;
+  color: white;
+  width: -webkit-fill-available;
+}
+
+.badge {
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 4px;
+  padding: 2px 4px;
+  width: fit-content;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.cta {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 12px;
+}
+
+/* 캐러셀 버튼 */
+.carousel-prev-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) translateX(-60px);
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 999px;
+  width: 42px;
+  height: 42px;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.carousel-next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) translateX(1098px);
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 999px;
+  width: 42px;
+  height: 42px;
+  cursor: pointer;
+  z-index: 5;
+}
+
+
+/* 반응형 레이아웃 */
 /* 모바일 뷰 (700px 이하) */
 @media (max-width: 700px) {
   .section-area {
     margin: 0 20px;
   }
-  .plp-content, .my-content {
+  .plp-content, .my-content, .carousel-track-container {
     width: 100%; /* 화면에 맞게 너비 조정 */
   }
   .card-grid-view {
     grid-template-columns: repeat(2, 1fr); /* 2개의 칼럼 */
   }
+
+  .my-content aside {
+    display: none; 
+   }
+
+       /* 슬라이드 스타일 */
+  .carousel-slide {
+    min-width: 240px; /* 5개의 슬라이드가 보이도록 설정 */
+    }  
+
+    
+    .carousel-prev-btn {
+      transform: translateY(-50%);
+      left: 10px;
+    }
+    
+    .carousel-next-btn {
+     transform: translateY(-50%);
+     right: 10px;
+    }
 }
 
 /* 태블릿 뷰 (701px ~ 1179px) */
@@ -183,18 +340,44 @@ header {
   .section-area {
     margin: 0 20px;
   }
-  .plp-content, .my-content {
-    width: 700px; /* 고정된 700px 너비 */
+  .plp-content, .my-content, .carousel-track-container {
+    width: 700px;
+    overflow: hidden;
   }
+
   .card-grid-view {
-    grid-template-columns: repeat(3, 1fr); /* 2개의 칼럼 유지 */
+    grid-template-columns: repeat(4, 1fr); /* 2개의 칼럼 유지 */
   }
+
+  .my-content aside {
+   display: none; 
+  }
+
+    /* 슬라이드 스타일 */
+  .carousel-slide {
+  min-width: 30%; /* 5개의 슬라이드가 보이도록 설정 */
+  }  
+ 
+  .carousel-next-btn {
+  transform: translateY(-50%) translateX(718px);
+}
+
+}
+
+footer {
+  width: 100%;
+  height: 60px;
+  background-color: #ccd1c1;
+  align-items: center;
+  display: flex;
+  padding-left: 24px;
+  box-sizing: border-box;
+  font-size: 12px;
 }
 
 /* 데스크탑 뷰 (1180px 이상) */
 @media (min-width: 1180px) {
   .section-area {
-    width: 1080px;
     margin: 0 auto;
   }
   .plp-content, .my-content {
@@ -204,4 +387,4 @@ header {
     grid-template-columns: repeat(5, 1fr); /* 5개의 칼럼 */
     gap: 16px;
   }
-}
+} 
