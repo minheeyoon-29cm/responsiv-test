@@ -302,31 +302,7 @@ header {
 
 
 /* 반응형 레이아웃 */
-/* 모바일 뷰 (700px 이하) */
-/* @media (max-width: 700px) {
-  .section-area {
-    margin: 0 20px;
-  }
-  .plp-content, .my-content, .carousel-track-container {
-    width: 100%;
-  }
-  .card-grid-view {
-    grid-template-columns: repeat(2, 1fr); 
-  }
-
-  .my-content aside {
-    display: none; 
-   }
-
-  .carousel-slide {
-    min-width: 240px; 
-    }  
-
-    
-
-} */
-
-/* 태블릿 뷰 (701px ~ 1179px) */
+/* 모바일 & 태블릿 */
 @media (min-width: 320px) and (max-width: 1179px) {
   .section-area {
     margin: 0 20px;
