@@ -303,65 +303,70 @@ header {
 
 /* 반응형 레이아웃 */
 /* 모바일 뷰 (700px 이하) */
-@media (max-width: 700px) {
+/* @media (max-width: 700px) {
   .section-area {
     margin: 0 20px;
   }
   .plp-content, .my-content, .carousel-track-container {
-    width: 100%; /* 화면에 맞게 너비 조정 */
+    width: 100%;
   }
   .card-grid-view {
-    grid-template-columns: repeat(2, 1fr); /* 2개의 칼럼 */
+    grid-template-columns: repeat(2, 1fr); 
   }
 
   .my-content aside {
     display: none; 
    }
 
-       /* 슬라이드 스타일 */
   .carousel-slide {
-    min-width: 240px; /* 5개의 슬라이드가 보이도록 설정 */
+    min-width: 240px; 
     }  
 
     
-    .carousel-prev-btn {
-      transform: translateY(-50%);
-      left: 10px;
-    }
-    
-    .carousel-next-btn {
-     transform: translateY(-50%);
-     right: 10px;
-    }
-}
+
+} */
 
 /* 태블릿 뷰 (701px ~ 1179px) */
-@media (min-width: 701px) and (max-width: 1179px) {
+@media (min-width: 320px) and (max-width: 1179px) {
   .section-area {
     margin: 0 20px;
   }
-  .plp-content, .my-content, .carousel-track-container {
-    width: 700px;
-    overflow: hidden;
+  .plp-content, .my-content, .carousel-track-container, .hero-content{
+    width: 100%;
+    min-width: 320px;
+    max-width: 700px;
+    background-color: white;
+  }
+
+  .logo-slider {
+    width: 100%;
+    min-width: 320px;
+    max-width: 700px;
+    margin: 0 auto;
   }
 
   .card-grid-view {
-    grid-template-columns: repeat(4, 1fr); /* 2개의 칼럼 유지 */
+    grid-template-columns: repeat(3, 1fr); 
   }
 
   .my-content aside {
    display: none; 
   }
 
-    /* 슬라이드 스타일 */
+
   .carousel-slide {
-  min-width: 30%; /* 5개의 슬라이드가 보이도록 설정 */
+  min-width: 40%; 
   }  
  
+  .carousel-prev-btn {
+    transform: translateY(-50%);
+    left: 10px;
+  }
+  
   .carousel-next-btn {
-  transform: translateY(-50%) translateX(718px);
-}
-
+   transform: translateY(-50%);
+   right: 10px;
+  }
 }
 
 footer {
@@ -377,9 +382,6 @@ footer {
 
 /* 데스크탑 뷰 (1180px 이상) */
 @media (min-width: 1180px) {
-  .section-area {
-    margin: 0 auto;
-  }
   .plp-content, .my-content {
     width: 1080px;
   }
