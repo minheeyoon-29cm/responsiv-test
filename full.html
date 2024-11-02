@@ -1,85 +1,92 @@
 <!DOCTYPE html>
 <html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta property="og:title" content="29CM - Responsive Preview " />
-    <meta
-      property="og:description"
-      content="백문이 불여일견 직접 보고 감잡기"
-    />
-    <meta
-      property="og:image"
-      content="https://img.29cm.co.kr/next-edition/2024/10/29/b81f0ba4bb774c41a57455f64dea65e8_20241029044322.jpg"
-    />
-    <meta property="og:url" content="https://29responsive-test.netlify.app/" />
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="ko_KR" />
-    <meta name="twitter:card" content="summary_large_image" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>29CM 반응형</title>
     <link rel="stylesheet" href="css/ruler-token.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/full.css">
-    <title>29CM 반응형</title>
-  </head>
-  <body>
+    <link rel="stylesheet" href="css/carousel.css">
+</head>
+<body>
     <header>
-      <nav>
         <nav>
-          <ul>
-            <li><a href="index.html">Guide Home</a></li>
-            <li><a href="full.html">Full</a></li>
-            <li><a href="pdp.html">PDP</a></li>
-            <li><a href="my.html">My</a></li>
-          </ul>
+            <ul>
+                <li><a href="index.html">Guide Home</a></li>
+                <li><a href="full.html">Full</a></li>
+                <li><a href="pdp.html">PDP</a></li>
+                <li><a href="my.html">My</a></li>
+            </ul>
         </nav>
     </header>
-    <main class="container">
-      <!-- 히어로 배너 -->
-      <section class="hero-banner">
-          <img src="https://via.placeholder.com/1200x400" alt="Hero Banner">
-          <div class="hero-text">
-              <h1>히어로 배너 제목</h1>
-              <p>이곳에 강조하고 싶은 내용을 추가하세요.</p>
-          </div>
-      </section>
 
-      <!-- 캐러셀 섹션 -->
-      <section class="carousel-section">
-        <h2>Get to know iPhone.</h2>
-        <div class="carousel">
-            <button class="carousel-button prev" onclick="moveSlide(-1)">&#10094;</button>
-            <div class="carousel-slides">
-                <div class="slide">
-                    <img src="https://via.placeholder.com/400x700?text=Slide+1" alt="Slide 1">
-                    <h3>Apple Intelligence</h3>
-                    <p>AI-opening possibilities.</p>
-                </div>
-                <div class="slide">
-                    <img src="https://via.placeholder.com/400x700?text=Slide+2" alt="Slide 2">
-                    <h3>Cutting-Edge Cameras</h3>
-                    <p>Picture your best photos and videos.</p>
-                </div>
-                <div class="slide">
-                    <img src="https://via.placeholder.com/400x700?text=Slide+3" alt="Slide 3">
-                    <h3>Chip and Battery Life</h3>
-                    <p>Fast that lasts.</p>
-                </div>
-                <div class="slide">
-                    <img src="https://via.placeholder.com/400x700?text=Slide+4" alt="Slide 4">
-                    <h3>Innovation</h3>
-                    <p>Beautiful and durable, by design.</p>
-                </div>
-                <div class="slide">
-                    <img src="https://via.placeholder.com/400x700?text=Slide+5" alt="Slide 5">
-                    <h3>Environment</h3>
-                    <p>Recycle. Reuse.</p>
-                </div>
+    <main class="container-full">
+        <!-- 히어로 배너 -->
+        <section class="hero-banner">
+            <video autoplay muted loop class="hero-video">
+                <source src="https://asset.29cm.co.kr/next-edition/2024/10/28/4b36277a051b473fa568cd434dedff44_20241028120122.webm" type="video/webm">
+                Your browser does not support the video tag.
+            </video>
+            <!-- 로고 슬라이드 -->
+            <div class="hero-logo-slide">
+              <div class="logo-track">
+                <img src="https://img.29cm.co.kr/next-edition/2024/11/02/f3d9d8f8ce7e4d13aa9cd51300a870b4_20241102183346.png" alt="Logo 1" class="logo">
+                <img src="https://img.29cm.co.kr/next-edition/2024/11/02/8a59131d05944576af06807514cd0c1b_20241102183330.png" alt="Logo 2" class="logo">
+                <img src="https://img.29cm.co.kr/next-edition/2024/11/02/53764d3a20c94ee9a70f17b8746c8291_20241102183458.png" alt="Logo 3" class="logo">
+                <img src="https://img.29cm.co.kr/next-edition/2024/11/02/160884b03db24d95b18869e9810a0643_20241102183517.png" alt="Logo 4" class="logo">
+                <img src="https://img.29cm.co.kr/next-edition/2024/11/02/47b9614b1dfb4638ab30503846fd4dc3_20241102183701.png" alt="Logo 5" class="logo">
+                <img src="https://img.29cm.co.kr/next-edition/2024/11/02/6f81ef2ad2f64e7795ab37aeabeea650_20241102183733.png" alt="Logo 5" class="logo">
+                <img src="https://img.29cm.co.kr/next-edition/2024/11/02/66de6718bae1457bbece5a1ad0937489_20241102183754.png" alt="Logo 5" class="logo">
+                <img src="https://img.29cm.co.kr/next-edition/2024/11/02/18950c8ac69a49d698ea7be3847fd7b2_20241102183810.png" alt="Logo 5" class="logo">
+                <!-- 더 많은 로고 추가 가능 -->
             </div>
-            <button class="carousel-button next" onclick="moveSlide(1)">&#10095;</button>
-        </div>
-    </section>
-  </main>
-  <script src="js/script.js"></script>
-  </body>
+            </div>
+        </section>         
+
+        <!-- 캐러셀 섹션 -->
+        <section class="carousel-section">
+            <h2>Get to know iPhone.</h2>
+            <div class="carousel">
+                <button class="carousel-button prev" onclick="moveSlide(-1)">&#10094;</button>
+                <div class="carousel-slides">
+                    <!-- 캐러셀 슬라이드 추가 -->
+                     <div class="slide">
+                      <img src="https://images.unsplash.com/photo-1724560842234-6fac56341dca?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="슬라이드이미지1" class="">
+                      <h4>Title</h4>
+                      <p>description</p>
+                     </div>
+                     <div class="slide">
+                      <img src="https://images.unsplash.com/photo-1724560842234-6fac56341dca?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="슬라이드이미지2" class="">
+                      <h4>Title</h4>
+                      <p>description</p>
+                     </div>
+                     <div class="slide">
+                      <img src="https://images.unsplash.com/photo-1724560842234-6fac56341dca?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="슬라이드이미지2" class="">
+                      <h4>Title</h4>
+                      <p>description</p>
+                     </div>
+                     <div class="slide">
+                      <img src="https://images.unsplash.com/photo-1724560842234-6fac56341dca?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="슬라이드이미지2" class="">
+                      <h4>Title</h4>
+                      <p>description</p>
+                     </div>
+                     <div class="slide">
+                      <img src="https://images.unsplash.com/photo-1724560842234-6fac56341dca?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="슬라이드이미지2" class="">
+                      <h4>Title</h4>
+                      <p>description</p>
+                     </div>
+                     <div class="slide">
+                      <img src="https://images.unsplash.com/photo-1724560842234-6fac56341dca?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="슬라이드이미지2" class="">
+                      <h4>Title</h4>
+                      <p>description</p>
+                     </div>         
+                </div>
+                <button class="carousel-button next" onclick="moveSlide(1)">&#10095;</button>
+            </div>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
 </html>

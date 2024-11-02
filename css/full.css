@@ -1,68 +1,55 @@
-/* 캐러셀 기본 스타일 */
-.carousel-section {
-  text-align: center;
-  padding: 20px;
-}
-
-.carousel {
-  position: relative;
-  display: flex;
-  align-items: center;
-  overflow: hidden;
+/* full.css */
+.container-full {
   width: 100%;
-  margin: 0 auto;
 }
 
-.carousel-slides {
-  display: flex;
-  transition: transform 0.5s ease;
-}
-
-.slide {
-  min-width: 300px;
-  max-width: 400px;
-  margin: 0 10px;
-  background-color: #f7f7f7;
-  border-radius: 15px;
+.hero-banner {
+  position: relative;
+  text-align: center;
+  color: white;
   overflow: hidden;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  text-align: left;
 }
 
-.slide img {
+.hero-video {
   width: 100%;
   height: auto;
-  border-radius: 15px 15px 0 0;
+  object-fit: cover;
 }
 
-.slide h3 {
-  font-size: 1.2rem;
-  margin: 10px;
-}
+/* 로고 슬라이드 */
 
-.slide p {
-  font-size: 1rem;
-  color: #666;
-  margin: 0 10px 10px 10px;
-}
 
-.carousel-button {
+.hero-logo-slide {
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-  font-size: 1.5rem;
-  border-radius: 50%;
+  width: 100%;
+  bottom: -1px;
+  background: rgba(0, 0, 0, 1);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.carousel-button.prev {
-  left: 10px;
+.logo-track {
+  display: flex;
+  align-items: center;
+  gap: 40px; /* 로고 사이 간격 */
+  animation: scroll 20s linear infinite;
 }
 
-.carousel-button.next {
-  right: 10px;
+.logo {
+  height: 42px; /* 로고 크기 */
+  flex-shrink: 0;
+}
+
+/* 좌에서 우로 이동하는 애니메이션 */
+@keyframes scroll {
+  from {
+      transform: translateX(100%);
+  }
+  to {
+      transform: translateX(-120%);
+  }
 }
