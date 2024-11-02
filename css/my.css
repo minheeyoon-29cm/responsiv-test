@@ -1,0 +1,157 @@
+.my-section {
+  display: flex;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+/* --------------------------- */
+/* 메뉴 부분 */
+/* --------------------------- */
+
+.my-section aside {
+  width: 200px;
+  height: fit-content;
+  margin-right: 42px;
+  padding: var(--ruler-scale-dimension-150);
+  background-color: var(--ruler-scale-color-blue-100);
+  border-radius: var(--ruler-scale-corner-radius-50);
+
+  /* 스크롤 시 고정 설정 */
+  position: sticky;
+  top: 20px; /* 화면 상단에서 20px 떨어진 위치에 고정 */
+}
+
+aside p {
+  margin-bottom: var(--ruler-scale-dimension-100);
+  font-size: var(--ruler-scale-dimension-font-size-100);
+  line-height: var(--ruler-scale-line-height-5);
+  white-space: normal; /* 기본 줄바꿈 허용 */
+  word-wrap: break-word; /* 단어가 길 경우 줄바꿈 */
+  word-break: keep-all; /* 한국어 등 단어 중간 줄바꿈 방지, 영어는 단어 단위로 */
+}
+
+aside .title {
+  font-weight: var(--ruler-scale-font-weight-bold);
+}
+
+aside a {
+  font-size: var(--ruler-scale-dimension-font-size-100);
+  color: var(--ruler-semantic-color-common-interactive);
+}
+
+.my-section-contents {
+  width: 100%;
+}
+
+/* --------------------------- */
+/* 유저 등급, 혜택 부분 */
+/* --------------------------- */
+
+.user-membership {
+  width: 100%;
+  height: 150px;
+  background-color: var(--ruler-semantic-color-fill-secondary);
+  color: var(--ruler-semantic-color-text-on-color);
+  border-radius: var(--ruler-scale-corner-radius-50);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom: var(--ruler-scale-dimension-500);
+}
+
+.user-membership p {
+  width: 100%;
+  font-size: var(--ruler-scale-dimension-font-size-550);
+  font-weight: var(--ruler-scale-font-weight-bold);
+}
+
+/* --------------------------- */
+/* 프로덕트 카드 리스트(PLP부분) */
+/* --------------------------- */
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5열 그리드 */
+  gap: 8px; /* 열 사이 간격 설정 */
+}
+
+/* --------------------------- */
+/* 프로덕트 카드 */
+/* --------------------------- */
+.product-card {
+  margin-bottom: 24px;
+  min-width: 0; /* 아이템이 수평으로 넘치지 않도록 설정 */
+  cursor: pointer;
+  box-sizing: border-box; /* 패딩과 보더를 포함하여 크기 계산 */
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: var(--ruler-scale-corner-radius-50);
+  margin-bottom: 10px;
+}
+
+.product-card-info {
+  width: 90%;
+}
+
+.product-card-brand {
+  margin-top: var(--ruler-scale-dimension-50);
+  margin-bottom: var(--ruler-scale-dimension-50);
+  font-size: var(--ruler-semantic-typography-text-l-bold-font-size);
+  font-weight: var(--ruler-semantic-typography-text-l-bold-font-weight);
+  display: -webkit-box; /* Flexbox 기반으로 줄 수 제한 */
+  -webkit-box-orient: vertical; /* 박스 방향을 세로로 설정 */
+  -webkit-line-clamp: 1; /* 1줄로 제한 */
+  overflow: hidden; /* 넘치는 텍스트 숨기기 */
+  text-overflow: ellipsis; /* 넘치는 텍스트에 '...' 표시 */
+}
+
+.product-card-title {
+  font-size: var(--ruler-semantic-typography-text-l-font-size);
+  line-height: var(--ruler-semantic-typography-text-l-line-height);
+  font-weight: var(--ruler-semantic-typography-text-l-font-weight);
+  display: -webkit-box; /* Flexbox 기반으로 줄 수 제한 */
+  -webkit-box-orient: vertical; /* 박스 방향을 세로로 설정 */
+  -webkit-line-clamp: 2; /* 2줄로 제한 */
+  overflow: hidden; /* 넘치는 텍스트 숨기기 */
+  text-overflow: ellipsis; /* 넘치는 텍스트에 '...' 표시 */
+  margin-bottom: var(--ruler-scale-dimension-25);
+}
+
+.product-card-price {
+  display: flex;
+  font-size: var(--ruler-semantic-typography-text-xxl-font-size);
+  line-height: var(--ruler-semantic-typography-text-xxl-line-height);
+  font-weight: var(--ruler-scale-font-weight-bold);
+  margin-bottom: var(--ruler-scale-dimension-125);
+}
+.product-card-discount {
+  color: var(--ruler-semantic-color-common-accent);
+  margin-right: 2px;
+}
+
+.product-card-user {
+  display: flex;
+  align-items: center;
+  font-size: var(--ruler-semantic-typography-text-xs-font-size);
+  line-height: var(--ruler-semantic-typography-text-xs-line-height);
+  font-weight: var(--ruler-scale-font-weight-medium);
+  color: var(--ruler-semantic-color-text-tertiary);
+}
+
+.product-card-like,
+.product-card-review {
+  display: flex;
+  align-items: center;
+}
+
+.product-card-like {
+  margin-right: var(--ruler-scale-dimension-50);
+}
+
+.product-card-user svg {
+  width: 14px; /* 원하는 너비 */
+  height: 14px; /* 원하는 높이 */
+  fill: var(--ruler-semantic-color-text-tertiary);
+}

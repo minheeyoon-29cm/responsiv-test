@@ -1,7 +1,4 @@
 /* full.css */
-.container-full {
-  width: 100%;
-}
 
 .hero-banner {
   position: relative;
@@ -17,7 +14,6 @@
 }
 
 /* 로고 슬라이드 */
-
 
 .hero-logo-slide {
   position: absolute;
@@ -35,7 +31,7 @@
 .logo-track {
   display: flex;
   align-items: center;
-  gap: 40px; /* 로고 사이 간격 */
+  gap: 62px; /* 로고 사이 간격 */
   animation: scroll 20s linear infinite;
 }
 
@@ -47,9 +43,9 @@
 /* 좌에서 우로 이동하는 애니메이션 */
 @keyframes scroll {
   from {
-      transform: translateX(100%);
+    transform: translateX(100%);
   }
   to {
-      transform: translateX(-120%);
+    transform: translateX(-120%);
   }
 }

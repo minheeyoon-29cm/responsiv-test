@@ -1,92 +1,223 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>29CM 반응형</title>
-    <link rel="stylesheet" href="css/ruler-token.css">
-    <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/full.css">
-    <link rel="stylesheet" href="css/carousel.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"
+    />
+    <link rel="stylesheet" href="css/ruler-token.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/full.css" />
+    <link rel="stylesheet" href="css/carousel.css" />
+    <link rel="stylesheet" href="css/my.css" />
+  </head>
+  <body onload="loadProductList()">
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Guide Home</a></li>
-                <li><a href="full.html">Full</a></li>
-                <li><a href="pdp.html">PDP</a></li>
-                <li><a href="my.html">My</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="index.html">Guide Home</a></li>
+          <li><a href="full.html">Full</a></li>
+          <li><a href="pdp.html">PDP</a></li>
+          <li><a href="my.html">My</a></li>
+        </ul>
+      </nav>
     </header>
-
     <main class="container-full">
-        <!-- 히어로 배너 -->
-        <section class="hero-banner">
-            <video autoplay muted loop class="hero-video">
-                <source src="https://asset.29cm.co.kr/next-edition/2024/10/28/4b36277a051b473fa568cd434dedff44_20241028120122.webm" type="video/webm">
-                Your browser does not support the video tag.
-            </video>
-            <!-- 로고 슬라이드 -->
-            <div class="hero-logo-slide">
-              <div class="logo-track">
-                <img src="https://img.29cm.co.kr/next-edition/2024/11/02/f3d9d8f8ce7e4d13aa9cd51300a870b4_20241102183346.png" alt="Logo 1" class="logo">
-                <img src="https://img.29cm.co.kr/next-edition/2024/11/02/8a59131d05944576af06807514cd0c1b_20241102183330.png" alt="Logo 2" class="logo">
-                <img src="https://img.29cm.co.kr/next-edition/2024/11/02/53764d3a20c94ee9a70f17b8746c8291_20241102183458.png" alt="Logo 3" class="logo">
-                <img src="https://img.29cm.co.kr/next-edition/2024/11/02/160884b03db24d95b18869e9810a0643_20241102183517.png" alt="Logo 4" class="logo">
-                <img src="https://img.29cm.co.kr/next-edition/2024/11/02/47b9614b1dfb4638ab30503846fd4dc3_20241102183701.png" alt="Logo 5" class="logo">
-                <img src="https://img.29cm.co.kr/next-edition/2024/11/02/6f81ef2ad2f64e7795ab37aeabeea650_20241102183733.png" alt="Logo 5" class="logo">
-                <img src="https://img.29cm.co.kr/next-edition/2024/11/02/66de6718bae1457bbece5a1ad0937489_20241102183754.png" alt="Logo 5" class="logo">
-                <img src="https://img.29cm.co.kr/next-edition/2024/11/02/18950c8ac69a49d698ea7be3847fd7b2_20241102183810.png" alt="Logo 5" class="logo">
-                <!-- 더 많은 로고 추가 가능 -->
-            </div>
-            </div>
-        </section>         
+      <!-- 히어로 배너 -->
+      <section class="hero-banner">
+        <video autoplay muted loop class="hero-video">
+          <source
+            src="https://asset.29cm.co.kr/next-edition/2024/10/28/4b36277a051b473fa568cd434dedff44_20241028120122.webm"
+            type="video/webm"
+          />
+          Your browser does not support the video tag.
+        </video>
+        <!-- 로고 슬라이드 -->
+        <div class="hero-logo-slide">
+          <div class="logo-track">
+            <img
+              src="https://img.29cm.co.kr/next-edition/2024/11/02/f3d9d8f8ce7e4d13aa9cd51300a870b4_20241102183346.png"
+              alt="Logo 1"
+              class="logo"
+            />
+            <img
+              src="https://img.29cm.co.kr/next-edition/2024/11/02/8a59131d05944576af06807514cd0c1b_20241102183330.png"
+              alt="Logo 2"
+              class="logo"
+            />
+            <img
+              src="https://img.29cm.co.kr/next-edition/2024/11/02/53764d3a20c94ee9a70f17b8746c8291_20241102183458.png"
+              alt="Logo 3"
+              class="logo"
+            />
+            <img
+              src="https://img.29cm.co.kr/next-edition/2024/11/02/160884b03db24d95b18869e9810a0643_20241102183517.png"
+              alt="Logo 4"
+              class="logo"
+            />
+            <img
+              src="https://img.29cm.co.kr/next-edition/2024/11/02/47b9614b1dfb4638ab30503846fd4dc3_20241102183701.png"
+              alt="Logo 5"
+              class="logo"
+            />
+            <img
+              src="https://img.29cm.co.kr/next-edition/2024/11/02/6f81ef2ad2f64e7795ab37aeabeea650_20241102183733.png"
+              alt="Logo 5"
+              class="logo"
+            />
+            <img
+              src="https://img.29cm.co.kr/next-edition/2024/11/02/66de6718bae1457bbece5a1ad0937489_20241102183754.png"
+              alt="Logo 5"
+              class="logo"
+            />
+            <img
+              src="https://img.29cm.co.kr/next-edition/2024/11/02/18950c8ac69a49d698ea7be3847fd7b2_20241102183810.png"
+              alt="Logo 5"
+              class="logo"
+            />
+            <!-- 더 많은 로고 추가 가능 -->
+          </div>
+        </div>
+      </section>
 
-        <!-- 캐러셀 섹션 -->
-        <section class="carousel-section">
-            <h2>Get to know iPhone.</h2>
-            <div class="carousel">
-                <button class="carousel-button prev" onclick="moveSlide(-1)">&#10094;</button>
-                <div class="carousel-slides">
-                    <!-- 캐러셀 슬라이드 추가 -->
-                     <div class="slide">
-                      <img src="https://images.unsplash.com/photo-1724560842234-6fac56341dca?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="슬라이드이미지1" class="">
-                      <h4>Title</h4>
-                      <p>description</p>
-                     </div>
-                     <div class="slide">
-                      <img src="https://images.unsplash.com/photo-1724560842234-6fac56341dca?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="슬라이드이미지2" class="">
-                      <h4>Title</h4>
-                      <p>description</p>
-                     </div>
-                     <div class="slide">
-                      <img src="https://images.unsplash.com/photo-1724560842234-6fac56341dca?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="슬라이드이미지2" class="">
-                      <h4>Title</h4>
-                      <p>description</p>
-                     </div>
-                     <div class="slide">
-                      <img src="https://images.unsplash.com/photo-1724560842234-6fac56341dca?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="슬라이드이미지2" class="">
-                      <h4>Title</h4>
-                      <p>description</p>
-                     </div>
-                     <div class="slide">
-                      <img src="https://images.unsplash.com/photo-1724560842234-6fac56341dca?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="슬라이드이미지2" class="">
-                      <h4>Title</h4>
-                      <p>description</p>
-                     </div>
-                     <div class="slide">
-                      <img src="https://images.unsplash.com/photo-1724560842234-6fac56341dca?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="슬라이드이미지2" class="">
-                      <h4>Title</h4>
-                      <p>description</p>
-                     </div>         
-                </div>
-                <button class="carousel-button next" onclick="moveSlide(1)">&#10095;</button>
+      <!-- 캐러셀 섹션 -->
+      <section class="carousel-section">
+        <div class="carousel-section-title">
+          <h2>Carousel 섹션</h2>
+          <div>
+            <button class="carousel-button prev" onclick="moveSlide(-1)">
+              &#10094;
+            </button>
+            <button class="carousel-button next" onclick="moveSlide(1)">
+              &#10095;
+            </button>
+          </div>
+        </div>
+        <div class="carousel">
+          <div class="carousel-slides">
+            <!-- 캐러셀 슬라이드 추가 -->
+            <div class="slide">
+              <img
+                src="https://images.unsplash.com/photo-1724560842234-6fac56341dca?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="슬라이드이미지1"
+              />
+              <div class="slide-info">
+                <p class="slide-title">Maybe this time</p>
+                <p>Maybe this time, I'll be lucky, Maybe this time, I'll win</p>
+              </div>
             </div>
-        </section>
+            <div class="slide">
+              <img
+                src="https://images.unsplash.com/photo-1701303832184-9307995fd772?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIxfHx8ZW58MHx8fHx8"
+                alt="슬라이드이미지2"
+              />
+              <div class="slide-info">
+                <p class="slide-title">오늘 저녁 추천 메뉴는</p>
+                <p>
+                  타코랑 브리또입니다. 고수를 가득 넣어주세요!</p>
+              </div>
+            </div>
+            <div class="slide">
+              <img
+                src="https://images.unsplash.com/photo-1728405035394-16ea29c1d013?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDY4fFM0TUtMQXNCQjc0fHxlbnwwfHx8fHw%3D"
+                alt="슬라이드이미지3"
+              />
+              <div class="slide-info">
+                <p class="slide-title">구의에 정말 맛있는 팬케이크집을 찾았답니다</p>
+                <p>
+                  근데 작업을 하기에는 코드가 너무 없더군요. -10점</p>
+              </div>
+            </div>
+            <div class="slide">
+              <img
+                src="https://images.unsplash.com/photo-1727061180294-ae2c6511eb63?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDExMHxTNE1LTEFzQkI3NHx8ZW58MHx8fHx8"
+                alt="슬라이드이미지4"
+              />
+              <div class="slide-info">
+                <p class="slide-title">들을 노래가 너무 없습니다</p>
+                <p>아파트 아파트 아파트 아파트 어허 허 허</p>
+              </div>
+            </div>
+            <div class="slide">
+              <img
+                src="https://images.unsplash.com/photo-1651607840987-fd7b0a14dc89?q=80&w=3112&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="슬라이드이미지5"
+              />
+              <div class="slide-info">
+                <p class="slide-title">멋있어요 언니</p>
+                <p>
+                  성수에는 성수 클라이밍 파크라는 정말 멋진 클라이밍장이 있어요</p>
+              </div>
+            </div>
+            <div class="slide">
+              <img
+                src="https://images.unsplash.com/photo-1518866411991-e781c157a080?q=80&w=2592&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="슬라이드이미지6"
+              />
+              <div class="slide-info">
+                <p class="slide-title">아무말 DA잔치 RUNRun</p>
+                <p>인생...</p>
+              </div>
+            </div>
+            <div class="slide">
+              <img
+                src="https://images.unsplash.com/photo-1583160247711-2191776b4b91?q=80&w=2371&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="슬라이드이미지7"
+              />
+              <div class="slide-info">
+                <p class="slide-title">귀여운 골드리트리버</p>
+                <p>일이삼사오육칠팔구십일이삼사오육칠팔구십</p>
+              </div>
+            </div>
+            <div class="slide">
+              <img
+                src="https://images.unsplash.com/photo-1571566882372-1598d88abd90?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fENhdHxlbnwwfHwwfHx8MA%3D%3D"
+                alt="슬라이드이미지8"
+              />
+              <div class="slide-info">
+                <p class="slide-title">귀여운 스트레칭 고양이</p>
+                <p>일이삼사오육칠팔구십일이삼사오육칠팔구십</p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+      <!-- PLP -->
+      <section class="my-section">
+        <aside>
+          <p class="title">The Boy Scout Rule</p>
+          <p>Always leave the campground cleaner than you found it</p>
+          <p>
+            보이 스카웃에는 "언제나 처음 왔을 때보다 깨끗하게 해놓고 캠프장을
+            떠날 것"이라는 규칙이 있습니다. 엉망으로 어질러져 있는 곳을
+            발견하면, 일단 청소하세요. 누가 그렇게 했는지는 생각하지 마십시오.
+          </p>
+          <p>
+            다음으로 야영하러 오는 사람들을 위해 신경써서 환경을 개선하세요. 이
+            규칙은 원래 스카우팅의 아버지인 Robert Stephenson Smyth
+            Baden-Powell이 남긴 글에서 나온 것입니다. 그는 "처음 왔을 때보다 더
+            나은 세상을 만들고 떠나려 노력하라"라고 한 바 있습니다.
+          </p>
+          <a
+            href="https://johngrib.github.io/wiki/jargon/boy-scout-rule/"
+            target="_blank"
+            >The Boy Scout Rule</a
+          >
+        </aside>
+        <div class="my-section-contents">
+          <div class="product-list"></div>
+        </div>
+      </section>
+    </section>
     </main>
     <script src="js/script.js"></script>
-</body>
+    <script src="js/data.js"></script>
+  </body>
 </html>

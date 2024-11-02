@@ -1,59 +1,86 @@
 /* 캐러셀 기본 스타일 */
 .carousel-section {
-    text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding-top: var(--ruler-scale-dimension-750);
+  padding-bottom: var(--ruler-scale-dimension-750);
+}
+
+.carousel-section-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: var(--ruler-scale-dimension-150);
 }
 
 .carousel {
-    position: relative;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-    margin: 0 auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .carousel-slides {
-    display: flex;
-    transition: transform 0.5s ease;
+  display: flex;
+  gap: 8px;
+  transition: transform 0.5s ease;
 }
 
 .slide {
-    min-width: 300px;
-    max-width: 400px;
-    margin: 0 10px;
-    background-color: #f7f7f7;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    text-align: left;
+  min-width: 320px;
+  max-width: 400px;
+  background-color: var(--ruler-scale-color-gray-200);
+  border-radius: 6px;
+  overflow: hidden;
+  text-align: left;
 }
 
 .slide img {
-    width: 100%;
-    width: 100%;
-    aspect-ratio: 5 / 6; /* 비율을 5:6로 고정 */
-    border-radius: 15px 15px 0 0;
-    
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 5 / 6;
+  border-radius: var(--ruler-scale-corner-radius-50)
+    var(--ruler-scale-corner-radius-50) 0 0;
+}
+
+.slide-info {
+  margin-top: var(--ruler-scale-dimension-200);
+  margin-bottom: var(--ruler-scale-dimension-300);
+  margin-left: var(--ruler-scale-dimension-250);
+  margin-right: var(--ruler-scale-dimension-250);
+}
+
+.slide-title {
+  font-weight: var(--ruler-scale-font-weight-bold);
+  margin-bottom: var(--ruler-scale-dimension-50);
+}
+
+.slide-info p {
+  font-size: var(--ruler-scale-dimension-font-size-100);
 }
 
 .carousel-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 1.5rem;
-    border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  width: 42px;
+  height: 42px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  border-radius: 9999px;
 }
 
 .carousel-button.prev {
-    left: 10px;
-    z-index: 99;
+  left: 10px;
+  z-index: 99;
 }
 
 .carousel-button.next {
-    right: 10px;
-    z-index: 99;
+  right: 10px;
+  z-index: 99;
 }

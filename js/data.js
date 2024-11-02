@@ -36,12 +36,33 @@ async function loadProductList() {
 
     productCard.innerHTML = `
           <img src="https://img.29cm.co.kr${product.imageUrl}" alt="${product.itemName}">
-          <h2>${product.itemName}</h2>
-          <p>브랜드: ${product.frontBrandNameKor} (${product.frontBrandNameEng})</p>
-          <p>정가: ${product.consumerPrice}원</p>
-          <p>할인가: ${product.lastSalePrice}원 (${product.lastSalePercent}% 할인)</p>
-          <p>리뷰: ${product.reviewCount}개, 평점: ${product.reviewAveragePoint}</p>
-          <p>좋아요: ${product.heartCount}</p>
+          <div class="product-card-info">
+           <p class="product-card-brand">${product.frontBrandNameKor} (${product.frontBrandNameEng})</p>
+           <p class="product-card-title">${product.itemName}</p>
+           <div class="product-card-price">
+            <p class="product-card-discount">${product.lastSalePercent}%</p>
+            <p>${product.consumerPrice}원</p>
+           </div>
+           <div class="product-card-user">
+
+            <div class="product-card-like">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <path fill-rule="evenodd" d="M12 6.4a5 5 0 0 0-4.5-2.9 5 5 0 0 0-5 5.2c0 1.1.5 2.1.9 2.8a8 8 0 0 0 .9 1.2l7.7 8 7.7-8a4.5 4.5 0 0 0 .3-.3l.6-.9c.4-.7.9-1.7.9-2.8a5 5 0 0 0-5-5.2 5 5 0 0 0-4.5 3Z" clip-rule="evenodd"/>
+              </svg>   
+              <p>${product.heartCount}</p>
+            </div>
+
+            <div class="product-card-review">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <path fill-rule="evenodd" d="m9 8.6-7 1 5 5.2L5.8 22l6.2-3.4 6.2 3.4-1.2-7.2 5-5.2-7-1L12 2 9 8.6Z" clip-rule="evenodd"/>
+              </svg>
+              <p> ${product.reviewAveragePoint}(${product.reviewCount})</p> 
+            </div>
+         
+           </div>
+       
+          </div>
+       
       `;
 
     productListContainer.appendChild(productCard);
