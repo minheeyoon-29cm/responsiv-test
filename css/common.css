@@ -1,0 +1,38 @@
+/* 공통 스타일 예시 */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1180px; /* 최대 너비 */
+  min-width: 700px; /* 최소 너비 */
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}

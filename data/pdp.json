@@ -1,0 +1,652 @@
+{
+  "result": "SUCCESS",
+  "data": {
+    "responseDate": "2024-11-01 17:15:14",
+    "availableBeginTimestamp": "2022-10-27 09:34:00",
+    "availableEndTimestamp": null,
+    "deliveryImportantInformation": null,
+    "estimatedShippingBeginTimestamp": null,
+    "estimatedShippingEndTimestamp": null,
+    "frontBrand": {
+      "brandNameEng": "GITDEN",
+      "brandNameKor": "깃든",
+      "frontBrandImages": [
+        {
+          "fileUploadName": "/next-brand/2021/07/16/ddf4ed8e933e412d92d5365f8cfda7da_20210716175548.jpg",
+          "heightNo": 0,
+          "imageType": 3,
+          "widthNo": 0
+        },
+        {
+          "fileUploadName": "/next-brand/2021/07/16/efceceb50c0049bf8cdedb64d6adc358_20210716175547.jpg",
+          "heightNo": 0,
+          "imageType": 2,
+          "widthNo": 0
+        }
+      ],
+      "frontBrandNo": 14307,
+      "heartCount": 1691,
+      "subCopy": "living in nature",
+      "isFreeShipping": false
+    },
+    "genderAttr": 3,
+    "giftImages": {},
+    "isAdvancedIssueMileageType": false,
+    "isAllowedGiftOrder": true,
+    "dependentItemList": [],
+    "isCouponAllowedInOrder": true,
+    "isMembersOnly": false,
+    "isUnlimitedMaxOrderQty": true,
+    "itemAddedDescriptions": [],
+    "itemDescriptions": "<center>\n    <!--공통상단-->\n    <img src=\"https://crackerlab0.openhost.cafe24.com/shop/mall/Delivery_notice.jpg\">\n    <br> \n    <br>\n    <br>\n    <br>\n    <!--상세페이지-->\n    <img src=\"https://crackerlab0.openhost.cafe24.com/shop/editor/GitdenOn/2024/GitdenOn_1.jpg\"><br>\n    <img src=\"https://crackerlab0.openhost.cafe24.com/shop/editor/GitdenOn/2024/GitdenOn_2.jpg\"><br>\n    <img src=\"https://crackerlab0.openhost.cafe24.com/shop/editor/GitdenOn/2024/GitdenOn_3.jpg\"><br>\n    <img src=\"https://crackerlab0.openhost.cafe24.com/shop/editor/GitdenOn/2024/GitdenOn_4.jpg\"><br>\n    <img src=\"https://crackerlab0.openhost.cafe24.com/shop/editor/GitdenOn/2024/GitdenOn_5.jpg\"><br>\n    <img src=\"https://crackerlab0.openhost.cafe24.com/shop/editor/GitdenOn/2024/GitdenOn_6.jpg\"><br>\n    <img src=\"https://crackerlab0.openhost.cafe24.com/shop/editor/GitdenOn/2024/GitdenOn_7.jpg\"><br>\n    <img src=\"https://crackerlab0.openhost.cafe24.com/shop/editor/GitdenOn/2024/GitdenOn_8.jpg\"><br>\n    <img src=\"https://crackerlab0.openhost.cafe24.com/shop/editor/GitdenOn/2024/GitdenOn_9.jpg\"><br>\n    <img src=\"https://crackerlab0.openhost.cafe24.com/shop/editor/GitdenOn/2024/GitdenOn_10.gif\"><br>\n    <img src=\"https://crackerlab0.openhost.cafe24.com/shop/editor/GitdenOn/2024/GitdenOn_11.jpg\"><br>\n    <img src=\"https://crackerlab0.openhost.cafe24.com/shop/editor/GitdenOn/2024/GitdenOn_12.jpg\"><br>\n    <img src=\"https://crackerlab0.openhost.cafe24.com/shop/editor/GitdenOn/2024/GitdenOn_13.jpg\"><br>\n    <img src=\"https://crackerlab0.openhost.cafe24.com/shop/editor/GitdenOn/2024/GitdenOn_14.gif\"><br>\n    <img src=\"https://crackerlab0.openhost.cafe24.com/shop/editor/GitdenOn/2024/GitdenOn_15.jpg\"><br>\n    <img src=\"https://crackerlab0.openhost.cafe24.com/shop/editor/GitdenOn/2024/GitdenOn_16.jpg\"><br>\n    <img src=\"https://crackerlab0.openhost.cafe24.com/shop/editor/GitdenOn/2024/GitdenOn_17.jpg\"><br>\n    <img src=\"https://crackerlab0.openhost.cafe24.com/shop/editor/GitdenOn/2024/GitdenOn_18.jpg\"><br>\n    <img src=\"https://crackerlab0.openhost.cafe24.com/shop/editor/GitdenOn/2024/GitdenOn_19.jpg\"><br>\n    <img src=\"https://crackerlab0.openhost.cafe24.com/shop/editor/GitdenOn/2024/GitdenOn_20.jpg\"><br>\n    <img src=\"https://crackerlab0.openhost.cafe24.com/shop/editor/GitdenOn/2024/GitdenOn_21.jpg\"><br>\n    <img src=\"https://crackerlab0.openhost.cafe24.com/shop/editor/GitdenOn/2024/GitdenOn_22.jpg\"><br>\n    <img src=\"https://crackerlab0.openhost.cafe24.com/shop/editor/GitdenOn/2024/GitdenOn_23.jpg\"><br>\n    <img src=\"https://crackerlab0.openhost.cafe24.com/shop/editor/GitdenOn/2024/GitdenOn_24.jpg\"><br>\n    <img src=\"https://crackerlab0.openhost.cafe24.com/shop/editor/GitdenOn/2024/GitdenOn_25.jpg\"><br>\n    <img src=\"https://crackerlab0.openhost.cafe24.com/shop/editor/GitdenOn/2024/GitdenOn_26.jpg\"><br>\n    <img src=\"https://crackerlab0.openhost.cafe24.com/shop/editor/GitdenOn/2024/GitdenOn_27.jpg\"><br>\n    <img src=\"https://crackerlab0.openhost.cafe24.com/shop/editor/GitdenOn/2024/GitdenOn_28.jpg\"><br>\n    <img src=\"https://crackerlab0.openhost.cafe24.com/shop/editor/GitdenOn/2024/GitdenOn_29.jpg\"><br>\n    <img src=\"https://crackerlab0.openhost.cafe24.com/shop/editor/GitdenOn/2024/GitdenOn_30.jpg\"><br>\n    <img src=\"https://crackerlab0.openhost.cafe24.com/shop/editor/GitdenOn/2024/GitdenOn_31.jpg\"><br>\n    <img src=\"https://crackerlab0.openhost.cafe24.com/shop/editor/GitdenOn/2024/GitdenOn_32.jpg\"><br>\n    <img src=\"https://crackerlab0.openhost.cafe24.com/shop/editor/GitdenOn/2024/GitdenOn_33.jpg\"><br>\n    <img src=\"https://crackerlab0.openhost.cafe24.com/shop/editor/GitdenOn/2024/GitdenOn_34.jpg\"><br>\n    <img src=\"https://crackerlab0.openhost.cafe24.com/shop/editor/GitdenOn/2024/GitdenOn_35.jpg\"><br>\n    <img src=\"https://crackerlab0.openhost.cafe24.com/shop/editor/GitdenOn/2024/GitdenOn_36.jpg\"><br>\n    <img src=\"https://crackerlab0.openhost.cafe24.com/shop/editor/GitdenOn/2024/GitdenOn_37.jpg\">\n</center>",
+    "itemDetailsList": [
+      {
+        "itemDetailsCode": 105101,
+        "itemDetailsPlaceholders": "섬유의 조성 도는 혼용률을 백분율로 표시, 충전재를 사용한 제품은 충전재를 함께 표기",
+        "itemDetailsTitles": "제품 소재",
+        "itemDetailsValue": "상세페이지참조"
+      },
+      {
+        "itemDetailsCode": 105102,
+        "itemDetailsPlaceholders": "",
+        "itemDetailsTitles": "색상",
+        "itemDetailsValue": "베이지,브라운,다크그린"
+      },
+      {
+        "itemDetailsCode": 105103,
+        "itemDetailsPlaceholders": "",
+        "itemDetailsTitles": "치수",
+        "itemDetailsValue": "상세페이지참조"
+      },
+      {
+        "itemDetailsCode": 105104,
+        "itemDetailsPlaceholders": "",
+        "itemDetailsTitles": "제품구성",
+        "itemDetailsValue": "상세페이지참조"
+      },
+      {
+        "itemDetailsCode": 105105,
+        "itemDetailsPlaceholders": "수입품의 경우 수입자를 함께 표기 (병행수입의 경우 병행수입 여부로 대체 가능",
+        "itemDetailsTitles": "제조자",
+        "itemDetailsValue": "(주)크래커랩"
+      },
+      {
+        "itemDetailsCode": 105106,
+        "itemDetailsPlaceholders": "제조국은 법률상 중요정보이니 정확히 입력해주세요.",
+        "itemDetailsTitles": "제조국",
+        "itemDetailsValue": "대한민국"
+      },
+      {
+        "itemDetailsCode": 105107,
+        "itemDetailsPlaceholders": "",
+        "itemDetailsTitles": "세탁방법 및 취급시 주의사항",
+        "itemDetailsValue": "상세페이지참조"
+      },
+      {
+        "itemDetailsCode": 105108,
+        "itemDetailsPlaceholders": "품질보증기간 및 수리/교환/반품 등의 보상방법 정보",
+        "itemDetailsTitles": "품질보증기준",
+        "itemDetailsValue": "관련 법 및 소비자분쟁해결 규정에 따름"
+      },
+      {
+        "itemDetailsCode": 105109,
+        "itemDetailsPlaceholders": "29CM 고객센터 1644-0560 (발신전용), A/S 문의접수는 MY>1:1문의 이용",
+        "itemDetailsTitles": "A/S 책임자와 전화번호",
+        "itemDetailsValue": "070-4789-2000"
+      }
+    ],
+    "itemImages": [
+      {
+        "addedOrderingIdx": 1,
+        "addedType": null,
+        "addedUrl": null,
+        "content": null,
+        "imageHeight": 1000,
+        "imageType": 3,
+        "imageUrl": "/item/202409/11ef700a2ad831ea8f47431f8f0727bc.jpg",
+        "imageWidth": 1000,
+        "isLayout": false,
+        "itemImageMapping": [
+          {
+            "addedOrderingIdx": 0,
+            "addedType": null,
+            "addedUrl": null,
+            "content": null,
+            "imageHeight": 1000,
+            "imageUrl": "/item/202409/11ef700a2ad831ea8f47431f8f0727bc.jpg",
+            "imageWidth": 1000,
+            "itemImageMappingNo": 244600361,
+            "itemImageNo": null,
+            "mappingOrdering": 0,
+            "size": 484640
+          }
+        ],
+        "itemImageNo": 266838569,
+        "orderingIdx": 1,
+        "size": 484640,
+        "title": null
+      },
+      {
+        "addedOrderingIdx": 2,
+        "addedType": null,
+        "addedUrl": null,
+        "content": null,
+        "imageHeight": 1000,
+        "imageType": 3,
+        "imageUrl": "/item/202409/11ef700a24928358856a351d5b4b137e.jpg",
+        "imageWidth": 1000,
+        "isLayout": false,
+        "itemImageMapping": [
+          {
+            "addedOrderingIdx": 0,
+            "addedType": null,
+            "addedUrl": null,
+            "content": null,
+            "imageHeight": 1000,
+            "imageUrl": "/item/202409/11ef700a24928358856a351d5b4b137e.jpg",
+            "imageWidth": 1000,
+            "itemImageMappingNo": 244600362,
+            "itemImageNo": null,
+            "mappingOrdering": 0,
+            "size": 432548
+          }
+        ],
+        "itemImageNo": 266838570,
+        "orderingIdx": 2,
+        "size": 432548,
+        "title": null
+      },
+      {
+        "addedOrderingIdx": 3,
+        "addedType": null,
+        "addedUrl": null,
+        "content": null,
+        "imageHeight": 1000,
+        "imageType": 3,
+        "imageUrl": "/item/202409/11ef700a276308568f474b3f07e814a6.jpg",
+        "imageWidth": 1000,
+        "isLayout": false,
+        "itemImageMapping": [
+          {
+            "addedOrderingIdx": 0,
+            "addedType": null,
+            "addedUrl": null,
+            "content": null,
+            "imageHeight": 1000,
+            "imageUrl": "/item/202409/11ef700a276308568f474b3f07e814a6.jpg",
+            "imageWidth": 1000,
+            "itemImageMappingNo": 244600363,
+            "itemImageNo": null,
+            "mappingOrdering": 0,
+            "size": 373890
+          }
+        ],
+        "itemImageNo": 266838571,
+        "orderingIdx": 3,
+        "size": 373890,
+        "title": null
+      },
+      {
+        "addedOrderingIdx": 4,
+        "addedType": null,
+        "addedUrl": null,
+        "content": null,
+        "imageHeight": 1000,
+        "imageType": 3,
+        "imageUrl": "/item/202409/11ef700a30d34236856a4bb76a366957.jpg",
+        "imageWidth": 1000,
+        "isLayout": false,
+        "itemImageMapping": [
+          {
+            "addedOrderingIdx": 0,
+            "addedType": null,
+            "addedUrl": null,
+            "content": null,
+            "imageHeight": 1000,
+            "imageUrl": "/item/202409/11ef700a30d34236856a4bb76a366957.jpg",
+            "imageWidth": 1000,
+            "itemImageMappingNo": 244600364,
+            "itemImageNo": null,
+            "mappingOrdering": 0,
+            "size": 310722
+          }
+        ],
+        "itemImageNo": 266838572,
+        "orderingIdx": 4,
+        "size": 310722,
+        "title": null
+      },
+      {
+        "addedOrderingIdx": 5,
+        "addedType": null,
+        "addedUrl": null,
+        "content": null,
+        "imageHeight": 1000,
+        "imageType": 3,
+        "imageUrl": "/item/202409/11ef700a32e22508856ae9f20fd6ac6c.jpg",
+        "imageWidth": 1000,
+        "isLayout": false,
+        "itemImageMapping": [
+          {
+            "addedOrderingIdx": 0,
+            "addedType": null,
+            "addedUrl": null,
+            "content": null,
+            "imageHeight": 1000,
+            "imageUrl": "/item/202409/11ef700a32e22508856ae9f20fd6ac6c.jpg",
+            "imageWidth": 1000,
+            "itemImageMappingNo": 244600365,
+            "itemImageNo": null,
+            "mappingOrdering": 0,
+            "size": 328020
+          }
+        ],
+        "itemImageNo": 266838573,
+        "orderingIdx": 5,
+        "size": 328020,
+        "title": null
+      },
+      {
+        "addedOrderingIdx": 6,
+        "addedType": null,
+        "addedUrl": null,
+        "content": null,
+        "imageHeight": 1000,
+        "imageType": 3,
+        "imageUrl": "/item/202409/11ef700a3750f0e8a980eb65afb84446.jpg",
+        "imageWidth": 1000,
+        "isLayout": false,
+        "itemImageMapping": [
+          {
+            "addedOrderingIdx": 0,
+            "addedType": null,
+            "addedUrl": null,
+            "content": null,
+            "imageHeight": 1000,
+            "imageUrl": "/item/202409/11ef700a3750f0e8a980eb65afb84446.jpg",
+            "imageWidth": 1000,
+            "itemImageMappingNo": 244600366,
+            "itemImageNo": null,
+            "mappingOrdering": 0,
+            "size": 279455
+          }
+        ],
+        "itemImageNo": 266838574,
+        "orderingIdx": 6,
+        "size": 279455,
+        "title": null
+      }
+    ],
+    "itemImportantInformation": null,
+    "itemModelSizes": [],
+    "itemName": "탄소 전기요 깃든 온 (싱글/더블)",
+    "itemNo": 1797009,
+    "itemRelated": null,
+    "itemSizeCharts": [],
+    "itemStockStatus": 1,
+    "frontItemStockStatus": "ON_STOCK",
+    "isVisibleAvailableBeginDate": false,
+    "itemSubjects": [],
+    "itemType": 1,
+    "frontItemType": "TANGIBLE",
+    "isDependentSellType": false,
+    "limitedQty": 3591,
+    "maxOrderQty": 0,
+    "mileage": 909,
+    "minOrderQty": 1,
+    "optionItems": {
+      "isTextOption": false,
+      "isTextRequired": false,
+      "layout": ["색상", "사이즈"],
+      "list": [
+        {
+          "isLimitedQty": true,
+          "isUnlimitedMaxOrderQty": null,
+          "key": "색상베이지",
+          "limitedQty": null,
+          "maxOrderQty": null,
+          "minOrderQty": null,
+          "optionCode": null,
+          "optionNo": null,
+          "optionStockStatus": null,
+          "sellPrice": null,
+          "title": "베이지",
+          "list": [
+            {
+              "isLimitedQty": true,
+              "isUnlimitedMaxOrderQty": true,
+              "key": "사이즈싱글",
+              "limitedQty": 299,
+              "maxOrderQty": 0,
+              "minOrderQty": 1,
+              "optionCode": 17,
+              "optionNo": 20021517,
+              "optionStockStatus": 1,
+              "sellPrice": 0.0,
+              "title": "싱글",
+              "list": []
+            },
+            {
+              "isLimitedQty": true,
+              "isUnlimitedMaxOrderQty": true,
+              "key": "사이즈더블",
+              "limitedQty": 300,
+              "maxOrderQty": 0,
+              "minOrderQty": 1,
+              "optionCode": 19,
+              "optionNo": 20021519,
+              "optionStockStatus": 1,
+              "sellPrice": 20000.0,
+              "title": "더블",
+              "list": []
+            }
+          ]
+        },
+        {
+          "isLimitedQty": true,
+          "isUnlimitedMaxOrderQty": null,
+          "key": "색상다크그린",
+          "limitedQty": null,
+          "maxOrderQty": null,
+          "minOrderQty": null,
+          "optionCode": null,
+          "optionNo": null,
+          "optionStockStatus": null,
+          "sellPrice": null,
+          "title": "다크그린",
+          "list": [
+            {
+              "isLimitedQty": true,
+              "isUnlimitedMaxOrderQty": true,
+              "key": "사이즈싱글",
+              "limitedQty": 299,
+              "maxOrderQty": 0,
+              "minOrderQty": 1,
+              "optionCode": 18,
+              "optionNo": 20021518,
+              "optionStockStatus": 1,
+              "sellPrice": 0.0,
+              "title": "싱글",
+              "list": []
+            },
+            {
+              "isLimitedQty": true,
+              "isUnlimitedMaxOrderQty": true,
+              "key": "사이즈더블",
+              "limitedQty": 300,
+              "maxOrderQty": 0,
+              "minOrderQty": 1,
+              "optionCode": 20,
+              "optionNo": 20021520,
+              "optionStockStatus": 1,
+              "sellPrice": 20000.0,
+              "title": "더블",
+              "list": []
+            }
+          ]
+        },
+        {
+          "isLimitedQty": true,
+          "isUnlimitedMaxOrderQty": null,
+          "key": "색상네이비",
+          "limitedQty": null,
+          "maxOrderQty": null,
+          "minOrderQty": null,
+          "optionCode": null,
+          "optionNo": null,
+          "optionStockStatus": null,
+          "sellPrice": null,
+          "title": "네이비",
+          "list": [
+            {
+              "isLimitedQty": true,
+              "isUnlimitedMaxOrderQty": true,
+              "key": "사이즈싱글",
+              "limitedQty": 300,
+              "maxOrderQty": 0,
+              "minOrderQty": 0,
+              "optionCode": 21707185,
+              "optionNo": 29277789,
+              "optionStockStatus": 1,
+              "sellPrice": 0.0,
+              "title": "싱글",
+              "list": []
+            },
+            {
+              "isLimitedQty": true,
+              "isUnlimitedMaxOrderQty": true,
+              "key": "사이즈더블",
+              "limitedQty": 299,
+              "maxOrderQty": 0,
+              "minOrderQty": 0,
+              "optionCode": 149658419,
+              "optionNo": 29277790,
+              "optionStockStatus": 1,
+              "sellPrice": 20000.0,
+              "title": "더블",
+              "list": []
+            }
+          ]
+        },
+        {
+          "isLimitedQty": true,
+          "isUnlimitedMaxOrderQty": null,
+          "key": "색상브라운 스트라이프",
+          "limitedQty": null,
+          "maxOrderQty": null,
+          "minOrderQty": null,
+          "optionCode": null,
+          "optionNo": null,
+          "optionStockStatus": null,
+          "sellPrice": null,
+          "title": "브라운 스트라이프",
+          "list": [
+            {
+              "isLimitedQty": true,
+              "isUnlimitedMaxOrderQty": true,
+              "key": "사이즈싱글",
+              "limitedQty": 297,
+              "maxOrderQty": 0,
+              "minOrderQty": 0,
+              "optionCode": 576649120,
+              "optionNo": 29277791,
+              "optionStockStatus": 1,
+              "sellPrice": 10000.0,
+              "title": "싱글",
+              "list": []
+            },
+            {
+              "isLimitedQty": true,
+              "isUnlimitedMaxOrderQty": true,
+              "key": "사이즈더블",
+              "limitedQty": 299,
+              "maxOrderQty": 0,
+              "minOrderQty": 0,
+              "optionCode": 868086085,
+              "optionNo": 29277792,
+              "optionStockStatus": 1,
+              "sellPrice": 30000.0,
+              "title": "더블",
+              "list": []
+            }
+          ]
+        },
+        {
+          "isLimitedQty": true,
+          "isUnlimitedMaxOrderQty": null,
+          "key": "색상퍼플 스트라이프",
+          "limitedQty": null,
+          "maxOrderQty": null,
+          "minOrderQty": null,
+          "optionCode": null,
+          "optionNo": null,
+          "optionStockStatus": null,
+          "sellPrice": null,
+          "title": "퍼플 스트라이프",
+          "list": [
+            {
+              "isLimitedQty": true,
+              "isUnlimitedMaxOrderQty": true,
+              "key": "사이즈싱글",
+              "limitedQty": 300,
+              "maxOrderQty": 0,
+              "minOrderQty": 0,
+              "optionCode": 217445656,
+              "optionNo": 29277793,
+              "optionStockStatus": 1,
+              "sellPrice": 10000.0,
+              "title": "싱글",
+              "list": []
+            },
+            {
+              "isLimitedQty": true,
+              "isUnlimitedMaxOrderQty": true,
+              "key": "사이즈더블",
+              "limitedQty": 300,
+              "maxOrderQty": 0,
+              "minOrderQty": 0,
+              "optionCode": 76657178,
+              "optionNo": 29277794,
+              "optionStockStatus": 1,
+              "sellPrice": 30000.0,
+              "title": "더블",
+              "list": []
+            }
+          ]
+        },
+        {
+          "isLimitedQty": true,
+          "isUnlimitedMaxOrderQty": null,
+          "key": "색상화이트 스트라이프",
+          "limitedQty": null,
+          "maxOrderQty": null,
+          "minOrderQty": null,
+          "optionCode": null,
+          "optionNo": null,
+          "optionStockStatus": null,
+          "sellPrice": null,
+          "title": "화이트 스트라이프",
+          "list": [
+            {
+              "isLimitedQty": true,
+              "isUnlimitedMaxOrderQty": true,
+              "key": "사이즈싱글",
+              "limitedQty": 299,
+              "maxOrderQty": 0,
+              "minOrderQty": 0,
+              "optionCode": 400782660,
+              "optionNo": 29277795,
+              "optionStockStatus": 1,
+              "sellPrice": 10000.0,
+              "title": "싱글",
+              "list": []
+            },
+            {
+              "isLimitedQty": true,
+              "isUnlimitedMaxOrderQty": true,
+              "key": "사이즈더블",
+              "limitedQty": 299,
+              "maxOrderQty": 0,
+              "minOrderQty": 0,
+              "optionCode": 776130652,
+              "optionNo": 29277796,
+              "optionStockStatus": 1,
+              "sellPrice": 30000.0,
+              "title": "더블",
+              "list": []
+            }
+          ]
+        }
+      ],
+      "placeHolder": null
+    },
+    "optionType": 1,
+    "orderImportantInformation": null,
+    "partnerBrand": {
+      "brandComment": "",
+      "brandCommentDate": "",
+      "defaultDeliveryPay": 3500,
+      "defaultDeliveryPayPlus": "3000.0",
+      "defaultDeliveryType": 10,
+      "defaultFreeBesongLimit": 0,
+      "inputtedMileage": 0,
+      "isCouponMarginCheckUse": "M",
+      "isCouponUse": true,
+      "isPercentageMileage": true,
+      "mileageRewardType": 1
+    },
+    "partnerBrandNo": 15154,
+    "relationItemGroup": { "relationItems": [], "options": [] },
+    "sellPrice": 90900,
+    "consumerPrice": 139000,
+    "shippingOutDuration": 1,
+    "shippingOutType": "STANDARD_SHIPPING",
+    "deliveryInfo": "해당 브랜드 제품 배송비 3500원",
+    "useAdultCheck": false,
+    "useOption": true,
+    "useWithoutAvailableEndDate": true,
+    "useWithoutEstimatedShippingEndDate": true,
+    "visibleBeginTimestamp": "2022-10-27 09:34:00",
+    "soldQty": 0,
+    "isVisibleLimitedQty": null,
+    "isDisplaySellQty": false,
+    "isLimitedQty": false,
+    "isDisplayOptionQty": false,
+    "flatOptions": null,
+    "discountRate": 35,
+    "discountBeginTimestamp": null,
+    "discountEndTimestamp": null,
+    "isLocalGoods": null,
+    "useWithoutGiftVisibleEndDate": null,
+    "useWithoutDiscountEndDate": null,
+    "useGift": null,
+    "reasonForNotShipping": null,
+    "orderStatusAfterPaid": null,
+    "mileageRewardType": null,
+    "maxOrderQtyPerPerson": 0,
+    "membersOnlyOrderType": null,
+    "kcId": null,
+    "kcImporter": null,
+    "kcManufacturer": null,
+    "kcModelName": null,
+    "kcProductName": null,
+    "isSoldout": null,
+    "isPercentageMileage": null,
+    "isBadge": null,
+    "giftVisibleEndTimestamp": null,
+    "giftVisibleBeginTimestamp": null,
+    "concierge": false,
+    "offlineStoreList": [],
+    "frontCategoryInfo": [
+      {
+        "category1Code": 291100100,
+        "category1Name": "가구,인테리어",
+        "category2Code": 291114100,
+        "category2Name": "침구",
+        "category3Code": 291114108,
+        "category3Name": "스프레드"
+      }
+    ],
+    "managedCategoryInfo": {
+      "category1Code": 248100100,
+      "category2Code": 248107100,
+      "category3Code": 248107101
+    },
+    "itemGroup": {
+      "itemGroupId": null,
+      "itemGroupName": null,
+      "itemNavigation": null,
+      "dependentSellMappingList": [],
+      "packageItemMappingList": []
+    },
+    "itemOrderMeta": { "isGiftOnly": false, "isNewUserOnly": false },
+    "features": {
+      "isSavingMode": false,
+      "isActiveWaitingQueue": false,
+      "isActiveCart": true,
+      "isActiveAvailablePurchasePrice": true
+    }
+  },
+  "message": null,
+  "errorCode": null
+}

@@ -1,0 +1,829 @@
+:root {
+  /* scale-color */
+  /* gray */
+  --ruler-scale-color-gray-00: #ffffff;
+  --ruler-scale-color-gray-100: #f4f4f4;
+  --ruler-scale-color-gray-200: #e4e4e4;
+  --ruler-scale-color-gray-300: #c4c4c4;
+  --ruler-scale-color-gray-400: #a0a0a0;
+  --ruler-scale-color-gray-500: #5d5d5d;
+  --ruler-scale-color-gray-600: #474747;
+  --ruler-scale-color-gray-700: #303030;
+  --ruler-scale-color-gray-800: #27272a;
+  --ruler-scale-color-gray-900: #19191a;
+  --ruler-scale-color-gray-950: #000000;
+
+  --ruler-scale-color-gray-alpha-200: rgba(93, 93, 93, 0.08);
+  --ruler-scale-color-gray-alpha-300: rgba(93, 93, 93, 0.16);
+  --ruler-scale-color-gray-alpha-400: rgba(93, 93, 93, 0.24);
+
+  /* red */
+  --ruler-scale-color-red-100: #ffefeb;
+  --ruler-scale-color-red-200: #ffbfaa;
+  --ruler-scale-color-red-300: #ff916c;
+  --ruler-scale-color-red-400: #ff6933;
+  --ruler-scale-color-red-500: #ff4800;
+  --ruler-scale-color-red-600: #d53f00;
+  --ruler-scale-color-red-700: #ab3803;
+  --ruler-scale-color-red-800: #823107;
+  --ruler-scale-color-red-900: #582609;
+  --ruler-scale-color-red-950: #2e1608;
+
+  --ruler-scale-color-red-alpha-200: rgba(255, 72, 0, 0.08);
+  --ruler-scale-color-red-alpha-300: rgba(255, 72, 0, 0.16);
+  --ruler-scale-color-red-alpha-400: rgba(255, 72, 0, 0.24);
+
+  /* blue */
+  --ruler-scale-color-blue-100: #ebf1ff;
+  --ruler-scale-color-blue-200: #b8cdff;
+  --ruler-scale-color-blue-300: #86a5ff;
+  --ruler-scale-color-blue-400: #5b7fff;
+  --ruler-scale-color-blue-500: #375fff;
+  --ruler-scale-color-blue-600: #203ff6;
+  --ruler-scale-color-blue-700: #1025e5;
+  --ruler-scale-color-blue-800: #0611bd;
+  --ruler-scale-color-blue-900: #010474;
+  --ruler-scale-color-blue-950: #000033;
+
+  --ruler-scale-color-blue-alpha-200: rgba(52, 95, 255, 0.08);
+  --ruler-scale-color-blue-alpha-300: rgba(52, 95, 255, 0.16);
+  --ruler-scale-color-blue-alpha-400: rgba(52, 95, 255, 0.24);
+
+  /* yellow */
+  --ruler-scale-color-yellow-100: #fff7f0;
+  --ruler-scale-color-yellow-200: #ffdfb9;
+  --ruler-scale-color-yellow-300: #ffc97f;
+  --ruler-scale-color-yellow-400: #ffb741;
+  --ruler-scale-color-yellow-500: #ffa800;
+  --ruler-scale-color-yellow-600: #d18d16;
+  --ruler-scale-color-yellow-700: #a37021;
+  --ruler-scale-color-yellow-800: #755322;
+  --ruler-scale-color-yellow-900: #47341b;
+  --ruler-scale-color-yellow-950: #19130c;
+
+  /* green */
+  --ruler-scale-color-green-100: #eefee6;
+  --ruler-scale-color-green-200: #c2eeb2;
+  --ruler-scale-color-green-300: #81dc71;
+  --ruler-scale-color-green-400: #3fcb3c;
+  --ruler-scale-color-green-500: #12ba23;
+  --ruler-scale-color-green-600: #139e14;
+  --ruler-scale-color-green-700: #1e8215;
+  --ruler-scale-color-green-800: #246616;
+  --ruler-scale-color-green-900: #234a15;
+  --ruler-scale-color-green-950: #1b2e11;
+
+  /* dimension-font-size */
+  --ruler-scale-dimension-font-size-25: 10px;
+  --ruler-scale-dimension-font-size-50: 11px;
+  --ruler-scale-dimension-font-size-75: 12px;
+  --ruler-scale-dimension-font-size-100: 13px;
+  --ruler-scale-dimension-font-size-125: 14px;
+  --ruler-scale-dimension-font-size-150: 15px;
+  --ruler-scale-dimension-font-size-200: 16px;
+  --ruler-scale-dimension-font-size-250: 18px;
+  --ruler-scale-dimension-font-size-300: 20px;
+  --ruler-scale-dimension-font-size-350: 22px;
+  --ruler-scale-dimension-font-size-400: 24px;
+  --ruler-scale-dimension-font-size-500: 28px;
+  --ruler-scale-dimension-font-size-550: 30px;
+  --ruler-scale-dimension-font-size-600: 32px;
+  --ruler-scale-dimension-font-size-1000: 48px;
+
+  /* scale-dimension-size */
+  --ruler-scale-dimension-25: 2px;
+  --ruler-scale-dimension-50: 4px;
+  --ruler-scale-dimension-75: 6px;
+  --ruler-scale-dimension-100: 8px;
+  --ruler-scale-dimension-125: 10px;
+  --ruler-scale-dimension-150: 12px;
+  --ruler-scale-dimension-200: 16px;
+  --ruler-scale-dimension-225: 18px;
+  --ruler-scale-dimension-250: 20px;
+  --ruler-scale-dimension-300: 24px;
+  --ruler-scale-dimension-350: 28px;
+  --ruler-scale-dimension-375: 30px;
+  --ruler-scale-dimension-400: 32px;
+  --ruler-scale-dimension-500: 40px;
+  --ruler-scale-dimension-600: 48px;
+  --ruler-scale-dimension-700: 56px;
+  --ruler-scale-dimension-750: 60px;
+
+  /* scale-font-weight */
+  --ruler-scale-font-weight-thin: 100;
+  --ruler-scale-font-weight-extraLight: 200;
+  --ruler-scale-font-weight-light: 300;
+  --ruler-scale-font-weight-regular: 400;
+  --ruler-scale-font-weight-medium: 500;
+  --ruler-scale-font-weight-semibold: 600;
+  --ruler-scale-font-weight-bold: 700;
+  --ruler-scale-font-weight-extraBold: 800;
+
+  /* scale-letter-spacing */
+  --ruler-scale-letter-spacing: 0;
+
+  /* scale-line-height */
+  --ruler-scale-line-height-1: 100%;
+  --ruler-scale-line-height-2: 120%;
+  --ruler-scale-line-height-3: 136%;
+  --ruler-scale-line-height-4: 140%;
+  --ruler-scale-line-height-5: 150%;
+  --ruler-scale-line-height-6: 160%;
+
+  /* scale-corner-radius */
+  --ruler-scale-corner-radius-25: 2px;
+  --ruler-scale-corner-radius-50: 4px;
+  --ruler-scale-corner-radius-75: 6px;
+  --ruler-scale-corner-radius-100: 8px;
+  --ruler-scale-corner-radius-200: 16px;
+  --ruler-scale-corner-radius-250: 20px;
+  --ruler-scale-corner-radius-full: 9999px;
+
+  /* static-scale-color */
+  --ruler-static-scale-color-white: #ffffff;
+  --ruler-static-scale-color-white-alpha-200: #ffffff20;
+  --ruler-static-scale-color-white-alpha-500: #ffffff80;
+  --ruler-static-scale-color-white-alpha-900: #ffffffe6;
+
+  --ruler-static-scale-color-black: #000000;
+  --ruler-static-scale-color-black-alpha-200: #00000020;
+  --ruler-static-scale-color-black-alpha-500: #00000080;
+  --ruler-static-scale-color-black-alpha-900: #000000e6;
+
+  /* static-scale-font-family */
+  --ruler-static-scale-font-family-pretendard: "Pretendard Variable", Pretendard,
+    -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue",
+    "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic",
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  --ruler-static-scale-font-family-29cm-default-font: var(
+    --ruler-static-scale-font-family-pretendard
+  );
+
+  /* semantic-color */
+
+  /* common */
+  --ruler-semantic-color-common-on-black: var(--ruler-static-scale-color-black);
+  --ruler-semantic-color-common-on-black-hover: var(
+    --ruler-static-scale-color-black-alpha-900
+  );
+  --ruler-semantic-color-common-on-black-pressed: var(
+    --ruler-static-scale-color-black-alpha-900
+  );
+
+  --ruler-semantic-color-common-on-white: var(--ruler-static-scale-color-white);
+  --ruler-semantic-color-common-on-white-hover: var(
+    --ruler-static-scale-color-white-alpha-900
+  );
+  --ruler-semantic-color-common-on-white-pressed: var(
+    --ruler-static-scale-color-white-alpha-900
+  );
+
+  --ruler-semantic-color-common-interactive-low: var(
+    --ruler-scale-color-blue-alpha-200
+  );
+  --ruler-semantic-color-common-interactive: var(--ruler-scale-color-blue-500);
+  --ruler-semantic-color-common-interactive-hover: var(
+    --ruler-scale-color-blue-400
+  );
+  --ruler-semantic-color-common-interactive-pressed: var(
+    --ruler-scale-color-blue-400
+  );
+
+  --ruler-semantic-color-common-negative: var(--ruler-scale-color-red-600);
+  --ruler-semantic-color-common-negative-hover: var(
+    --ruler-scale-color-red-400
+  );
+  --ruler-semantic-color-common-negative-pressed: var(
+    --ruler-scale-color-red-400
+  );
+
+  --ruler-semantic-color-common-accent-low: var(
+    --ruler-scale-color-red-alpha-200
+  );
+  --ruler-semantic-color-common-accent: var(--ruler-scale-color-red-500);
+
+  /* text */
+  --ruler-semantic-color-text-primary: var(--ruler-scale-color-gray-950);
+  --ruler-semantic-color-text-primary-hover: var(--ruler-scale-color-gray-600);
+  --ruler-semantic-color-text-primary-pressed: var(
+    --ruler-scale-color-gray-600
+  );
+
+  --ruler-semantic-color-text-secondary: var(--ruler-scale-color-gray-600);
+  --ruler-semantic-color-text-secondary-hover: var(
+    --ruler-scale-color-gray-500
+  );
+  --ruler-semantic-color-text-secondary-pressed: var(
+    --ruler-scale-color-gray-500
+  );
+
+  --ruler-semantic-color-text-tertiary: var(--ruler-scale-color-gray-400);
+  --ruler-semantic-color-text-tertiary-hover: var(--ruler-scale-color-gray-300);
+  --ruler-semantic-color-text-tertiary-pressed: var(
+    --ruler-scale-color-gray-300
+  );
+
+  --ruler-semantic-color-text-disabled: var(--ruler-scale-color-gray-300);
+  --ruler-semantic-color-text-on-color: var(--ruler-scale-color-gray-00);
+
+  /* background */
+  --ruler-semantic-color-background-low: var(--ruler-scale-color-gray-100);
+  --ruler-semantic-color-background-default: var(--ruler-scale-color-gray-00);
+  --ruler-semantic-color-background-default-black: var(
+    --ruler-static-scale-color-black
+  );
+
+  /* fill */
+  --ruler-semantic-color-fill-primary: var(--ruler-scale-color-gray-950);
+  --ruler-semantic-color-fill-primary-hover: var(--ruler-scale-color-gray-800);
+  --ruler-semantic-color-fill-primary-pressed: var(
+    --ruler-scale-color-gray-800
+  );
+
+  --ruler-semantic-color-fill-secondary: var(--ruler-scale-color-gray-700);
+
+  --ruler-semantic-color-fill-tertiary: var(--ruler-scale-color-gray-100);
+
+  --ruler-semantic-color-fill-silent: var(--ruler-scale-color-gray-00);
+  --ruler-semantic-color-fill-silent-hover: var(--ruler-scale-color-gray-100);
+  --ruler-semantic-color-fill-silent-pressed: var(--ruler-scale-color-gray-100);
+
+  --ruler-semantic-color-fill-surface-contents: var(
+    --ruler-scale-color-gray-100
+  );
+  --ruler-semantic-color-fill-surface-floating: var(
+    --ruler-scale-color-gray-950
+  );
+  --ruler-semantic-color-fill-surface-dialog: var(--ruler-scale-color-gray-00);
+  --ruler-semantic-color-fill-surface-sheet: var(--ruler-scale-color-gray-00);
+  --ruler-semantic-color-fill-surface-black: var(
+    --ruler-static-scale-color-black
+  );
+
+  --ruler-semantic-color-fill-disabled: var(--ruler-scale-color-gray-100);
+
+  /* border */
+  --ruler-semantic-color-border-divider-strong: var(
+    --ruler-scale-color-gray-950
+  );
+  --ruler-semantic-color-border-divider: var(--ruler-scale-color-gray-100);
+  --ruler-semantic-color-border-line: var(--ruler-scale-color-gray-200);
+  --ruler-semantic-color-border-line-hover: var(--ruler-scale-color-gray-400);
+  --ruler-semantic-color-border-line-pressed: var(--ruler-scale-color-gray-400);
+  --ruler-semantic-color-border-line-selected: var(
+    --ruler-scale-color-gray-950
+  );
+  --ruler-semantic-color-border-line-disabled: var(
+    --ruler-scale-color-gray-100
+  );
+
+  /* overlay */
+  --ruler-semantic-color-overlay-dimmed: var(
+    --ruler-static-scale-color-black-alpha-500
+  );
+
+  /* typography */
+  --ruler-semantic-typography-title-xxl-font-family: var(
+    --ruler-static-scale-font-family-29cm-default-font
+  );
+  --ruler-semantic-typography-title-xxl-font-weight: var(
+    --ruler-scale-font-weight-regular
+  );
+  --ruler-semantic-typography-title-xxl-letter-spacing: var(
+    --ruler-scale-letter-spacing
+  );
+  --ruler-semantic-typography-title-xxl-line-height: var(
+    --ruler-scale-line-height-3
+  );
+  --ruler-semantic-typography-title-xxl-font-size: var(
+    --ruler-scale-dimension-font-size-550
+  );
+
+  --ruler-semantic-typography-title-xxl-bold-font-family: var(
+    --ruler-static-scale-font-family-29cm-default-font
+  );
+  --ruler-semantic-typography-title-xxl-bold-font-weight: var(
+    --ruler-scale-font-weight-bold
+  );
+  --ruler-semantic-typography-title-xxl-bold-letter-spacing: var(
+    --ruler-scale-letter-spacing
+  );
+  --ruler-semantic-typography-title-xxl-bold-line-height: var(
+    --ruler-scale-line-height-3
+  );
+  --ruler-semantic-typography-title-xxl-bold-font-size: var(
+    --ruler-scale-dimension-font-size-550
+  );
+
+  --ruler-semantic-typography-title-xxl-medium-font-family: var(
+    --ruler-static-scale-font-family-29cm-default-font
+  );
+  --ruler-semantic-typography-title-xxl-medium-font-weight: var(
+    --ruler-scale-font-weight-medium
+  );
+  --ruler-semantic-typography-title-xxl-medium-letter-spacing: var(
+    --ruler-scale-letter-spacing
+  );
+  --ruler-semantic-typography-title-xxl-medium-line-height: var(
+    --ruler-scale-line-height-3
+  );
+  --ruler-semantic-typography-title-xxl-medium-font-size: var(
+    --ruler-scale-dimension-font-size-550
+  );
+
+  --ruler-semantic-typography-title-xl-bold-font-family: var(
+    --ruler-static-scale-font-family-29cm-default-font
+  );
+  --ruler-semantic-typography-title-xl-bold-font-weight: var(
+    --ruler-scale-font-weight-bold
+  );
+  --ruler-semantic-typography-title-xl-bold-letter-spacing: var(
+    --ruler-scale-letter-spacing
+  );
+  --ruler-semantic-typography-title-xl-bold-line-height: var(
+    --ruler-scale-line-height-3
+  );
+  --ruler-semantic-typography-title-xl-bold-font-size: var(
+    --ruler-scale-dimension-font-size-500
+  );
+
+  --ruler-semantic-typography-title-xl-medium-font-family: var(
+    --ruler-static-scale-font-family-29cm-default-font
+  );
+  --ruler-semantic-typography-title-xl-medium-font-weight: var(
+    --ruler-scale-font-weight-medium
+  );
+  --ruler-semantic-typography-title-xl-medium-letter-spacing: var(
+    --ruler-scale-letter-spacing
+  );
+  --ruler-semantic-typography-title-xl-medium-line-height: var(
+    --ruler-scale-line-height-3
+  );
+  --ruler-semantic-typography-title-xl-medium-font-size: var(
+    --ruler-scale-dimension-font-size-500
+  );
+
+  --ruler-semantic-typography-title-l-bold-font-family: var(
+    --ruler-static-scale-font-family-29cm-default-font
+  );
+  --ruler-semantic-typography-title-l-bold-font-weight: var(
+    --ruler-scale-font-weight-bold
+  );
+  --ruler-semantic-typography-title-l-bold-letter-spacing: var(
+    --ruler-scale-letter-spacing
+  );
+  --ruler-semantic-typography-title-l-bold-line-height: var(
+    --ruler-scale-line-height-3
+  );
+  --ruler-semantic-typography-title-l-bold-font-size: var(
+    --ruler-scale-dimension-font-size-400
+  );
+
+  --ruler-semantic-typography-title-l-medium-font-family: var(
+    --ruler-static-scale-font-family-29cm-default-font
+  );
+  --ruler-semantic-typography-title-l-medium-font-weight: var(
+    --ruler-scale-font-weight-medium
+  );
+  --ruler-semantic-typography-title-l-medium-letter-spacing: var(
+    --ruler-scale-letter-spacing
+  );
+  --ruler-semantic-typography-title-l-medium-line-height: var(
+    --ruler-scale-line-height-3
+  );
+  --ruler-semantic-typography-title-l-medium-font-size: var(
+    --ruler-scale-dimension-font-size-400
+  );
+
+  --ruler-semantic-typography-title-m-bold-font-family: var(
+    --ruler-static-scale-font-family-29cm-default-font
+  );
+  --ruler-semantic-typography-title-m-bold-font-weight: var(
+    --ruler-scale-font-weight-bold
+  );
+  --ruler-semantic-typography-title-m-bold-letter-spacing: var(
+    --ruler-scale-letter-spacing
+  );
+  --ruler-semantic-typography-title-m-bold-line-height: var(
+    --ruler-scale-line-height-3
+  );
+  --ruler-semantic-typography-title-m-bold-font-size: var(
+    --ruler-scale-dimension-font-size-350
+  );
+
+  --ruler-semantic-typography-title-m-medium-font-family: var(
+    --ruler-static-scale-font-family-29cm-default-font
+  );
+  --ruler-semantic-typography-title-m-medium-font-weight: var(
+    --ruler-scale-font-weight-medium
+  );
+  --ruler-semantic-typography-title-m-medium-letter-spacing: var(
+    --ruler-scale-letter-spacing
+  );
+  --ruler-semantic-typography-title-m-medium-line-height: var(
+    --ruler-scale-line-height-3
+  );
+  --ruler-semantic-typography-title-m-medium-font-size: var(
+    --ruler-scale-dimension-font-size-350
+  );
+
+  --ruler-semantic-typography-title-s-bold-font-family: var(
+    --ruler-static-scale-font-family-29cm-default-font
+  );
+  --ruler-semantic-typography-title-s-bold-font-weight: var(
+    --ruler-scale-font-weight-bold
+  );
+  --ruler-semantic-typography-title-s-bold-letter-spacing: var(
+    --ruler-scale-letter-spacing
+  );
+  --ruler-semantic-typography-title-s-bold-line-height: var(
+    --ruler-scale-line-height-3
+  );
+  --ruler-semantic-typography-title-s-bold-font-size: var(
+    --ruler-scale-dimension-font-size-300
+  );
+
+  --ruler-semantic-typography-title-s-medium-font-family: var(
+    --ruler-static-scale-font-family-29cm-default-font
+  );
+  --ruler-semantic-typography-title-s-medium-font-weight: var(
+    --ruler-scale-font-weight-medium
+  );
+  --ruler-semantic-typography-title-s-medium-letter-spacing: var(
+    --ruler-scale-letter-spacing
+  );
+  --ruler-semantic-typography-title-s-medium-line-height: var(
+    --ruler-scale-line-height-3
+  );
+  --ruler-semantic-typography-title-s-medium-font-size: var(
+    --ruler-scale-dimension-font-size-300
+  );
+
+  --ruler-semantic-typography-title-xs-bold-font-family: var(
+    --ruler-static-scale-font-family-29cm-default-font
+  );
+  --ruler-semantic-typography-title-xs-bold-font-weight: var(
+    --ruler-scale-font-weight-bold
+  );
+  --ruler-semantic-typography-title-xs-bold-letter-spacing: var(
+    --ruler-scale-letter-spacing
+  );
+  --ruler-semantic-typography-title-xs-bold-line-height: var(
+    --ruler-scale-line-height-3
+  );
+  --ruler-semantic-typography-title-xs-bold-font-size: var(
+    --ruler-scale-dimension-font-size-250
+  );
+
+  --ruler-semantic-typography-title-xs-medium-font-family: var(
+    --ruler-static-scale-font-family-29cm-default-font
+  );
+  --ruler-semantic-typography-title-xs-medium-font-weight: var(
+    --ruler-scale-font-weight-medium
+  );
+  --ruler-semantic-typography-title-xs-medium-letter-spacing: var(
+    --ruler-scale-letter-spacing
+  );
+  --ruler-semantic-typography-title-xs-medium-line-height: var(
+    --ruler-scale-line-height-3
+  );
+  --ruler-semantic-typography-title-xs-medium-font-size: var(
+    --ruler-scale-dimension-font-size-250
+  );
+
+  --ruler-semantic-typography-text-xxl-font-family: var(
+    --ruler-static-scale-font-family-29cm-default-font
+  );
+  --ruler-semantic-typography-text-xxl-font-weight: var(
+    --ruler-scale-font-weight-regular
+  );
+  --ruler-semantic-typography-text-xxl-letter-spacing: var(
+    --ruler-scale-letter-spacing
+  );
+  --ruler-semantic-typography-text-xxl-line-height: var(
+    --ruler-scale-line-height-4
+  );
+  --ruler-semantic-typography-text-xxl-font-size: var(
+    --ruler-scale-dimension-font-size-200
+  );
+
+  --ruler-semantic-typography-text-xxl-bold-font-family: var(
+    --ruler-static-scale-font-family-29cm-default-font
+  );
+  --ruler-semantic-typography-text-xxl-bold-font-weight: var(
+    --ruler-scale-font-weight-bold
+  );
+  --ruler-semantic-typography-text-xxl-bold-letter-spacing: var(
+    --ruler-scale-letter-spacing
+  );
+  --ruler-semantic-typography-text-xxl-bold-line-height: var(
+    --ruler-scale-line-height-4
+  );
+  --ruler-semantic-typography-text-xxl-bold-font-size: var(
+    --ruler-scale-dimension-font-size-200
+  );
+
+  --ruler-semantic-typography-text-xxl-medium-font-family: var(
+    --ruler-static-scale-font-family-29cm-default-font
+  );
+  --ruler-semantic-typography-text-xxl-medium-font-weight: var(
+    --ruler-scale-font-weight-medium
+  );
+  --ruler-semantic-typography-text-xxl-medium-letter-spacing: var(
+    --ruler-scale-letter-spacing
+  );
+  --ruler-semantic-typography-text-xxl-medium-line-height: var(
+    --ruler-scale-line-height-4
+  );
+  --ruler-semantic-typography-text-xxl-medium-font-size: var(
+    --ruler-scale-dimension-font-size-200
+  );
+
+  --ruler-semantic-typography-text-xl-bold-font-family: var(
+    --ruler-static-scale-font-family-29cm-default-font
+  );
+  --ruler-semantic-typography-text-xl-bold-font-weight: var(
+    --ruler-scale-font-weight-bold
+  );
+  --ruler-semantic-typography-text-xl-bold-letter-spacing: var(
+    --ruler-scale-letter-spacing
+  );
+  --ruler-semantic-typography-text-xl-bold-line-height: var(
+    --ruler-scale-line-height-5
+  );
+  --ruler-semantic-typography-text-xl-bold-font-size: var(
+    --ruler-scale-dimension-font-size-150
+  );
+
+  --ruler-semantic-typography-text-xl-medium-font-family: var(
+    --ruler-static-scale-font-family-29cm-default-font
+  );
+  --ruler-semantic-typography-text-xl-medium-font-weight: var(
+    --ruler-scale-font-weight-medium
+  );
+  --ruler-semantic-typography-text-xl-medium-letter-spacing: var(
+    --ruler-scale-letter-spacing
+  );
+  --ruler-semantic-typography-text-xl-medium-line-height: var(
+    --ruler-scale-line-height-5
+  );
+  --ruler-semantic-typography-text-xl-medium-font-size: var(
+    --ruler-scale-dimension-font-size-150
+  );
+
+  --ruler-semantic-typography-text-xl-font-family: var(
+    --ruler-static-scale-font-family-29cm-default-font
+  );
+  --ruler-semantic-typography-text-xl-font-weight: var(
+    --ruler-scale-font-weight-regular
+  );
+  --ruler-semantic-typography-text-xl-letter-spacing: var(
+    --ruler-scale-letter-spacing
+  );
+  --ruler-semantic-typography-text-xl-line-height: var(
+    --ruler-scale-line-height-5
+  );
+  --ruler-semantic-typography-text-xl-font-size: var(
+    --ruler-scale-dimension-font-size-150
+  );
+
+  --ruler-semantic-typography-text-l-bold-font-family: var(
+    --ruler-static-scale-font-family-29cm-default-font
+  );
+  --ruler-semantic-typography-text-l-bold-font-weight: var(
+    --ruler-scale-font-weight-bold
+  );
+  --ruler-semantic-typography-text-l-bold-letter-spacing: var(
+    --ruler-scale-letter-spacing
+  );
+  --ruler-semantic-typography-text-l-bold-line-height: var(
+    --ruler-scale-line-height-4
+  );
+  --ruler-semantic-typography-text-l-bold-font-size: var(
+    --ruler-scale-dimension-font-size-125
+  );
+
+  --ruler-semantic-typography-text-l-medium-font-family: var(
+    --ruler-static-scale-font-family-29cm-default-font
+  );
+  --ruler-semantic-typography-text-l-medium-font-weight: var(
+    --ruler-scale-font-weight-medium
+  );
+  --ruler-semantic-typography-text-l-medium-letter-spacing: var(
+    --ruler-scale-letter-spacing
+  );
+  --ruler-semantic-typography-text-l-medium-line-height: var(
+    --ruler-scale-line-height-4
+  );
+  --ruler-semantic-typography-text-l-medium-font-size: var(
+    --ruler-scale-dimension-font-size-125
+  );
+
+  --ruler-semantic-typography-text-l-font-family: var(
+    --ruler-static-scale-font-family-29cm-default-font
+  );
+  --ruler-semantic-typography-text-l-font-weight: var(
+    --ruler-scale-font-weight-regular
+  );
+  --ruler-semantic-typography-text-l-letter-spacing: var(
+    --ruler-scale-letter-spacing
+  );
+  --ruler-semantic-typography-text-l-line-height: var(
+    --ruler-scale-line-height-4
+  );
+  --ruler-semantic-typography-text-l-font-size: var(
+    --ruler-scale-dimension-font-size-125
+  );
+
+  --ruler-semantic-typography-text-m-bold-font-family: var(
+    --ruler-static-scale-font-family-29cm-default-font
+  );
+  --ruler-semantic-typography-text-m-bold-font-weight: var(
+    --ruler-scale-font-weight-bold
+  );
+  --ruler-semantic-typography-text-m-bold-letter-spacing: var(
+    --ruler-scale-letter-spacing
+  );
+  --ruler-semantic-typography-text-m-bold-line-height: var(
+    --ruler-scale-line-height-4
+  );
+  --ruler-semantic-typography-text-m-bold-font-size: var(
+    --ruler-scale-dimension-font-size-100
+  );
+
+  --ruler-semantic-typography-text-m-medium-font-family: var(
+    --ruler-static-scale-font-family-29cm-default-font
+  );
+  --ruler-semantic-typography-text-m-medium-font-weight: var(
+    --ruler-scale-font-weight-medium
+  );
+  --ruler-semantic-typography-text-m-medium-letter-spacing: var(
+    --ruler-scale-letter-spacing
+  );
+  --ruler-semantic-typography-text-m-medium-line-height: var(
+    --ruler-scale-line-height-4
+  );
+  --ruler-semantic-typography-text-m-medium-font-size: var(
+    --ruler-scale-dimension-font-size-100
+  );
+
+  --ruler-semantic-typography-text-m-font-family: var(
+    --ruler-static-scale-font-family-29cm-default-font
+  );
+  --ruler-semantic-typography-text-m-font-weight: var(
+    --ruler-scale-font-weight-regular
+  );
+  --ruler-semantic-typography-text-m-letter-spacing: var(
+    --ruler-scale-letter-spacing
+  );
+  --ruler-semantic-typography-text-m-line-height: var(
+    --ruler-scale-line-height-4
+  );
+  --ruler-semantic-typography-text-m-font-size: var(
+    --ruler-scale-dimension-font-size-100
+  );
+
+  --ruler-semantic-typography-text-s-font-family: var(
+    --ruler-static-scale-font-family-29cm-default-font
+  );
+  --ruler-semantic-typography-text-s-font-weight: var(
+    --ruler-scale-font-weight-regular
+  );
+  --ruler-semantic-typography-text-s-letter-spacing: var(
+    --ruler-scale-letter-spacing
+  );
+  --ruler-semantic-typography-text-s-line-height: var(
+    --ruler-scale-line-height-3
+  );
+  --ruler-semantic-typography-text-s-font-size: var(
+    --ruler-scale-dimension-font-size-75
+  );
+
+  --ruler-semantic-typography-text-s-bold-font-family: var(
+    --ruler-static-scale-font-family-29cm-default-font
+  );
+  --ruler-semantic-typography-text-s-bold-font-weight: var(
+    --ruler-scale-font-weight-bold
+  );
+  --ruler-semantic-typography-text-s-bold-letter-spacing: var(
+    --ruler-scale-letter-spacing
+  );
+  --ruler-semantic-typography-text-s-bold-line-height: var(
+    --ruler-scale-line-height-3
+  );
+  --ruler-semantic-typography-text-s-bold-font-size: var(
+    --ruler-scale-dimension-font-size-75
+  );
+
+  --ruler-semantic-typography-text-s-medium-font-family: var(
+    --ruler-static-scale-font-family-29cm-default-font
+  );
+  --ruler-semantic-typography-text-s-medium-font-weight: var(
+    --ruler-scale-font-weight-medium
+  );
+  --ruler-semantic-typography-text-s-medium-letter-spacing: var(
+    --ruler-scale-letter-spacing
+  );
+  --ruler-semantic-typography-text-s-medium-line-height: var(
+    --ruler-scale-line-height-3
+  );
+  --ruler-semantic-typography-text-s-medium-font-size: var(
+    --ruler-scale-dimension-font-size-75
+  );
+
+  --ruler-semantic-typography-text-xs-font-family: var(
+    --ruler-static-scale-font-family-29cm-default-font
+  );
+  --ruler-semantic-typography-text-xs-font-weight: var(
+    --ruler-scale-font-weight-regular
+  );
+  --ruler-semantic-typography-text-xs-letter-spacing: var(
+    --ruler-scale-letter-spacing
+  );
+  --ruler-semantic-typography-text-xs-line-height: var(
+    --ruler-scale-line-height-3
+  );
+  --ruler-semantic-typography-text-xs-font-size: var(
+    --ruler-scale-dimension-font-size-50
+  );
+
+  --ruler-semantic-typography-text-xs-bold-font-family: var(
+    --ruler-static-scale-font-family-29cm-default-font
+  );
+  --ruler-semantic-typography-text-xs-bold-font-weight: var(
+    --ruler-scale-font-weight-bold
+  );
+  --ruler-semantic-typography-text-xs-bold-letter-spacing: var(
+    --ruler-scale-letter-spacing
+  );
+  --ruler-semantic-typography-text-xs-bold-line-height: var(
+    --ruler-scale-line-height-3
+  );
+  --ruler-semantic-typography-text-xs-bold-font-size: var(
+    --ruler-scale-dimension-font-size-50
+  );
+
+  --ruler-semantic-typography-text-xs-medium-font-family: var(
+    --ruler-static-scale-font-family-29cm-default-font
+  );
+  --ruler-semantic-typography-text-xs-medium-font-weight: var(
+    --ruler-scale-font-weight-medium
+  );
+  --ruler-semantic-typography-text-xs-medium-letter-spacing: var(
+    --ruler-scale-letter-spacing
+  );
+  --ruler-semantic-typography-text-xs-medium-line-height: var(
+    --ruler-scale-line-height-3
+  );
+  --ruler-semantic-typography-text-xs-medium-font-size: var(
+    --ruler-scale-dimension-font-size-50
+  );
+
+  --ruler-semantic-typography-text-xxs-font-family: var(
+    --ruler-static-scale-font-family-29cm-default-font
+  );
+  --ruler-semantic-typography-text-xxs-font-weight: var(
+    --ruler-scale-font-weight-regular
+  );
+  --ruler-semantic-typography-text-xxs-letter-spacing: var(
+    --ruler-scale-letter-spacing
+  );
+  --ruler-semantic-typography-text-xxs-line-height: var(
+    --ruler-scale-line-height-2
+  );
+  --ruler-semantic-typography-text-xxs-font-size: var(
+    --ruler-scale-dimension-font-size-25
+  );
+
+  --ruler-semantic-typography-text-xxs-medium-font-family: var(
+    --ruler-static-scale-font-family-29cm-default-font
+  );
+  --ruler-semantic-typography-text-xxs-medium-font-weight: var(
+    --ruler-scale-font-weight-medium
+  );
+  --ruler-semantic-typography-text-xxs-medium-letter-spacing: var(
+    --ruler-scale-letter-spacing
+  );
+  --ruler-semantic-typography-text-xxs-medium-line-height: var(
+    --ruler-scale-line-height-2
+  );
+  --ruler-semantic-typography-text-xxs-medium-font-size: var(
+    --ruler-scale-dimension-font-size-25
+  );
+
+  --ruler-semantic-typography-text-xxs-bold-font-family: var(
+    --ruler-static-scale-font-family-29cm-default-font
+  );
+  --ruler-semantic-typography-text-xxs-bold-font-weight: var(
+    --ruler-scale-font-weight-bold
+  );
+  --ruler-semantic-typography-text-xxs-bold-letter-spacing: var(
+    --ruler-scale-letter-spacing
+  );
+  --ruler-semantic-typography-text-xxs-bold-line-height: var(
+    --ruler-scale-line-height-2
+  );
+  --ruler-semantic-typography-text-xxs-bold-font-size: var(
+    --ruler-scale-dimension-font-size-25
+  );
+}

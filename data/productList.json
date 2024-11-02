@@ -1,0 +1,2999 @@
+{
+  "result": "SUCCESS",
+  "data": {
+    "keywordTypes": [],
+    "products": [
+      {
+        "itemNo": 1797009,
+        "itemName": "탄소 전기요 깃든 온 (싱글/더블)",
+        "frontBrandNo": 14307,
+        "frontBrandNameKor": "깃든",
+        "frontBrandNameEng": "GITDEN",
+        "consumerPrice": 139000,
+        "imageUrl": "/item/202409/11ef700a2ad831ea8f47431f8f0727bc.jpg",
+        "heartCount": 5849,
+        "reviewCount": 202,
+        "lastSalePercent": 35,
+        "lastSalePrice": 90900,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 4.7,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": [
+          "#f5ecc3",
+          "#21ba21",
+          "#0f4384",
+          "#764006",
+          "#83007e",
+          "#ffffff"
+        ],
+        "saleInfoV2": {
+          "consumerPrice": 139000,
+          "sellPrice": 90900,
+          "saleRate": 35,
+          "couponSaleRate": 0,
+          "isCoupon": false,
+          "totalSellPrice": 90900,
+          "totalSaleRate": 35
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291114100,
+            "categoryMediumName": "침구",
+            "categorySmallCode": 291114108,
+            "categorySmallName": "스프레드"
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": [
+          {
+            "priority": "PRIMARY",
+            "text": "얼리이굿위크"
+          }
+        ]
+      },
+      {
+        "itemNo": 1831429,
+        "itemName": "먼지없는 패딩담요 콤비 극세사 무릎담요 캠핑담요 2Size",
+        "frontBrandNo": 1836,
+        "frontBrandNameKor": "보웰",
+        "frontBrandNameEng": "BO WELL",
+        "consumerPrice": 41000,
+        "imageUrl": "/next-product/2022/11/24/576f57b0cebb419089e408c1c56e3e08_20221124163011.jpg",
+        "heartCount": 19113,
+        "reviewCount": 176,
+        "lastSalePercent": 20,
+        "lastSalePrice": 32800,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 4.7,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": ["#f5ecc3", "#21ba21", "#764006", "#3585c2"],
+        "saleInfoV2": {
+          "consumerPrice": 41000,
+          "sellPrice": 32800,
+          "saleRate": 20,
+          "couponSaleRate": 0,
+          "isCoupon": false,
+          "totalSellPrice": 32800,
+          "totalSaleRate": 20
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291112100,
+            "categoryMediumName": "홈패브릭",
+            "categorySmallCode": 291112109,
+            "categorySmallName": "담요"
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 100100100,
+            "categoryMediumName": null,
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291112100,
+            "categoryMediumName": "홈패브릭",
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": []
+      },
+      {
+        "itemNo": 948405,
+        "itemName": "TIE BAG SMALL (3 COLORS) 에코백",
+        "frontBrandNo": 1483,
+        "frontBrandNameKor": "지비에이치",
+        "frontBrandNameEng": "GBH",
+        "consumerPrice": 31000,
+        "imageUrl": "/next-product/2021/01/13/989f837726614257bc86bbda0694b7eb_20210113185213.jpg",
+        "heartCount": 4685,
+        "reviewCount": 107,
+        "lastSalePercent": 0,
+        "lastSalePrice": 31000,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 4.6,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": ["#ffffff", "#d9d9d9", "#6b6b6b", "#000000"],
+        "saleInfoV2": {
+          "consumerPrice": 31000,
+          "sellPrice": 31000,
+          "saleRate": 0,
+          "couponSaleRate": 0,
+          "isCoupon": false,
+          "totalSellPrice": 31000,
+          "totalSaleRate": 0
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 269100100,
+            "categoryLargeName": "여성가방",
+            "categoryMediumCode": 269102100,
+            "categoryMediumName": "크로스백",
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291117100,
+            "categoryMediumName": "EXCLUSIVE",
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": []
+      },
+      {
+        "itemNo": 2877497,
+        "itemName": "[29CM 단독] 헤이레이 콜라보 벨벳터치 볼스터 원통 쿠션 3COLORS (솜포함)",
+        "frontBrandNo": 14703,
+        "frontBrandNameKor": "핀카",
+        "frontBrandNameEng": "FINCA",
+        "consumerPrice": 39000,
+        "imageUrl": "/item/202410/11ef9038191f14438519e5d93b216896.jpg",
+        "heartCount": 694,
+        "reviewCount": 7,
+        "lastSalePercent": 24,
+        "lastSalePrice": 29640,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 5.0,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": [
+          "#bb193e",
+          "#764006",
+          "#c47c26",
+          "#f3e219",
+          "#21ba21",
+          "#3585c2",
+          "#eb3691"
+        ],
+        "saleInfoV2": {
+          "consumerPrice": 39000,
+          "sellPrice": 31200,
+          "saleRate": 20,
+          "couponSaleRate": 5,
+          "isCoupon": true,
+          "totalSellPrice": 29640,
+          "totalSaleRate": 24
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291114100,
+            "categoryMediumName": "침구",
+            "categorySmallCode": 291114109,
+            "categorySmallName": "쿠션"
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 100100100,
+            "categoryMediumName": null,
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291114100,
+            "categoryMediumName": "침구",
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": []
+      },
+      {
+        "itemNo": 2739087,
+        "itemName": "깜짝 과태료 용돈 봉투 이벤트 반전 박스 [경고장 부모님 남편 현금 돈 선물 결혼기념일 어버이날 엄마 아빠 생신 생일 현관문 차량 남자친구 서프라이즈]",
+        "frontBrandNo": 9141,
+        "frontBrandNameKor": "갓샵",
+        "frontBrandNameEng": "GODSHOP",
+        "consumerPrice": 9900,
+        "imageUrl": "/item/202407/11ef4e82d83d856b8362814036c94738.jpg",
+        "heartCount": 4648,
+        "reviewCount": 7,
+        "lastSalePercent": 0,
+        "lastSalePrice": 9900,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 4.4,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": [],
+        "saleInfoV2": {
+          "consumerPrice": 9900,
+          "sellPrice": 9900,
+          "saleRate": 0,
+          "couponSaleRate": 0,
+          "isCoupon": false,
+          "totalSellPrice": 9900,
+          "totalSaleRate": 0
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291110100,
+            "categoryMediumName": "스테이셔너리",
+            "categorySmallCode": 291110104,
+            "categorySmallName": "기타 문구용품"
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": []
+      },
+      {
+        "itemNo": 2707052,
+        "itemName": "SQUARE ROOM SHOES 룸슈즈",
+        "frontBrandNo": 1483,
+        "frontBrandNameKor": "지비에이치",
+        "frontBrandNameEng": "GBH",
+        "consumerPrice": 42000,
+        "imageUrl": "/item/202407/11ef43e5b031f3db83628d29e9d65f91.jpg",
+        "heartCount": 3375,
+        "reviewCount": 30,
+        "lastSalePercent": 0,
+        "lastSalePrice": 42000,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 4.6,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": [],
+        "saleInfoV2": {
+          "consumerPrice": 42000,
+          "sellPrice": 42000,
+          "saleRate": 0,
+          "couponSaleRate": 0,
+          "isCoupon": false,
+          "totalSellPrice": 42000,
+          "totalSaleRate": 0
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291112100,
+            "categoryMediumName": "홈패브릭",
+            "categorySmallCode": 291112106,
+            "categorySmallName": "실내화"
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 100100100,
+            "categoryMediumName": null,
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291112100,
+            "categoryMediumName": "홈패브릭",
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": []
+      },
+      {
+        "itemNo": 2268139,
+        "itemName": "[29CM 단독] 60s 빈티지 러그 5COLORS 4SIZES",
+        "frontBrandNo": 14703,
+        "frontBrandNameKor": "핀카",
+        "frontBrandNameEng": "FINCA",
+        "consumerPrice": 58000,
+        "imageUrl": "/next-product/2023/10/16/c5eb3d37f8ec410fbf66207abdef7d1b_20231016160259.jpg",
+        "heartCount": 13176,
+        "reviewCount": 250,
+        "lastSalePercent": 20,
+        "lastSalePrice": 46550,
+        "isSoldOut": false,
+        "isFreeShipping": true,
+        "isNew": false,
+        "reviewAveragePoint": 4.8,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": [
+          "#21ba21",
+          "#0f4384",
+          "#fbfcdf",
+          "#764006",
+          "#3585c2",
+          "#d9d9d9"
+        ],
+        "saleInfoV2": {
+          "consumerPrice": 58000,
+          "sellPrice": 49000,
+          "saleRate": 16,
+          "couponSaleRate": 5,
+          "isCoupon": true,
+          "totalSellPrice": 46550,
+          "totalSaleRate": 20
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291112100,
+            "categoryMediumName": "홈패브릭",
+            "categorySmallCode": 291112104,
+            "categorySmallName": "러그"
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 100100100,
+            "categoryMediumName": null,
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291112100,
+            "categoryMediumName": "홈패브릭",
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": [
+          {
+            "priority": "PRIMARY",
+            "text": "얼리이굿위크"
+          }
+        ]
+      },
+      {
+        "itemNo": 2567232,
+        "itemName": "리틀 그레이 버니 플러시 쿠션",
+        "frontBrandNo": 4,
+        "frontBrandNameKor": "키티버니포니",
+        "frontBrandNameEng": "kittybunnypony",
+        "consumerPrice": 53000,
+        "imageUrl": "/item/202404/11eef0bca163960f88b19704549e860f.png",
+        "heartCount": 4830,
+        "reviewCount": 49,
+        "lastSalePercent": 0,
+        "lastSalePrice": 53000,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 4.9,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": ["#d9d9d9"],
+        "saleInfoV2": {
+          "consumerPrice": 53000,
+          "sellPrice": 53000,
+          "saleRate": 0,
+          "couponSaleRate": 0,
+          "isCoupon": false,
+          "totalSellPrice": 53000,
+          "totalSaleRate": 0
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291114100,
+            "categoryMediumName": "침구",
+            "categorySmallCode": 291114109,
+            "categorySmallName": "쿠션"
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": []
+      },
+      {
+        "itemNo": 429678,
+        "itemName": "도즈 60수 고밀도순면 베개커버 16종",
+        "frontBrandNo": 4547,
+        "frontBrandNameKor": "마틸라",
+        "frontBrandNameEng": "MAATILA",
+        "consumerPrice": 24900,
+        "imageUrl": "/item/202407/11ef44a65b6e4dfd8362c3a7ede84485.jpg",
+        "heartCount": 2821,
+        "reviewCount": 905,
+        "lastSalePercent": 40,
+        "lastSalePrice": 14900,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 4.8,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": [
+          "#fbfcdf",
+          "#ffffff",
+          "#f5ecc3",
+          "#3585c2",
+          "#bb193e",
+          "#6b6b6b",
+          "#eb3691",
+          "#000000",
+          "#5ad99f",
+          "#d9d9d9",
+          "#21ba21",
+          "#0f4384"
+        ],
+        "saleInfoV2": {
+          "consumerPrice": 24900,
+          "sellPrice": 14900,
+          "saleRate": 40,
+          "couponSaleRate": 0,
+          "isCoupon": false,
+          "totalSellPrice": 14900,
+          "totalSaleRate": 40
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291114100,
+            "categoryMediumName": "침구",
+            "categorySmallCode": 291114111,
+            "categorySmallName": "베개커버"
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": []
+      },
+      {
+        "itemNo": 2742350,
+        "itemName": "tomato basket",
+        "frontBrandNo": 44444,
+        "frontBrandNameKor": "일루",
+        "frontBrandNameEng": "ILLU",
+        "consumerPrice": 48000,
+        "imageUrl": "/item/202408/11ef4fce91e0549189fb41f629f77c28.jpg",
+        "heartCount": 2030,
+        "reviewCount": 6,
+        "lastSalePercent": 0,
+        "lastSalePrice": 48000,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 4.8,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": ["#d50c0c"],
+        "saleInfoV2": {
+          "consumerPrice": 48000,
+          "sellPrice": 48000,
+          "saleRate": 0,
+          "couponSaleRate": 0,
+          "isCoupon": false,
+          "totalSellPrice": 48000,
+          "totalSaleRate": 0
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291105100,
+            "categoryMediumName": "홈데코",
+            "categorySmallCode": 291105110,
+            "categorySmallName": "인테리어소품"
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": []
+      },
+      {
+        "itemNo": 1370335,
+        "itemName": "eco fur heavy blanket - surreal purple 에코퍼 양면 블랭킷 무릎담요",
+        "frontBrandNo": 13321,
+        "frontBrandNameKor": "오렌지스위밍풀",
+        "frontBrandNameEng": "orangeswimmingpool",
+        "consumerPrice": 98000,
+        "imageUrl": "/next-product/2022/01/11/69938324d4814faabf636e5da5c5666c_20220111171846.jpg",
+        "heartCount": 3724,
+        "reviewCount": 9,
+        "lastSalePercent": 5,
+        "lastSalePrice": 93100,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 5.0,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": ["#83007e"],
+        "saleInfoV2": {
+          "consumerPrice": 98000,
+          "sellPrice": 93100,
+          "saleRate": 5,
+          "couponSaleRate": 0,
+          "isCoupon": false,
+          "totalSellPrice": 93100,
+          "totalSaleRate": 5
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291112100,
+            "categoryMediumName": "홈패브릭",
+            "categorySmallCode": 291112109,
+            "categorySmallName": "담요"
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": []
+      },
+      {
+        "itemNo": 1185571,
+        "itemName": "호텔 100수 고정밴드 침대패드(SS/Q/K) 5종",
+        "frontBrandNo": 4547,
+        "frontBrandNameKor": "마틸라",
+        "frontBrandNameEng": "MAATILA",
+        "consumerPrice": 83200,
+        "imageUrl": "/item/202406/11ef2eaa8f7badf183626577e44b1b18.jpg",
+        "heartCount": 1185,
+        "reviewCount": 250,
+        "lastSalePercent": 40,
+        "lastSalePrice": 49900,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 4.7,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": ["#ffffff", "#6b6b6b", "#fbfcdf", "#d9d9d9"],
+        "saleInfoV2": {
+          "consumerPrice": 83200,
+          "sellPrice": 49900,
+          "saleRate": 40,
+          "couponSaleRate": 0,
+          "isCoupon": false,
+          "totalSellPrice": 49900,
+          "totalSaleRate": 40
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291114100,
+            "categoryMediumName": "침구",
+            "categorySmallCode": 291114108,
+            "categorySmallName": "스프레드"
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": []
+      },
+      {
+        "itemNo": 313317,
+        "itemName": "스테이 먼지없는 홑/누빔 매트리스커버(SS/Q/K) 9종",
+        "frontBrandNo": 4547,
+        "frontBrandNameKor": "마틸라",
+        "frontBrandNameEng": "MAATILA",
+        "consumerPrice": 41500,
+        "imageUrl": "/item/202406/11ef3456109cfbb1aad2d9469fe81405.jpg",
+        "heartCount": 2619,
+        "reviewCount": 820,
+        "lastSalePercent": 40,
+        "lastSalePrice": 24900,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 4.7,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": [
+          "#fbfcdf",
+          "#ffffff",
+          "#3585c2",
+          "#5ad99f",
+          "#f3e219",
+          "#21ba21",
+          "#d9d9d9",
+          "#6b6b6b"
+        ],
+        "saleInfoV2": {
+          "consumerPrice": 41500,
+          "sellPrice": 24900,
+          "saleRate": 40,
+          "couponSaleRate": 0,
+          "isCoupon": false,
+          "totalSellPrice": 24900,
+          "totalSaleRate": 40
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291114100,
+            "categoryMediumName": "침구",
+            "categorySmallCode": 291114106,
+            "categorySmallName": "매트리스커버"
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": []
+      },
+      {
+        "itemNo": 2839806,
+        "itemName": "꼴레 X 캐스퍼 아크릴 쉐이커 스티콘",
+        "frontBrandNo": 20591,
+        "frontBrandNameKor": "꼴레",
+        "frontBrandNameEng": "COLLER",
+        "consumerPrice": 20000,
+        "imageUrl": "/item/202409/11ef771b9c3a3fdca27f8b3fa19dbc93.jpg",
+        "heartCount": 678,
+        "reviewCount": 2,
+        "lastSalePercent": 10,
+        "lastSalePrice": 18000,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 3.5,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": [],
+        "saleInfoV2": {
+          "consumerPrice": 20000,
+          "sellPrice": 20000,
+          "saleRate": 0,
+          "couponSaleRate": 10,
+          "isCoupon": true,
+          "totalSellPrice": 18000,
+          "totalSaleRate": 10
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291105100,
+            "categoryMediumName": "홈데코",
+            "categorySmallCode": 291105110,
+            "categorySmallName": "인테리어소품"
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291110100,
+            "categoryMediumName": "스테이셔너리",
+            "categorySmallCode": 291110107,
+            "categorySmallName": "스티커"
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 100100100,
+            "categoryMediumName": null,
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291110100,
+            "categoryMediumName": "스테이셔너리",
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291105100,
+            "categoryMediumName": "홈데코",
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": []
+      },
+      {
+        "itemNo": 1633081,
+        "itemName": "[Filles du Ciel] 프렌치 양털 실내화 - 부츠형 / 핑크베이지",
+        "frontBrandNo": 16790,
+        "frontBrandNameKor": "피이뒤시엘",
+        "frontBrandNameEng": "Filles du Ciel",
+        "consumerPrice": 67000,
+        "imageUrl": "/next-product/2022/12/08/ff9ea3cbd94e4e70b47219e2f82e13b7_20221208082608.png",
+        "heartCount": 5248,
+        "reviewCount": 78,
+        "lastSalePercent": 0,
+        "lastSalePrice": 67000,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 4.9,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": ["#f5ecc3", "#eb3691", "#ea8cbb"],
+        "saleInfoV2": {
+          "consumerPrice": 67000,
+          "sellPrice": 67000,
+          "saleRate": 0,
+          "couponSaleRate": 0,
+          "isCoupon": false,
+          "totalSellPrice": 67000,
+          "totalSaleRate": 0
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291112100,
+            "categoryMediumName": "홈패브릭",
+            "categorySmallCode": 291112106,
+            "categorySmallName": "실내화"
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": []
+      },
+      {
+        "itemNo": 2489469,
+        "itemName": "온가족템 데일리슬립 먼지없는 고정밴드 침대패드(SS/Q/K) 5종",
+        "frontBrandNo": 4547,
+        "frontBrandNameKor": "마틸라",
+        "frontBrandNameEng": "MAATILA",
+        "consumerPrice": 66500,
+        "imageUrl": "/item/202406/11ef32c0598b372b83629b09e4805a87.jpg",
+        "heartCount": 2778,
+        "reviewCount": 190,
+        "lastSalePercent": 40,
+        "lastSalePrice": 39900,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 4.7,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": ["#f5ecc3", "#fbfcdf", "#21ba21", "#ffffff", "#6b6b6b"],
+        "saleInfoV2": {
+          "consumerPrice": 66500,
+          "sellPrice": 39900,
+          "saleRate": 40,
+          "couponSaleRate": 0,
+          "isCoupon": false,
+          "totalSellPrice": 39900,
+          "totalSaleRate": 40
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291114100,
+            "categoryMediumName": "침구",
+            "categorySmallCode": 291114108,
+            "categorySmallName": "스프레드"
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": []
+      },
+      {
+        "itemNo": 523147,
+        "itemName": "구스다운 솜털90% 판초 휴대용 블랭킷(네이비)",
+        "frontBrandNo": 7693,
+        "frontBrandNameKor": "블랑데코",
+        "frontBrandNameEng": "Blancdecor",
+        "consumerPrice": 62300,
+        "imageUrl": "/next-product/2019/11/25/8bdc9a7e786d41aa82230245ce119c75_20191125102941.jpg",
+        "heartCount": 2765,
+        "reviewCount": 3,
+        "lastSalePercent": 6,
+        "lastSalePrice": 58600,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 4.7,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": ["#0f4384"],
+        "saleInfoV2": {
+          "consumerPrice": 62300,
+          "sellPrice": 58600,
+          "saleRate": 6,
+          "couponSaleRate": 0,
+          "isCoupon": false,
+          "totalSellPrice": 58600,
+          "totalSaleRate": 6
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291112100,
+            "categoryMediumName": "홈패브릭",
+            "categorySmallCode": 291112109,
+            "categorySmallName": "담요"
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291118100,
+            "categoryMediumName": "홀리데이 아이템",
+            "categorySmallCode": 291118103,
+            "categorySmallName": "패브릭"
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 100100100,
+            "categoryMediumName": null,
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291112100,
+            "categoryMediumName": "홈패브릭",
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": []
+      },
+      {
+        "itemNo": 1159683,
+        "itemName": "도즈 60수 고밀도순면 홑/누빔매트리스커버(SS/Q) 8종",
+        "frontBrandNo": 4547,
+        "frontBrandNameKor": "마틸라",
+        "frontBrandNameEng": "MAATILA",
+        "consumerPrice": 66500,
+        "imageUrl": "/item/202401/11eeaf902ad0750d91eb7d7a33e1ded8.jpg",
+        "heartCount": 2286,
+        "reviewCount": 396,
+        "lastSalePercent": 46,
+        "lastSalePrice": 35900,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 4.8,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": [
+          "#ffffff",
+          "#0f4384",
+          "#21ba21",
+          "#fbfcdf",
+          "#f5ecc3",
+          "#764006",
+          "#d50c0c",
+          "#6b6b6b",
+          "#000000"
+        ],
+        "saleInfoV2": {
+          "consumerPrice": 66500,
+          "sellPrice": 35900,
+          "saleRate": 46,
+          "couponSaleRate": 0,
+          "isCoupon": false,
+          "totalSellPrice": 35900,
+          "totalSaleRate": 46
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291114100,
+            "categoryMediumName": "침구",
+            "categorySmallCode": 291114106,
+            "categorySmallName": "매트리스커버"
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": []
+      },
+      {
+        "itemNo": 311265,
+        "itemName": "스테이 먼지없는 고정밴드 침대패드(SS/Q/K) 11종",
+        "frontBrandNo": 4547,
+        "frontBrandNameKor": "마틸라",
+        "frontBrandNameEng": "MAATILA",
+        "consumerPrice": 49900,
+        "imageUrl": "/item/202407/11ef377cd73c252583626f832d39e658.jpg",
+        "heartCount": 3167,
+        "reviewCount": 647,
+        "lastSalePercent": 40,
+        "lastSalePrice": 29900,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 4.7,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": [
+          "#ebbd87",
+          "#6b6b6b",
+          "#d9d9d9",
+          "#fbfcdf",
+          "#f5ecc3",
+          "#ffffff",
+          "#3585c2",
+          "#5ad99f",
+          "#f3e219",
+          "#21ba21",
+          "#0f4384",
+          "#000000"
+        ],
+        "saleInfoV2": {
+          "consumerPrice": 49900,
+          "sellPrice": 29900,
+          "saleRate": 40,
+          "couponSaleRate": 0,
+          "isCoupon": false,
+          "totalSellPrice": 29900,
+          "totalSaleRate": 40
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291114100,
+            "categoryMediumName": "침구",
+            "categorySmallCode": 291114108,
+            "categorySmallName": "스프레드"
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": []
+      },
+      {
+        "itemNo": 2851737,
+        "itemName": "[29CM 단독] 빈티지 타일 베이지민트 러그 4sizes",
+        "frontBrandNo": 14703,
+        "frontBrandNameKor": "핀카",
+        "frontBrandNameEng": "FINCA",
+        "consumerPrice": 36000,
+        "imageUrl": "/item/202409/11ef7f2be7f3a472a27fcbdb17a9d005.jpg",
+        "heartCount": 775,
+        "reviewCount": 3,
+        "lastSalePercent": 19,
+        "lastSalePrice": 29070,
+        "isSoldOut": false,
+        "isFreeShipping": true,
+        "isNew": false,
+        "reviewAveragePoint": 5.0,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": ["#f5ecc3", "#fbfcdf", "#5ad99f"],
+        "saleInfoV2": {
+          "consumerPrice": 36000,
+          "sellPrice": 30600,
+          "saleRate": 15,
+          "couponSaleRate": 5,
+          "isCoupon": true,
+          "totalSellPrice": 29070,
+          "totalSaleRate": 19
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291112100,
+            "categoryMediumName": "홈패브릭",
+            "categorySmallCode": 291112104,
+            "categorySmallName": "러그"
+          },
+          {
+            "categoryLargeCode": 292100100,
+            "categoryLargeName": "주방,생활",
+            "categoryMediumCode": 292107100,
+            "categoryMediumName": "욕실",
+            "categorySmallCode": 292107106,
+            "categorySmallName": "발매트"
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": [
+          {
+            "priority": "PRIMARY",
+            "text": "얼리이굿위크"
+          }
+        ]
+      },
+      {
+        "itemNo": 2828826,
+        "itemName": "빌리호텔 먼지없는 세미 극세사 차렵이불 세트(SS/Q/K) 5종",
+        "frontBrandNo": 4547,
+        "frontBrandNameKor": "마틸라",
+        "frontBrandNameEng": "MAATILA",
+        "consumerPrice": 98200,
+        "imageUrl": "/item/202409/11ef701cbb37193e8f476941a0563daf.jpg",
+        "heartCount": 266,
+        "reviewCount": 2,
+        "lastSalePercent": 44,
+        "lastSalePrice": 54900,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 5.0,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": [],
+        "saleInfoV2": {
+          "consumerPrice": 98200,
+          "sellPrice": 54900,
+          "saleRate": 44,
+          "couponSaleRate": 0,
+          "isCoupon": false,
+          "totalSellPrice": 54900,
+          "totalSaleRate": 44
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291114100,
+            "categoryMediumName": "침구",
+            "categorySmallCode": 291114102,
+            "categorySmallName": "차렵이불"
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 100100100,
+            "categoryMediumName": null,
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291114100,
+            "categoryMediumName": "침구",
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": []
+      },
+      {
+        "itemNo": 2906252,
+        "itemName": "[헤이레이X핀카] 파자마 셋업+페인트 세트",
+        "frontBrandNo": 61892,
+        "frontBrandNameKor": "헤이레이",
+        "frontBrandNameEng": "heirei",
+        "consumerPrice": 169000,
+        "imageUrl": "/item/202410/11ef95d72a13265c8fb211b04a3deba0.jpg",
+        "heartCount": 223,
+        "reviewCount": 5,
+        "lastSalePercent": 31,
+        "lastSalePrice": 116529,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 5.0,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": [
+          "#f5ecc3",
+          "#fbfcdf",
+          "#5ad99f",
+          "#47bbdc",
+          "#0f4384",
+          "#83007e",
+          "#b163af",
+          "#ea8cbb",
+          "#eb3691",
+          "#ffffff",
+          "#6b6b6b",
+          "#ededed",
+          "#71842f",
+          "#3585c2"
+        ],
+        "saleInfoV2": {
+          "consumerPrice": 169000,
+          "sellPrice": 125300,
+          "saleRate": 26,
+          "couponSaleRate": 7,
+          "isCoupon": true,
+          "totalSellPrice": 116529,
+          "totalSaleRate": 31
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 100100100,
+            "categoryMediumName": null,
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          },
+          {
+            "categoryLargeCode": 268100100,
+            "categoryLargeName": "여성의류",
+            "categoryMediumCode": 268110100,
+            "categoryMediumName": "홈웨어",
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          },
+          {
+            "categoryLargeCode": 268100100,
+            "categoryLargeName": "여성의류",
+            "categoryMediumCode": 100100100,
+            "categoryMediumName": null,
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291105100,
+            "categoryMediumName": "홈데코",
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291105100,
+            "categoryMediumName": "홈데코",
+            "categorySmallCode": 291105111,
+            "categorySmallName": "DIY"
+          },
+          {
+            "categoryLargeCode": 268100100,
+            "categoryLargeName": "여성의류",
+            "categoryMediumCode": 268110100,
+            "categoryMediumName": "홈웨어",
+            "categorySmallCode": 268110104,
+            "categorySmallName": "세트"
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": []
+      },
+      {
+        "itemNo": 1789467,
+        "itemName": "[29CM 단독] 트리플스트라이프 와인블루 패턴 레이어드 베개커버 50X70 2material",
+        "frontBrandNo": 14703,
+        "frontBrandNameKor": "핀카",
+        "frontBrandNameEng": "FINCA",
+        "consumerPrice": 24000,
+        "imageUrl": "/next-product/2022/10/29/2e67462afde94e7a999effa3ae206f72_20221029191854.jpg",
+        "heartCount": 1069,
+        "reviewCount": 48,
+        "lastSalePercent": 18,
+        "lastSalePrice": 19800,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 4.9,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": ["#bb193e", "#3585c2"],
+        "saleInfoV2": {
+          "consumerPrice": 24000,
+          "sellPrice": 19800,
+          "saleRate": 18,
+          "couponSaleRate": 0,
+          "isCoupon": false,
+          "totalSellPrice": 19800,
+          "totalSaleRate": 18
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291114100,
+            "categoryMediumName": "침구",
+            "categorySmallCode": 291114111,
+            "categorySmallName": "베개커버"
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": [
+          {
+            "priority": "PRIMARY",
+            "text": "얼리이굿위크"
+          }
+        ]
+      },
+      {
+        "itemNo": 2778695,
+        "itemName": "[29CM 단독] [1+1] 테리 벨크로 메모리폼 실내화 층간소음 슬리퍼 (여성용 남성용빅사이즈)",
+        "frontBrandNo": 1836,
+        "frontBrandNameKor": "보웰",
+        "frontBrandNameEng": "BO WELL",
+        "consumerPrice": 56000,
+        "imageUrl": "/item/202408/11ef63591620c48b8362717e990716b5.jpg",
+        "heartCount": 18369,
+        "reviewCount": 206,
+        "lastSalePercent": 0,
+        "lastSalePrice": 56000,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 4.8,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": ["#3585c2", "#b163af", "#5ad99f", "#764006"],
+        "saleInfoV2": {
+          "consumerPrice": 56000,
+          "sellPrice": 56000,
+          "saleRate": 0,
+          "couponSaleRate": 0,
+          "isCoupon": false,
+          "totalSellPrice": 56000,
+          "totalSaleRate": 0
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291112100,
+            "categoryMediumName": "홈패브릭",
+            "categorySmallCode": 291112106,
+            "categorySmallName": "실내화"
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 100100100,
+            "categoryMediumName": null,
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291112100,
+            "categoryMediumName": "홈패브릭",
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": []
+      },
+      {
+        "itemNo": 2874866,
+        "itemName": "[쇼핑백+선물카드증정] 29XAGO ampm 포터블램프 3color",
+        "frontBrandNo": 36027,
+        "frontBrandNameKor": "이구어퍼스트로피",
+        "frontBrandNameEng": "29'",
+        "consumerPrice": 119000,
+        "imageUrl": "/item/202410/11ef910837f95e008fb2ebfccef7f6bf.png",
+        "heartCount": 1143,
+        "reviewCount": 6,
+        "lastSalePercent": 10,
+        "lastSalePrice": 107100,
+        "isSoldOut": false,
+        "isFreeShipping": true,
+        "isNew": false,
+        "reviewAveragePoint": 4.8,
+        "heartOn": false,
+        "subjectDescriptions": [
+          "(미드나잇퍼플 11/4, 아이보리아워 11/11 예약배송)"
+        ],
+        "colorHexes": ["#f3e219", "#fbfcdf", "#0f4384", "#83007e"],
+        "saleInfoV2": {
+          "consumerPrice": 119000,
+          "sellPrice": 119000,
+          "saleRate": 0,
+          "couponSaleRate": 10,
+          "isCoupon": true,
+          "totalSellPrice": 107100,
+          "totalSaleRate": 10
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291117100,
+            "categoryMediumName": "EXCLUSIVE",
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291104100,
+            "categoryMediumName": "조명",
+            "categorySmallCode": 291104111,
+            "categorySmallName": "포터블 조명"
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": []
+      },
+      {
+        "itemNo": 2789643,
+        "itemName": "[29CM 단독] 트리플스트라이프 무봉제 코튼 사계절 차렵이불 2sizes",
+        "frontBrandNo": 14703,
+        "frontBrandNameKor": "핀카",
+        "frontBrandNameEng": "FINCA",
+        "consumerPrice": 130000,
+        "imageUrl": "/item/202408/11ef6623f37564b48f4779270ff4a331.jpg",
+        "heartCount": 486,
+        "reviewCount": 8,
+        "lastSalePercent": 24,
+        "lastSalePrice": 98800,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 4.8,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": [],
+        "saleInfoV2": {
+          "consumerPrice": 130000,
+          "sellPrice": 104000,
+          "saleRate": 20,
+          "couponSaleRate": 5,
+          "isCoupon": true,
+          "totalSellPrice": 98800,
+          "totalSaleRate": 24
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291114100,
+            "categoryMediumName": "침구",
+            "categorySmallCode": 291114102,
+            "categorySmallName": "차렵이불"
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": [
+          {
+            "priority": "PRIMARY",
+            "text": "얼리이굿위크"
+          }
+        ]
+      },
+      {
+        "itemNo": 2717750,
+        "itemName": "[29CM 단독] (w)스탠다드 빈 스트라이프 파자마 긴소매세트 브라운아이보리",
+        "frontBrandNo": 16082,
+        "frontBrandNameKor": "오끼뜨",
+        "frontBrandNameEng": "OGGITT",
+        "consumerPrice": 69000,
+        "imageUrl": "/item/202408/11ef6434db6e243383627b3a08e6e537.jpg",
+        "heartCount": 322,
+        "reviewCount": 18,
+        "lastSalePercent": 15,
+        "lastSalePrice": 58995,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 4.9,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": ["#764006", "#fbfcdf"],
+        "saleInfoV2": {
+          "consumerPrice": 69000,
+          "sellPrice": 62100,
+          "saleRate": 10,
+          "couponSaleRate": 5,
+          "isCoupon": true,
+          "totalSellPrice": 58995,
+          "totalSaleRate": 15
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 268100100,
+            "categoryLargeName": "여성의류",
+            "categoryMediumCode": 268110100,
+            "categoryMediumName": "홈웨어",
+            "categorySmallCode": 268110104,
+            "categorySmallName": "세트"
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291118100,
+            "categoryMediumName": "홀리데이 아이템",
+            "categorySmallCode": 291118103,
+            "categorySmallName": "패브릭"
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": [
+          {
+            "priority": "PRIMARY",
+            "text": "얼리이굿위크"
+          }
+        ]
+      },
+      {
+        "itemNo": 316697,
+        "itemName": "가드 M2 알러지케어 차렵이불 세트(SS/Q/K) 11종",
+        "frontBrandNo": 4547,
+        "frontBrandNameKor": "마틸라",
+        "frontBrandNameEng": "MAATILA",
+        "consumerPrice": 106500,
+        "imageUrl": "/item/202408/11ef55407c607a9983625d9f7084040e.jpg",
+        "heartCount": 20241,
+        "reviewCount": 512,
+        "lastSalePercent": 44,
+        "lastSalePrice": 59900,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 4.7,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": ["#000000", "#21ba21", "#eb3691", "#3585c2"],
+        "saleInfoV2": {
+          "consumerPrice": 106500,
+          "sellPrice": 59900,
+          "saleRate": 44,
+          "couponSaleRate": 0,
+          "isCoupon": false,
+          "totalSellPrice": 59900,
+          "totalSaleRate": 44
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291114100,
+            "categoryMediumName": "침구",
+            "categorySmallCode": 291114102,
+            "categorySmallName": "차렵이불"
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 100100100,
+            "categoryMediumName": null,
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291114100,
+            "categoryMediumName": "침구",
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": [
+          {
+            "priority": "PRIMARY",
+            "text": "얼리이굿위크"
+          }
+        ]
+      },
+      {
+        "itemNo": 320082,
+        "itemName": "가드 M2 알러지케어 이불커버(SS/Q/K) 5종",
+        "frontBrandNo": 4547,
+        "frontBrandNameKor": "마틸라",
+        "frontBrandNameEng": "MAATILA",
+        "consumerPrice": 66500,
+        "imageUrl": "/item/202410/11ef958acf444d998519199863b7a14c.jpg",
+        "heartCount": 1079,
+        "reviewCount": 32,
+        "lastSalePercent": 48,
+        "lastSalePrice": 34900,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 4.8,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": ["#21ba21", "#000000"],
+        "saleInfoV2": {
+          "consumerPrice": 66500,
+          "sellPrice": 34900,
+          "saleRate": 48,
+          "couponSaleRate": 0,
+          "isCoupon": false,
+          "totalSellPrice": 34900,
+          "totalSaleRate": 48
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291114100,
+            "categoryMediumName": "침구",
+            "categorySmallCode": 291114105,
+            "categorySmallName": "이불커버"
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 100100100,
+            "categoryMediumName": null,
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291114100,
+            "categoryMediumName": "침구",
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": []
+      },
+      {
+        "itemNo": 2583049,
+        "itemName": "[29CM 단독] (uni)도미토리 티킹 스트라이프 파자마 블루",
+        "frontBrandNo": 16082,
+        "frontBrandNameKor": "오끼뜨",
+        "frontBrandNameEng": "OGGITT",
+        "consumerPrice": 63000,
+        "imageUrl": "/item/202404/11eefd3d787219df88b16fa510cc2573.jpg",
+        "heartCount": 610,
+        "reviewCount": 80,
+        "lastSalePercent": 15,
+        "lastSalePrice": 53865,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 4.9,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": ["#3585c2"],
+        "saleInfoV2": {
+          "consumerPrice": 63000,
+          "sellPrice": 56700,
+          "saleRate": 10,
+          "couponSaleRate": 5,
+          "isCoupon": true,
+          "totalSellPrice": 53865,
+          "totalSaleRate": 15
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 268100100,
+            "categoryLargeName": "여성의류",
+            "categoryMediumCode": 268110100,
+            "categoryMediumName": "홈웨어",
+            "categorySmallCode": 268110104,
+            "categorySmallName": "세트"
+          },
+          {
+            "categoryLargeCode": 272100100,
+            "categoryLargeName": "남성의류",
+            "categoryMediumCode": 272113100,
+            "categoryMediumName": "홈웨어",
+            "categorySmallCode": 272113103,
+            "categorySmallName": "세트"
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291118100,
+            "categoryMediumName": "홀리데이 아이템",
+            "categorySmallCode": 291118103,
+            "categorySmallName": "패브릭"
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": [
+          {
+            "priority": "PRIMARY",
+            "text": "얼리이굿위크"
+          }
+        ]
+      },
+      {
+        "itemNo": 2851693,
+        "itemName": "[29CM 단독] 러프스트라이프 발매트 주방매트 베이지블루 2sizes",
+        "frontBrandNo": 14703,
+        "frontBrandNameKor": "핀카",
+        "frontBrandNameEng": "FINCA",
+        "consumerPrice": 23000,
+        "imageUrl": "/item/202409/11ef7f0be25edc059714652d28917215.jpg",
+        "heartCount": 615,
+        "reviewCount": 11,
+        "lastSalePercent": 15,
+        "lastSalePrice": 19500,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 4.9,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": ["#764006", "#f5ecc3", "#fbfcdf", "#47bbdc", "#3585c2"],
+        "saleInfoV2": {
+          "consumerPrice": 23000,
+          "sellPrice": 19500,
+          "saleRate": 15,
+          "couponSaleRate": 0,
+          "isCoupon": false,
+          "totalSellPrice": 19500,
+          "totalSaleRate": 15
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291112100,
+            "categoryMediumName": "홈패브릭",
+            "categorySmallCode": 291112104,
+            "categorySmallName": "러그"
+          },
+          {
+            "categoryLargeCode": 292100100,
+            "categoryLargeName": "주방,생활",
+            "categoryMediumCode": 292107100,
+            "categoryMediumName": "욕실",
+            "categorySmallCode": 292107106,
+            "categorySmallName": "발매트"
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": [
+          {
+            "priority": "PRIMARY",
+            "text": "얼리이굿위크"
+          }
+        ]
+      },
+      {
+        "itemNo": 1891788,
+        "itemName": "베이비로우 미니싱글 요세트 - 핑크&그레이",
+        "frontBrandNo": 8318,
+        "frontBrandNameKor": "쉐어룸",
+        "frontBrandNameEng": "SHAREROOM",
+        "consumerPrice": 66100,
+        "imageUrl": "/next-product/2023/01/27/41cf79be510d42e9bddeea2f722b0820_20230127114222.jpg",
+        "heartCount": 5810,
+        "reviewCount": 6,
+        "lastSalePercent": 10,
+        "lastSalePrice": 59500,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 4.7,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": ["#ea8cbb", "#6b6b6b", "#d9d9d9", "#ededed", "#eb3691"],
+        "saleInfoV2": {
+          "consumerPrice": 66100,
+          "sellPrice": 59500,
+          "saleRate": 10,
+          "couponSaleRate": 0,
+          "isCoupon": false,
+          "totalSellPrice": 59500,
+          "totalSaleRate": 10
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291114100,
+            "categoryMediumName": "침구",
+            "categorySmallCode": 291114101,
+            "categorySmallName": "침구세트"
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": []
+      },
+      {
+        "itemNo": 2160808,
+        "itemName": "[29CM 단독] (w)스탠다드 티킹 스트라이프 파자마 긴소매세트 화이트",
+        "frontBrandNo": 16082,
+        "frontBrandNameKor": "오끼뜨",
+        "frontBrandNameEng": "OGGITT",
+        "consumerPrice": 63000,
+        "imageUrl": "/item/202308/11ee375e20151556a5ca5bd24c8d6397.jpg",
+        "heartCount": 5362,
+        "reviewCount": 353,
+        "lastSalePercent": 15,
+        "lastSalePrice": 53865,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 4.9,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": ["#ffffff"],
+        "saleInfoV2": {
+          "consumerPrice": 63000,
+          "sellPrice": 56700,
+          "saleRate": 10,
+          "couponSaleRate": 5,
+          "isCoupon": true,
+          "totalSellPrice": 53865,
+          "totalSaleRate": 15
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 268100100,
+            "categoryLargeName": "여성의류",
+            "categoryMediumCode": 268110100,
+            "categoryMediumName": "홈웨어",
+            "categorySmallCode": 268110104,
+            "categorySmallName": "세트"
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291118100,
+            "categoryMediumName": "홀리데이 아이템",
+            "categorySmallCode": 291118103,
+            "categorySmallName": "패브릭"
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": [
+          {
+            "priority": "PRIMARY",
+            "text": "얼리이굿위크"
+          }
+        ]
+      },
+      {
+        "itemNo": 2851681,
+        "itemName": "[29CM 단독] 모아레 러그 오렌지브릭 4sizes",
+        "frontBrandNo": 14703,
+        "frontBrandNameKor": "핀카",
+        "frontBrandNameEng": "FINCA",
+        "consumerPrice": 36000,
+        "imageUrl": "/item/202409/11ef7f2c4f246b00a27fc1ade6132f97.jpg",
+        "heartCount": 410,
+        "reviewCount": 2,
+        "lastSalePercent": 19,
+        "lastSalePrice": 29070,
+        "isSoldOut": false,
+        "isFreeShipping": true,
+        "isNew": false,
+        "reviewAveragePoint": 5.0,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": ["#f66800", "#bb193e"],
+        "saleInfoV2": {
+          "consumerPrice": 36000,
+          "sellPrice": 30600,
+          "saleRate": 15,
+          "couponSaleRate": 5,
+          "isCoupon": true,
+          "totalSellPrice": 29070,
+          "totalSaleRate": 19
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291112100,
+            "categoryMediumName": "홈패브릭",
+            "categorySmallCode": 291112104,
+            "categorySmallName": "러그"
+          },
+          {
+            "categoryLargeCode": 292100100,
+            "categoryLargeName": "주방,생활",
+            "categoryMediumCode": 292107100,
+            "categoryMediumName": "욕실",
+            "categorySmallCode": 292107106,
+            "categorySmallName": "발매트"
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": [
+          {
+            "priority": "PRIMARY",
+            "text": "얼리이굿위크"
+          }
+        ]
+      },
+      {
+        "itemNo": 416002,
+        "itemName": "[29CM 단독] 비스크 러그 2type",
+        "frontBrandNo": 2511,
+        "frontBrandNameKor": "메종드룸룸",
+        "frontBrandNameEng": "MASION DE ROOM ROOM",
+        "consumerPrice": 99000,
+        "imageUrl": "/next-product/2019/07/30/ebf96a9fa90d4c08bfa235a0cbd1e222_20190730113213.jpg",
+        "heartCount": 6601,
+        "reviewCount": 53,
+        "lastSalePercent": 10,
+        "lastSalePrice": 89100,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 4.9,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": ["#d50c0c", "#6b6b6b", "#5ad99f", "#d9d9d9"],
+        "saleInfoV2": {
+          "consumerPrice": 99000,
+          "sellPrice": 89100,
+          "saleRate": 10,
+          "couponSaleRate": 0,
+          "isCoupon": false,
+          "totalSellPrice": 89100,
+          "totalSaleRate": 10
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291112100,
+            "categoryMediumName": "홈패브릭",
+            "categorySmallCode": 291112104,
+            "categorySmallName": "러그"
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291117100,
+            "categoryMediumName": "EXCLUSIVE",
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": [
+          {
+            "priority": "PRIMARY",
+            "text": "얼리이굿위크"
+          }
+        ]
+      },
+      {
+        "itemNo": 1742161,
+        "itemName": "[29CM 단독] 60s 빈티지 브라운 러그 4sizes",
+        "frontBrandNo": 14703,
+        "frontBrandNameKor": "핀카",
+        "frontBrandNameEng": "FINCA",
+        "consumerPrice": 58000,
+        "imageUrl": "/next-product/2022/10/01/8943aed6c2da4417bc385b5d6f5298a7_20221001214300.jpg",
+        "heartCount": 3502,
+        "reviewCount": 74,
+        "lastSalePercent": 20,
+        "lastSalePrice": 46550,
+        "isSoldOut": false,
+        "isFreeShipping": true,
+        "isNew": false,
+        "reviewAveragePoint": 4.9,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": ["#ffffff", "#000000", "#764006"],
+        "saleInfoV2": {
+          "consumerPrice": 58000,
+          "sellPrice": 49000,
+          "saleRate": 16,
+          "couponSaleRate": 5,
+          "isCoupon": true,
+          "totalSellPrice": 46550,
+          "totalSaleRate": 20
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291112100,
+            "categoryMediumName": "홈패브릭",
+            "categorySmallCode": 291112104,
+            "categorySmallName": "러그"
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": [
+          {
+            "priority": "PRIMARY",
+            "text": "얼리이굿위크"
+          }
+        ]
+      },
+      {
+        "itemNo": 429681,
+        "itemName": "도즈 60수 고밀도순면 고정밴드 침대패드(SS/Q/K) 10종",
+        "frontBrandNo": 4547,
+        "frontBrandNameKor": "마틸라",
+        "frontBrandNameEng": "MAATILA",
+        "consumerPrice": 66500,
+        "imageUrl": "/item/202401/11eeaf9183da3b5a83777f3cf13798c4.jpg",
+        "heartCount": 3306,
+        "reviewCount": 724,
+        "lastSalePercent": 40,
+        "lastSalePrice": 39900,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 4.7,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": [
+          "#ffffff",
+          "#fbfcdf",
+          "#f5ecc3",
+          "#21ba21",
+          "#0f4384",
+          "#000000",
+          "#d9d9d9",
+          "#6b6b6b"
+        ],
+        "saleInfoV2": {
+          "consumerPrice": 66500,
+          "sellPrice": 39900,
+          "saleRate": 40,
+          "couponSaleRate": 0,
+          "isCoupon": false,
+          "totalSellPrice": 39900,
+          "totalSaleRate": 40
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291114100,
+            "categoryMediumName": "침구",
+            "categorySmallCode": 291114108,
+            "categorySmallName": "스프레드"
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": []
+      },
+      {
+        "itemNo": 2851695,
+        "itemName": "[29CM 단독] 러프스트라이프 러그 베이지블루 3sizes",
+        "frontBrandNo": 14703,
+        "frontBrandNameKor": "핀카",
+        "frontBrandNameEng": "FINCA",
+        "consumerPrice": 36000,
+        "imageUrl": "/item/202409/11ef7f2e11fa3cc3a23c19f00d172c3e.png",
+        "heartCount": 1438,
+        "reviewCount": 11,
+        "lastSalePercent": 19,
+        "lastSalePrice": 29070,
+        "isSoldOut": false,
+        "isFreeShipping": true,
+        "isNew": false,
+        "reviewAveragePoint": 4.7,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": ["#764006", "#f5ecc3", "#fbfcdf", "#47bbdc", "#3585c2"],
+        "saleInfoV2": {
+          "consumerPrice": 36000,
+          "sellPrice": 30600,
+          "saleRate": 15,
+          "couponSaleRate": 5,
+          "isCoupon": true,
+          "totalSellPrice": 29070,
+          "totalSaleRate": 19
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291112100,
+            "categoryMediumName": "홈패브릭",
+            "categorySmallCode": 291112104,
+            "categorySmallName": "러그"
+          },
+          {
+            "categoryLargeCode": 292100100,
+            "categoryLargeName": "주방,생활",
+            "categoryMediumCode": 292107100,
+            "categoryMediumName": "욕실",
+            "categorySmallCode": 292107106,
+            "categorySmallName": "발매트"
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 100100100,
+            "categoryMediumName": null,
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          },
+          {
+            "categoryLargeCode": 292100100,
+            "categoryLargeName": "주방,생활",
+            "categoryMediumCode": 100100100,
+            "categoryMediumName": null,
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291112100,
+            "categoryMediumName": "홈패브릭",
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          },
+          {
+            "categoryLargeCode": 292100100,
+            "categoryLargeName": "주방,생활",
+            "categoryMediumCode": 292107100,
+            "categoryMediumName": "욕실",
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": [
+          {
+            "priority": "PRIMARY",
+            "text": "얼리이굿위크"
+          }
+        ]
+      },
+      {
+        "itemNo": 2315909,
+        "itemName": "[무아스] 23W 플랫스퀘어 3 in 1 고속 무선충전기 무드등 각도조절",
+        "frontBrandNo": 1570,
+        "frontBrandNameKor": "무아스",
+        "frontBrandNameEng": "MOOAS",
+        "consumerPrice": 34900,
+        "imageUrl": "/item/202310/11ee77cc7e0b7deb83bc876197299e47.jpg",
+        "heartCount": 19740,
+        "reviewCount": 571,
+        "lastSalePercent": 15,
+        "lastSalePrice": 29800,
+        "isSoldOut": false,
+        "isFreeShipping": true,
+        "isNew": false,
+        "reviewAveragePoint": 4.8,
+        "heartOn": false,
+        "subjectDescriptions": ["[BEST]"],
+        "colorHexes": [],
+        "saleInfoV2": {
+          "consumerPrice": 34900,
+          "sellPrice": 29800,
+          "saleRate": 15,
+          "couponSaleRate": 0,
+          "isCoupon": false,
+          "totalSellPrice": 29800,
+          "totalSaleRate": 15
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291104100,
+            "categoryMediumName": "조명",
+            "categorySmallCode": 291104108,
+            "categorySmallName": "무드등"
+          },
+          {
+            "categoryLargeCode": 294100100,
+            "categoryLargeName": "컴퓨터,디지털",
+            "categoryMediumCode": 294108100,
+            "categoryMediumName": "모바일 액세서리",
+            "categorySmallCode": 294108105,
+            "categorySmallName": "충전기,거치대"
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": []
+      },
+      {
+        "itemNo": 2459707,
+        "itemName": "[29CM 단독] (uni)도미토리 더블 티킹 스트라이프 파자마 화이트블랙",
+        "frontBrandNo": 16082,
+        "frontBrandNameKor": "오끼뜨",
+        "frontBrandNameEng": "OGGITT",
+        "consumerPrice": 69000,
+        "imageUrl": "/item/202402/11eecadb7470500ab2382f98d034c380.jpg",
+        "heartCount": 2830,
+        "reviewCount": 170,
+        "lastSalePercent": 15,
+        "lastSalePrice": 58995,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 4.9,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": ["#ffffff", "#000000"],
+        "saleInfoV2": {
+          "consumerPrice": 69000,
+          "sellPrice": 62100,
+          "saleRate": 10,
+          "couponSaleRate": 5,
+          "isCoupon": true,
+          "totalSellPrice": 58995,
+          "totalSaleRate": 15
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 268100100,
+            "categoryLargeName": "여성의류",
+            "categoryMediumCode": 268110100,
+            "categoryMediumName": "홈웨어",
+            "categorySmallCode": 268110104,
+            "categorySmallName": "세트"
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291118100,
+            "categoryMediumName": "홀리데이 아이템",
+            "categorySmallCode": 291118103,
+            "categorySmallName": "패브릭"
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": [
+          {
+            "priority": "PRIMARY",
+            "text": "얼리이굿위크"
+          }
+        ]
+      },
+      {
+        "itemNo": 2717769,
+        "itemName": "[29CM 단독] (uni)도미토리 싱글 펜슬 스트라이프 파자마 베이지",
+        "frontBrandNo": 16082,
+        "frontBrandNameKor": "오끼뜨",
+        "frontBrandNameEng": "OGGITT",
+        "consumerPrice": 69000,
+        "imageUrl": "/item/202408/11ef587cad5a4d738362492ab4a12d65.jpg",
+        "heartCount": 285,
+        "reviewCount": 14,
+        "lastSalePercent": 15,
+        "lastSalePrice": 58995,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 5.0,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": ["#f5ecc3"],
+        "saleInfoV2": {
+          "consumerPrice": 69000,
+          "sellPrice": 62100,
+          "saleRate": 10,
+          "couponSaleRate": 5,
+          "isCoupon": true,
+          "totalSellPrice": 58995,
+          "totalSaleRate": 15
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 268100100,
+            "categoryLargeName": "여성의류",
+            "categoryMediumCode": 268110100,
+            "categoryMediumName": "홈웨어",
+            "categorySmallCode": 268110104,
+            "categorySmallName": "세트"
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291118100,
+            "categoryMediumName": "홀리데이 아이템",
+            "categorySmallCode": 291118103,
+            "categorySmallName": "패브릭"
+          },
+          {
+            "categoryLargeCode": 268100100,
+            "categoryLargeName": "여성의류",
+            "categoryMediumCode": 268110100,
+            "categoryMediumName": "홈웨어",
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          },
+          {
+            "categoryLargeCode": 268100100,
+            "categoryLargeName": "여성의류",
+            "categoryMediumCode": 100100100,
+            "categoryMediumName": null,
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": [
+          {
+            "priority": "PRIMARY",
+            "text": "얼리이굿위크"
+          }
+        ]
+      },
+      {
+        "itemNo": 2789647,
+        "itemName": "[29CM 단독] 무봉제 알러지케어 사계절 차렵이불세트 7patterns 2sizes",
+        "frontBrandNo": 14703,
+        "frontBrandNameKor": "핀카",
+        "frontBrandNameEng": "FINCA",
+        "consumerPrice": 153000,
+        "imageUrl": "/item/202409/11ef68f4b72a0d4aa9805b9f4d32b8a5.jpg",
+        "heartCount": 2117,
+        "reviewCount": 19,
+        "lastSalePercent": 35,
+        "lastSalePrice": 98800,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 4.6,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": [],
+        "saleInfoV2": {
+          "consumerPrice": 153000,
+          "sellPrice": 104000,
+          "saleRate": 32,
+          "couponSaleRate": 5,
+          "isCoupon": true,
+          "totalSellPrice": 98800,
+          "totalSaleRate": 35
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291114100,
+            "categoryMediumName": "침구",
+            "categorySmallCode": 291114101,
+            "categorySmallName": "침구세트"
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": [
+          {
+            "priority": "PRIMARY",
+            "text": "얼리이굿위크"
+          }
+        ]
+      },
+      {
+        "itemNo": 2459710,
+        "itemName": "[29CM 단독] (uni)도미토리 파이프 파자마 블랙",
+        "frontBrandNo": 16082,
+        "frontBrandNameKor": "오끼뜨",
+        "frontBrandNameEng": "OGGITT",
+        "consumerPrice": 63000,
+        "imageUrl": "/item/202402/11eecad9ca7652b683770784fff1f16b.jpg",
+        "heartCount": 1275,
+        "reviewCount": 61,
+        "lastSalePercent": 15,
+        "lastSalePrice": 53865,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 4.8,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": ["#000000"],
+        "saleInfoV2": {
+          "consumerPrice": 63000,
+          "sellPrice": 56700,
+          "saleRate": 10,
+          "couponSaleRate": 5,
+          "isCoupon": true,
+          "totalSellPrice": 53865,
+          "totalSaleRate": 15
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 268100100,
+            "categoryLargeName": "여성의류",
+            "categoryMediumCode": 268110100,
+            "categoryMediumName": "홈웨어",
+            "categorySmallCode": 268110104,
+            "categorySmallName": "세트"
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291118100,
+            "categoryMediumName": "홀리데이 아이템",
+            "categorySmallCode": 291118103,
+            "categorySmallName": "패브릭"
+          },
+          {
+            "categoryLargeCode": 268100100,
+            "categoryLargeName": "여성의류",
+            "categoryMediumCode": 268110100,
+            "categoryMediumName": "홈웨어",
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          },
+          {
+            "categoryLargeCode": 268100100,
+            "categoryLargeName": "여성의류",
+            "categoryMediumCode": 100100100,
+            "categoryMediumName": null,
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": [
+          {
+            "priority": "PRIMARY",
+            "text": "얼리이굿위크"
+          }
+        ]
+      },
+      {
+        "itemNo": 2884790,
+        "itemName": "[헤이레이X핀카]미끄럼 방지 미니 러그",
+        "frontBrandNo": 61892,
+        "frontBrandNameKor": "헤이레이",
+        "frontBrandNameEng": "heirei",
+        "consumerPrice": 23000,
+        "imageUrl": "/item/202410/11ef876b343fee588fb29fb7380fbd39.jpg",
+        "heartCount": 435,
+        "reviewCount": 15,
+        "lastSalePercent": 4,
+        "lastSalePrice": 22000,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 5.0,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": [
+          "#f5ecc3",
+          "#fbfcdf",
+          "#5ad99f",
+          "#47bbdc",
+          "#0f4384",
+          "#83007e",
+          "#b163af",
+          "#ea8cbb",
+          "#eb3691",
+          "#ffffff",
+          "#6b6b6b",
+          "#ededed",
+          "#71842f",
+          "#3585c2",
+          "#f66800",
+          "#bb193e",
+          "#f3e219"
+        ],
+        "saleInfoV2": {
+          "consumerPrice": 23000,
+          "sellPrice": 22000,
+          "saleRate": 4,
+          "couponSaleRate": 0,
+          "isCoupon": false,
+          "totalSellPrice": 22000,
+          "totalSaleRate": 4
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 100100100,
+            "categoryMediumName": null,
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291112100,
+            "categoryMediumName": "홈패브릭",
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291105100,
+            "categoryMediumName": "홈데코",
+            "categorySmallCode": 291105110,
+            "categorySmallName": "인테리어소품"
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291105100,
+            "categoryMediumName": "홈데코",
+            "categorySmallCode": 291105111,
+            "categorySmallName": "DIY"
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291105100,
+            "categoryMediumName": "홈데코",
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291112100,
+            "categoryMediumName": "홈패브릭",
+            "categorySmallCode": 291112104,
+            "categorySmallName": "러그"
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": []
+      },
+      {
+        "itemNo": 2008497,
+        "itemName": "[29CM 단독] 알러지케어 패턴 베개커버 2PCS",
+        "frontBrandNo": 14703,
+        "frontBrandNameKor": "핀카",
+        "frontBrandNameEng": "FINCA",
+        "consumerPrice": 48000,
+        "imageUrl": "/next-product/2023/04/04/25ab434bfa8d4abca922d575d1cd9b16_20230404092418.jpg",
+        "heartCount": 3853,
+        "reviewCount": 242,
+        "lastSalePercent": 24,
+        "lastSalePrice": 36480,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 4.7,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": [
+          "#3585c2",
+          "#bb193e",
+          "#000000",
+          "#eb3691",
+          "#f66800",
+          "#5ad99f",
+          "#21ba21",
+          "#83007e",
+          "#764006",
+          "#f5ecc3",
+          "#71842f"
+        ],
+        "saleInfoV2": {
+          "consumerPrice": 48000,
+          "sellPrice": 38400,
+          "saleRate": 20,
+          "couponSaleRate": 5,
+          "isCoupon": true,
+          "totalSellPrice": 36480,
+          "totalSaleRate": 24
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291114100,
+            "categoryMediumName": "침구",
+            "categorySmallCode": 291114111,
+            "categorySmallName": "베개커버"
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": [
+          {
+            "priority": "PRIMARY",
+            "text": "얼리이굿위크"
+          }
+        ]
+      },
+      {
+        "itemNo": 2877567,
+        "itemName": "[29CM 단독] 헤이레이 콜라보 원마일 파자마셋업 5COLORS",
+        "frontBrandNo": 14703,
+        "frontBrandNameKor": "핀카",
+        "frontBrandNameEng": "FINCA",
+        "consumerPrice": 140000,
+        "imageUrl": "/item/202410/11ef92a8200f9dffb8a2fbb2511c5008.png",
+        "heartCount": 283,
+        "reviewCount": 11,
+        "lastSalePercent": 29,
+        "lastSalePrice": 99750,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 5.0,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": [
+          "#bb193e",
+          "#f5ecc3",
+          "#47bbdc",
+          "#3585c2",
+          "#ea8cbb",
+          "#eb3691",
+          "#ebbd87"
+        ],
+        "saleInfoV2": {
+          "consumerPrice": 140000,
+          "sellPrice": 105000,
+          "saleRate": 25,
+          "couponSaleRate": 5,
+          "isCoupon": true,
+          "totalSellPrice": 99750,
+          "totalSaleRate": 29
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 268100100,
+            "categoryLargeName": "여성의류",
+            "categoryMediumCode": 268110100,
+            "categoryMediumName": "홈웨어",
+            "categorySmallCode": 268110104,
+            "categorySmallName": "세트"
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291118100,
+            "categoryMediumName": "홀리데이 아이템",
+            "categorySmallCode": 291118103,
+            "categorySmallName": "패브릭"
+          },
+          {
+            "categoryLargeCode": 268100100,
+            "categoryLargeName": "여성의류",
+            "categoryMediumCode": 268110100,
+            "categoryMediumName": "홈웨어",
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          },
+          {
+            "categoryLargeCode": 268100100,
+            "categoryLargeName": "여성의류",
+            "categoryMediumCode": 100100100,
+            "categoryMediumName": null,
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": []
+      },
+      {
+        "itemNo": 2811677,
+        "itemName": "[29CM단독] 실버문 글리터 리본 알러지케어 M2워셔 차렵이불(SS/Q/K)-크리스탈",
+        "frontBrandNo": 4547,
+        "frontBrandNameKor": "마틸라",
+        "frontBrandNameEng": "MAATILA",
+        "consumerPrice": 133200,
+        "imageUrl": "/item/202409/11ef76243d14ad01a23c634e4526fdd7.jpg",
+        "heartCount": 1113,
+        "reviewCount": 12,
+        "lastSalePercent": 51,
+        "lastSalePrice": 64900,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 5.0,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": ["#ffffff", "#ededed"],
+        "saleInfoV2": {
+          "consumerPrice": 133200,
+          "sellPrice": 64900,
+          "saleRate": 51,
+          "couponSaleRate": 0,
+          "isCoupon": false,
+          "totalSellPrice": 64900,
+          "totalSaleRate": 51
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291114100,
+            "categoryMediumName": "침구",
+            "categorySmallCode": 291114102,
+            "categorySmallName": "차렵이불"
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 100100100,
+            "categoryMediumName": null,
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291114100,
+            "categoryMediumName": "침구",
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": [
+          {
+            "priority": "PRIMARY",
+            "text": "얼리이굿위크"
+          }
+        ]
+      },
+      {
+        "itemNo": 2877547,
+        "itemName": "[29CM 단독] 헤이레이 콜라보 트리플스트라이프 네이비 이불커버 레이어드베딩 SS/Q",
+        "frontBrandNo": 14703,
+        "frontBrandNameKor": "핀카",
+        "frontBrandNameEng": "FINCA",
+        "consumerPrice": 176000,
+        "imageUrl": "/item/202410/11ef9034680100e88fb20734cc485ff0.jpg",
+        "heartCount": 96,
+        "reviewCount": 3,
+        "lastSalePercent": 24,
+        "lastSalePrice": 133760,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 5.0,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": ["#47bbdc", "#0f4384"],
+        "saleInfoV2": {
+          "consumerPrice": 176000,
+          "sellPrice": 140800,
+          "saleRate": 20,
+          "couponSaleRate": 5,
+          "isCoupon": true,
+          "totalSellPrice": 133760,
+          "totalSaleRate": 24
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 100100100,
+            "categoryMediumName": null,
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291114100,
+            "categoryMediumName": "침구",
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291114100,
+            "categoryMediumName": "침구",
+            "categorySmallCode": 291114105,
+            "categorySmallName": "이불커버"
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": []
+      },
+      {
+        "itemNo": 2568940,
+        "itemName": "[쇼핑백+선물카드증정][선물포장] 벌룬고블렛 2P (Smoky gray)",
+        "frontBrandNo": 36027,
+        "frontBrandNameKor": "이구어퍼스트로피",
+        "frontBrandNameEng": "29'",
+        "consumerPrice": 43000,
+        "imageUrl": "/item/202410/11ef904d5afac57785198f3f63720b94.png",
+        "heartCount": 10616,
+        "reviewCount": 125,
+        "lastSalePercent": 25,
+        "lastSalePrice": 32250,
+        "isSoldOut": false,
+        "isFreeShipping": true,
+        "isNew": false,
+        "reviewAveragePoint": 4.8,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": ["#d9d9d9"],
+        "saleInfoV2": {
+          "consumerPrice": 43000,
+          "sellPrice": 32250,
+          "saleRate": 25,
+          "couponSaleRate": 0,
+          "isCoupon": false,
+          "totalSellPrice": 32250,
+          "totalSaleRate": 25
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291117100,
+            "categoryMediumName": "EXCLUSIVE",
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          },
+          {
+            "categoryLargeCode": 292100100,
+            "categoryLargeName": "주방,생활",
+            "categoryMediumCode": 292104100,
+            "categoryMediumName": "테이블웨어",
+            "categorySmallCode": 292104140,
+            "categorySmallName": "고블렛"
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 100100100,
+            "categoryMediumName": null,
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          },
+          {
+            "categoryLargeCode": 292100100,
+            "categoryLargeName": "주방,생활",
+            "categoryMediumCode": 100100100,
+            "categoryMediumName": null,
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          },
+          {
+            "categoryLargeCode": 292100100,
+            "categoryLargeName": "주방,생활",
+            "categoryMediumCode": 292104100,
+            "categoryMediumName": "테이블웨어",
+            "categorySmallCode": 100100100,
+            "categorySmallName": null
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": []
+      },
+      {
+        "itemNo": 2156570,
+        "itemName": "[29CM 단독] (uni)도미토리 펜슬 스트라이프 파자마 레드",
+        "frontBrandNo": 16082,
+        "frontBrandNameKor": "오끼뜨",
+        "frontBrandNameEng": "OGGITT",
+        "consumerPrice": 63000,
+        "imageUrl": "/item/202308/11ee30217bd9a903a5ca0f83e23f06c4.jpg",
+        "heartCount": 4681,
+        "reviewCount": 666,
+        "lastSalePercent": 15,
+        "lastSalePrice": 53865,
+        "isSoldOut": false,
+        "isFreeShipping": false,
+        "isNew": false,
+        "reviewAveragePoint": 4.8,
+        "heartOn": false,
+        "subjectDescriptions": [],
+        "colorHexes": ["#d50c0c"],
+        "saleInfoV2": {
+          "consumerPrice": 63000,
+          "sellPrice": 56700,
+          "saleRate": 10,
+          "couponSaleRate": 5,
+          "isCoupon": true,
+          "totalSellPrice": 53865,
+          "totalSaleRate": 15
+        },
+        "frontCategoryInfo": [
+          {
+            "categoryLargeCode": 268100100,
+            "categoryLargeName": "여성의류",
+            "categoryMediumCode": 268110100,
+            "categoryMediumName": "홈웨어",
+            "categorySmallCode": 268110104,
+            "categorySmallName": "세트"
+          },
+          {
+            "categoryLargeCode": 272100100,
+            "categoryLargeName": "남성의류",
+            "categoryMediumCode": 272113100,
+            "categoryMediumName": "홈웨어",
+            "categorySmallCode": 272113103,
+            "categorySmallName": "세트"
+          },
+          {
+            "categoryLargeCode": 291100100,
+            "categoryLargeName": "가구,인테리어",
+            "categoryMediumCode": 291118100,
+            "categoryMediumName": "홀리데이 아이템",
+            "categorySmallCode": 291118103,
+            "categorySmallName": "패브릭"
+          }
+        ],
+        "eventTags": [],
+        "traceInfo": {
+          "recommendTraceId": "1"
+        },
+        "tags": [
+          {
+            "priority": "PRIMARY",
+            "text": "얼리이굿위크"
+          }
+        ]
+      }
+    ],
+    "totalCount": 74369
+  },
+  "message": null,
+  "errorCode": null
+}

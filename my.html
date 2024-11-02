@@ -19,9 +19,10 @@
     <link rel="stylesheet" href="css/ruler-token.css" />
     <link rel="stylesheet" href="css/common.css" />
     <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/my.css" />
     <title>29CM 반응형</title>
   </head>
-  <body>
+  <body onload="loadProductList()">
     <header>
       <nav>
         <ul>
@@ -33,9 +34,15 @@
       </nav>
     </header>
     <main class="container">
-      <h1>Guide</h1>
-      <p>이곳에 메인 페이지 내용을 추가하세요.</p>
+      <h1>유저 정보&설정 화면케이스</h1>
+      <section class="my-section">
+        <aside>메뉴</aside>
+        <div>
+          <div class="user-membership">띠용</div>
+          <div class="product-list"></div>
+        </div>
+      </section>
     </main>
-    <script src="js/scripts.js"></script>
+    <script src="js/data.js"></script>
   </body>
 </html>

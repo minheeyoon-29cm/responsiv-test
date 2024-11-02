@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="29CM - Responsive Preview " />
+    <meta
+      property="og:description"
+      content="백문이 불여일견 직접 보고 감잡기"
+    />
+    <meta
+      property="og:image"
+      content="https://img.29cm.co.kr/next-edition/2024/10/29/b81f0ba4bb774c41a57455f64dea65e8_20241029044322.jpg"
+    />
+    <meta property="og:url" content="https://29responsive-test.netlify.app/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ko_KR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="stylesheet" href="css/ruler-token.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/full.css">
+    <title>29CM 반응형</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <nav>
+          <ul>
+            <li><a href="index.html">Guide Home</a></li>
+            <li><a href="full.html">Full</a></li>
+            <li><a href="pdp.html">PDP</a></li>
+            <li><a href="my.html">My</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main class="container">
+      <!-- 히어로 배너 -->
+      <section class="hero-banner">
+          <img src="https://via.placeholder.com/1200x400" alt="Hero Banner">
+          <div class="hero-text">
+              <h1>히어로 배너 제목</h1>
+              <p>이곳에 강조하고 싶은 내용을 추가하세요.</p>
+          </div>
+      </section>
+
+      <!-- 캐러셀 섹션 -->
+      <section class="carousel-section">
+        <h2>Get to know iPhone.</h2>
+        <div class="carousel">
+            <button class="carousel-button prev" onclick="moveSlide(-1)">&#10094;</button>
+            <div class="carousel-slides">
+                <div class="slide">
+                    <img src="https://via.placeholder.com/400x700?text=Slide+1" alt="Slide 1">
+                    <h3>Apple Intelligence</h3>
+                    <p>AI-opening possibilities.</p>
+                </div>
+                <div class="slide">
+                    <img src="https://via.placeholder.com/400x700?text=Slide+2" alt="Slide 2">
+                    <h3>Cutting-Edge Cameras</h3>
+                    <p>Picture your best photos and videos.</p>
+                </div>
+                <div class="slide">
+                    <img src="https://via.placeholder.com/400x700?text=Slide+3" alt="Slide 3">
+                    <h3>Chip and Battery Life</h3>
+                    <p>Fast that lasts.</p>
+                </div>
+                <div class="slide">
+                    <img src="https://via.placeholder.com/400x700?text=Slide+4" alt="Slide 4">
+                    <h3>Innovation</h3>
+                    <p>Beautiful and durable, by design.</p>
+                </div>
+                <div class="slide">
+                    <img src="https://via.placeholder.com/400x700?text=Slide+5" alt="Slide 5">
+                    <h3>Environment</h3>
+                    <p>Recycle. Reuse.</p>
+                </div>
+            </div>
+            <button class="carousel-button next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+    </section>
+  </main>
+  <script src="js/script.js"></script>
+  </body>
+</html>

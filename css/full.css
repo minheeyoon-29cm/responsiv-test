@@ -1,0 +1,68 @@
+/* 캐러셀 기본 스타일 */
+.carousel-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.carousel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.carousel-slides {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  min-width: 300px;
+  max-width: 400px;
+  margin: 0 10px;
+  background-color: #f7f7f7;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px 15px 0 0;
+}
+
+.slide h3 {
+  font-size: 1.2rem;
+  margin: 10px;
+}
+
+.slide p {
+  font-size: 1rem;
+  color: #666;
+  margin: 0 10px 10px 10px;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  border-radius: 50%;
+}
+
+.carousel-button.prev {
+  left: 10px;
+}
+
+.carousel-button.next {
+  right: 10px;
+}
