@@ -67,14 +67,8 @@ aside a {
 
 /* --------------------------- */
 /* 프로덕트 카드 리스트(PLP부분) */
+/* responsive.css 에서 제어 */
 /* --------------------------- */
-
-.product-list {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr); /* 5열 그리드 */
-  gap: 8px; /* 열 사이 간격 설정 */
-  margin-bottom: var(--ruler-scale-dimension-400);
-}
 
 /* --------------------------- */
 /* 프로덕트 카드 */
@@ -171,6 +165,12 @@ aside a {
   justify-content: space-between;
 }
 
+.user-buy-product {
+  display: flex;
+  width: 75%;
+  justify-content: space-between;
+}
+
 /* --------------------------- */
 /* 프로덕트 호라이젠탈 카드 */
 /* --------------------------- */
@@ -179,7 +179,7 @@ aside a {
   display: flex;
   align-items: center;
   padding-right: var(--ruler-scale-dimension-225);
-  width: 50%;
+  width: 60%;
 }
 
 .product-h-card img {
@@ -246,10 +246,6 @@ aside a {
 
 /* 버튼 */
 
-.button-group {
-  /* background-color: antiquewhite; */
-}
-
 .primary,
 .secondary {
   font-size: var(--ruler-scale-dimension-font-size-75);
@@ -267,4 +263,146 @@ aside a {
   color: var(--ruler-scale-color-gray-00);
   width: 100%;
   margin-top: var(--ruler-scale-dimension-50);
+}
+
+/* --------------------------- */
+/* 반응형 */
+/* --------------------------- */
+
+/* 1024px 이하의 모바일 화면 스타일 */
+@media only screen and (max-width: 1024px) {
+  .my-section {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .my-section aside {
+    display: none;
+  }
+
+  /* --------------------------- */
+  /* 테이블 */
+  /* --------------------------- */
+
+  .user-table {
+    display: inherit;
+  }
+
+  .user-buy-product {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  /* --------------------------- */
+  /* 프로덕트 호라이젠탈 카드 */
+  /* --------------------------- */
+
+  .product-h-card {
+    width: 100%;
+  }
+
+  .buy-state {
+    width: fit-content;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .buy-state p {
+    font-size: var(--ruler-scale-dimension-font-size-125);
+    color: var(--ruler-semantic-color-text-secondary);
+    margin-top: var(--ruler-scale-dimension-50);
+  }
+
+  .badge {
+    width: fit-content;
+    font-size: var(--ruler-scale-dimension-font-size-125);
+  }
+
+  /* 버튼 */
+
+  .button-group {
+    margin-top: var(--ruler-scale-dimension-225);
+  }
+
+  .secondary-button-group {
+    display: flex;
+    gap: var(--ruler-scale-dimension-100);
+  }
+
+  .secondary {
+    width: 100%;
+  }
+
+  .primary {
+    margin-top: var(--ruler-scale-dimension-100);
+  }
+}
+
+/* 1280px 이하의 터치 디바이스 (모바일 또는 태블릿 화면) */
+@media only screen and (max-width: 1280px) and (pointer: coarse) {
+  .my-section {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .my-section aside {
+    display: none;
+  }
+
+  /* --------------------------- */
+  /* 테이블 */
+  /* --------------------------- */
+
+  .user-table {
+    display: inherit;
+  }
+
+  .user-buy-product {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  /* --------------------------- */
+  /* 프로덕트 호라이젠탈 카드 */
+  /* --------------------------- */
+
+  .product-h-card {
+    width: 100%;
+  }
+
+  .buy-state {
+    width: fit-content;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .buy-state p {
+    font-size: var(--ruler-scale-dimension-font-size-125);
+    color: var(--ruler-semantic-color-text-secondary);
+    margin-top: var(--ruler-scale-dimension-50);
+  }
+
+  .badge {
+    width: fit-content;
+    font-size: var(--ruler-scale-dimension-font-size-125);
+  }
+
+  /* 버튼 */
+
+  .button-group {
+    margin-top: var(--ruler-scale-dimension-225);
+  }
+
+  .secondary-button-group {
+    display: flex;
+    gap: var(--ruler-scale-dimension-100);
+  }
+
+  .secondary {
+    width: 100%;
+  }
+
+  .primary {
+    margin-top: var(--ruler-scale-dimension-100);
+  }
 }

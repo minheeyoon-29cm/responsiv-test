@@ -24,6 +24,25 @@ p {
   box-sizing: border-box;
 }
 
+hr {
+  border: none;
+  border-top: 1px solid var(--ruler-semantic-color-border-line); /* 두께와 색상 조절 */
+  margin: 60px 0; /* 위아래 간격 */
+}
+
+code {
+  display: block;
+  background-color: var(--ruler-scale-color-gray-950);
+  padding: 8px;
+  color: var(--ruler-scale-color-gray-00);
+  border-radius: var(--ruler-scale-corner-radius-75);
+  margin-top: 24px;
+  margin-bottom: 24px;
+  white-space: pre;
+  overflow: auto;
+  word-wrap: break-word;
+}
+
 header {
   background-color: #333;
   color: white;
@@ -48,8 +67,7 @@ nav ul li a {
 
 .container {
   width: 100%;
-  max-width: 1180px; /* 최대 너비 */
-  min-width: 700px; /* 최소 너비 */
+  max-width: 1280px; /* 최대 너비 */
   margin: 0 auto;
   box-sizing: border-box;
   background-color: var(--ruler-semantic-color-background-default);
@@ -69,4 +87,27 @@ nav ul li a {
   margin-bottom: 24px;
   border-bottom: 1px solid var(--ruler-semantic-color-border-line);
   text-align: center;
+}
+
+.guide {
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 100px;
+}
+
+.guide p {
+  line-height: 180%;
+  font-size: 15px;
+  white-space: normal; /* 기본 줄바꿈 허용 */
+  word-wrap: break-word; /* 단어가 길 경우 줄바꿈 */
+  word-break: keep-all; /* 한국어 등 단어 중간 줄바꿈 방지, 영어는 단어 단위로 */
+}
+
+.guide li {
+  margin-bottom: 12px;
+  font-size: 15px;
+  line-height: 180%;
+  white-space: normal; /* 기본 줄바꿈 허용 */
+  word-wrap: break-word; /* 단어가 길 경우 줄바꿈 */
+  word-break: keep-all; /* 한국어 등 단어 중간 줄바꿈 방지, 영어는 단어 단위로 */
 }

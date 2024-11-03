@@ -39,8 +39,157 @@
       </nav>
     </header>
     <main class="container">
-      <h1 class="page-title">Guide</h1>
-      <p>이곳에 메인 페이지 내용을 추가하세요.</p>
+      <h1 class="page-title">29CM 반응형 의사결정을 위한 프로토타입</h1>
+      <div class="guide">
+        <h3>데스크탑 화면 스타일 (1281px 이상)</h3>
+        <code>
+          @media only screen and (min-width: 1281px) { <br />
+          .container { max-width:1280px; }<br />
+          }
+        </code>
+        <p>
+          이 부분은 <strong>1281px 이상</strong>의 넓은 화면에서 적용됩니다.
+          주로 데스크탑과 같은 큰 화면을 기준으로, 콘텐츠가 1280px의 최대 너비
+          내에서 중앙 정렬됩니다.
+        </p>
+
+        <hr />
+
+        <h3>1025px ~ 1280px 사이의 데스크탑 화면 (포인터 디바이스)</h3>
+        <code>
+          @media only screen and (min-width: 1025px) and (max-width: 1280px) and
+          (pointer: fine) { <br />
+          .container { <br />
+          max-width: 1280px; <br />
+          margin: 0 auto; }<br />
+          }
+        </code>
+        <p>
+          <strong>1025px에서 1280px 사이의 포인터 디바이스</strong> (주로
+          데스크탑)에서 적용됩니다. 이 구간에서는 화면 너비가 1025px에서 1280px
+          사이에 맞춰 자연스럽게 줄어들며,
+          <strong
+            >콘텐츠 너비는 최대 1280px까지 확장되지만, 화면에 맞게 조정</strong
+          >되어 가로 스크롤이 생기지 않습니다.
+        </p>
+
+        <li>
+          max-width: 1280px; 으로 화면이 1280px보다 좁아질 경우 자동으로 화면
+          너비에 맞춰 줄어들기 때문에 가로 스크롤이 생기지 않습니다.
+        </li>
+
+        <hr />
+
+        <h3>모바일 화면 스타일 (1024px 이하)</h3>
+        <code>
+          @media only screen and (max-width: 1024px) { <br />
+          .container { <br />
+          width: 100%; <br />
+          max-width: 700px; }<br />
+          }
+        </code>
+        <p>
+          <strong>1024px 이하</strong>의 작은 화면(주로 모바일)에서 적용됩니다.
+          콘텐츠의 너비가 100%로 확장되어 화면 전체를 채우며, 최대 너비는
+          700px로 제한됩니다.
+        </p>
+
+        <hr />
+
+        <h3>터치 디바이스 스타일 (1280px 이하의 터치 기반 디바이스)</h3>
+        <code>
+          @media only screen and (max-width: 1280px) and (pointer: coarse) {<br />
+          .container { <br />
+          max-width: 700px; <br />
+          margin: 0 auto; }<br />
+          }
+        </code>
+        <p>
+          <strong>1280px 이하의 터치 디바이스</strong>(태블릿 또는 모바일)에서
+          적용되며, 콘텐츠의 최대 너비를 700px로 제한하여 터치 기반의 편리한
+          인터페이스를 제공합니다.
+        </p>
+
+        <hr />
+
+        <p>
+          이와 같이, CSS는 <strong>4개의 분기</strong>로 구성되어 다양한 화면
+          크기와 디바이스에 맞게 레이아웃을 자동으로 조정합니다.
+        </p>
+
+        <ul>
+          <li>
+            <strong>CSS 분기 4개</strong>는 코드에서 화면 크기와 입력 방식(터치
+            또는 포인터)에 맞춰 자동으로 레이아웃을 조정합니다.
+          </li>
+          <li>
+            하지만 핵심은, <strong>1024px와 1280px</strong>이 두 가지 분기만
+            기억하면 된다는 것입니다.
+          </li>
+          <li>
+            <strong>디자인 작업은 2가지 주요 화면 크기</strong>에 맞추면
+            충분합니다. 개발 시 CSS가 해당 화면에 맞는 스타일을 적용하여
+            디자이너의 작업을 그대로 반영합니다.
+          </li>
+          <li>
+            1280px 이상 화면에서는 콘텐츠가 최대 1280px 너비로 표시됩니다.
+            <strong>1280px (좌우 패딩 50px로 실제 작업 영역은 1180px)</strong>:
+            넓은 화면을 위한
+            <strong>데스크탑 디자인</strong>
+          </li>
+          <li>
+            1024px 이하 화면에서는 콘텐츠가 최대 700px로 맞춰집니다.
+            <strong>700px (좌우 패딩 20px로 실제 작업 영역은 660px)</strong>:
+            좁은 화면을 위한
+            <strong>모바일 및 태블릿 디자인</strong>
+          </li>
+          <li>
+            예외적으로 <strong>container 영역이 100%</strong>로 확장되는 매우
+            넓은 화면을 작업할 경우도
+            <strong>1024px의 분기만 고려하여 작업</strong>하면 됩니다.
+          </li>
+        </ul>
+
+        <p>
+          최종적으로 디자이너는 1280px과 700px의 두 가지 레이아웃에 맞춰 작업을
+          진행하면, 각기 다른 화면 크기와 디바이스에서 자동으로 조정되는 반응형
+          웹 디자인을 완성할 수 있습니다.
+        </p>
+
+        <hr />
+
+        <h3>고려할 것</h3>
+
+        <p>
+          우리의 반응형 전략에 맞춰 화면의 크기와 디바이스의 입력 방식에 따라
+          자동으로 최적화된 레이아웃이 설정됩니다. 따라서, 이제는 모바일 기기와
+          데스크탑의 각각 다른 사용 방식을 고려한 인터랙션 설계에 집중하는 것이
+          중요합니다.
+        </p>
+        <br />
+
+        <strong>데스크탑</strong>
+        <ul>
+          <li>그리드 시스템: 화면 크기에 따라 컬럼 수를 조정하세요.</li>
+          <li>
+            콘텐츠의 너비: 자동으로 줄어들 수 있는 너비와 여백을 설정하세요.
+          </li>
+          <li>
+            큰 화면과 포인터(마우스) 기반 인터랙션을 사용하는 환경이므로, 클릭과
+            마우스 오버(hover) 등의 조작에 반응할 수 있도록 세밀한 인터랙션을
+            설계합니다.
+          </li>
+        </ul>
+
+        <strong>모바일 기기</strong>
+        <ul>
+          <li>
+            작은 화면에서 터치 기반 인터랙션을 사용하므로, 손가락으로 쉽게
+            터치할 수 있는 넓은 버튼과 스크롤을 통해 쉽게 탐색할 수 있는
+            디자인을 고려합니다.
+          </li>
+        </ul>
+      </div>
     </main>
     <script src="js/scripts.js"></script>
   </body>

@@ -84,3 +84,37 @@
   right: 10px;
   z-index: 99;
 }
+
+/* --------------------------- */
+/* 반응형 */
+/* --------------------------- */
+
+/* 1024px 이하의 모바일 화면 스타일 */
+@media only screen and (max-width: 1024px) {
+  .carousel-section-title {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .carousel {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .slide {
+    min-width: 240px;
+    max-width: 320px;
+  }
+}
+
+/* 1280px 이하의 터치 디바이스 (모바일 또는 태블릿 화면) */
+@media only screen and (max-width: 1280px) and (pointer: coarse) {
+  .carousel-button {
+    display: none;
+  }
+
+  .slide {
+    min-width: 240px;
+    max-width: 320px;
+  }
+}

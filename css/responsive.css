@@ -1,28 +1,58 @@
-/* 데스크탑 (마우스 포인터) 환경 */
-@media only screen and (min-width: 1025px) and (pointer: fine) and (hover: hover) {
-  .container {
-    max-width: 1280px;
-  }
-  .button {
-    transition: background-color 0.3s ease;
-  }
-  .button:hover {
-    background-color: #333;
-    color: white;
+/* 기본 데스크탑 화면 스타일 (1281px 이상의 큰 화면) */
+@media only screen and (min-width: 1281px) {
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5열 그리드 */
+    gap: 8px; /* 열 사이 간격 설정 */
+    margin-bottom: var(--ruler-scale-dimension-400);
   }
 }
 
-/* 모바일 (터치) 환경 */
-@media only screen and (max-width: 1024px), (pointer: coarse) {
+/* 1025px ~ 1280px 사이의 포인터 디바이스 (일반 데스크탑 화면) */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) and (pointer: fine) {
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5열 그리드 */
+    gap: 8px; /* 열 사이 간격 설정 */
+    margin-bottom: var(--ruler-scale-dimension-400);
+  }
+}
+
+/* 1024px 이하의 모바일 화면 스타일 */
+@media only screen and (max-width: 1024px) {
   .container {
+    width: 100%;
     max-width: 700px;
-    min-width: unset;
   }
-  .button {
-    transition: background-color 0.1s ease;
+
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2열 그리드 */
+    gap: 8px; /* 열 사이 간격 설정 */
   }
-  .button:active {
-    background-color: #555;
-    color: white;
+
+  .guide {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+/* 1280px 이하의 터치 디바이스 (모바일 또는 태블릿 화면) */
+@media only screen and (max-width: 1280px) and (pointer: coarse) {
+  .container {
+    max-width: 700px; /* 모바일 스타일로 제한된 너비 */
+    margin: 0 auto;
+  }
+
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 5열 그리드 */
+    gap: 8px; /* 열 사이 간격 설정 */
+    margin-bottom: var(--ruler-scale-dimension-400);
+  }
+
+  .guide {
+    padding-right: 20px;
+    padding-left: 20px;
   }
 }

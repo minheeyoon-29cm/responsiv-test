@@ -33,3 +33,33 @@ function moveSlide(step) {
 document.addEventListener("DOMContentLoaded", () => {
   showSlide(currentSlide);
 });
+
+// 터치 슬라이드를 위한 변수 초기화
+let startX = 0;
+let endX = 0;
+
+function handleTouchStart(event) {
+  startX = event.touches[0].clientX;
+}
+
+function handleTouchMove(event) {
+  endX = event.touches[0].clientX;
+}
+
+function handleTouchEnd() {
+  const distance = startX - endX;
+
+  if (distance > 50) {
+    // 왼쪽에서 오른쪽으로 스와이프: 다음 슬라이드로 이동
+    moveSlide(1);
+  } else if (distance < -50) {
+    // 오른쪽에서 왼쪽으로 스와이프: 이전 슬라이드로 이동
+    moveSlide(-1);
+  }
+}
+
+// 캐러셀 슬라이드 요소에 터치 이벤트 리스너 추가
+const carouselSlides = document.querySelector(".carousel-slides");
+carouselSlides.addEventListener("touchstart", handleTouchStart);
+carouselSlides.addEventListener("touchmove", handleTouchMove);
+carouselSlides.addEventListener("touchend", handleTouchEnd);
