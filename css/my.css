@@ -157,7 +157,6 @@ aside a {
   fill: var(--ruler-semantic-color-text-tertiary);
 }
 
-
 /* --------------------------- */
 /* 테이블 */
 /* --------------------------- */
@@ -171,7 +170,6 @@ aside a {
   align-items: center;
   justify-content: space-between;
 }
-
 
 /* --------------------------- */
 /* 프로덕트 호라이젠탈 카드 */
@@ -190,7 +188,6 @@ aside a {
   border-radius: var(--ruler-scale-corner-radius-50);
 }
 
-
 .product-h-card-brand {
   margin-top: var(--ruler-scale-dimension-50);
   margin-bottom: var(--ruler-scale-dimension-50);
@@ -204,7 +201,7 @@ aside a {
 }
 
 .product-h-card-title {
-  font-size: var(  --ruler-scale-dimension-font-size-200);
+  font-size: var(--ruler-scale-dimension-font-size-200);
   line-height: var(--ruler-semantic-typography-text-l-line-height);
   font-weight: var(--ruler-scale-font-weight-semibold);
   display: -webkit-box; /* Flexbox 기반으로 줄 수 제한 */
@@ -217,20 +214,20 @@ aside a {
 
 .product-h-card-price {
   display: flex;
-  font-size: var(  --ruler-scale-dimension-font-size-125);
+  font-size: var(--ruler-scale-dimension-font-size-125);
 }
 
 .buy-state {
   width: 20%;
   display: flex;
   flex-direction: column; /* 수직으로 배치 */
-  align-items: center;    /* 가로 중앙 정렬 */
+  align-items: center; /* 가로 중앙 정렬 */
   justify-content: center; /* 세로 중앙 정렬 */
-  text-align: center;      /* 텍스트와 내용의 중앙 정렬 */
+  text-align: center; /* 텍스트와 내용의 중앙 정렬 */
 }
 
 .buy-state p {
-  font-size: var( --ruler-scale-dimension-font-size-125);
+  font-size: var(--ruler-scale-dimension-font-size-125);
   color: var(--ruler-semantic-color-text-secondary);
   margin-top: var(--ruler-scale-dimension-50);
 }
@@ -253,14 +250,15 @@ aside a {
   /* background-color: antiquewhite; */
 }
 
-.primary, .secondary {
+.primary,
+.secondary {
   font-size: var(--ruler-scale-dimension-font-size-75);
   padding-top: var(--ruler-scale-dimension-125);
   padding-bottom: var(--ruler-scale-dimension-125);
   padding-right: var(--ruler-scale-dimension-225);
   padding-left: var(--ruler-scale-dimension-225);
   border: none;
-  border-radius: var( --ruler-scale-corner-radius-25);
+  border-radius: var(--ruler-scale-corner-radius-25);
   cursor: pointer;
 }
 

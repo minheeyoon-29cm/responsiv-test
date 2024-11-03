@@ -1,0 +1,228 @@
+/* --------------------------- */
+/* 브랜드 카드 */
+/* --------------------------- */
+
+.brand-card {
+  display: flex;
+  align-items: center;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-top: var(--ruler-scale-dimension-300);
+  margin-bottom: var(--ruler-scale-dimension-300);
+}
+
+.brand-card img {
+  width: 80px;
+  border-radius: var(--ruler-scale-corner-radius-50);
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+  margin-right: var(--ruler-scale-dimension-200);
+}
+
+.brand-text-info {
+  width: 100%;
+}
+
+.brand-title {
+  font-size: var(--ruler-scale-dimension-font-size-200);
+  font-weight: var(--ruler-scale-font-weight-semibold);
+  margin-bottom: var(--ruler-scale-dimension-25);
+}
+
+.brand-card p {
+  font-size: var(--ruler-scale-dimension-font-size-100);
+  margin-bottom: var(--ruler-scale-dimension-75);
+  color: var(--ruler-semantic-color-text-secondary);
+}
+
+.brand-card button {
+  font-size: var(--ruler-scale-dimension-font-size-75);
+  padding-top: var(--ruler-scale-dimension-125);
+  padding-bottom: var(--ruler-scale-dimension-125);
+  padding-right: var(--ruler-scale-dimension-225);
+  padding-left: var(--ruler-scale-dimension-225);
+  border: none;
+  border-radius: var(--ruler-scale-corner-radius-25);
+  cursor: pointer;
+}
+
+/* --------------------------- */
+/* PDP 상단 상품 정보 영역 */
+/* --------------------------- */
+/* 상품 이미지 */
+
+.pdp-product-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2열 그리드 */
+  gap: var(--ruler-scale-dimension-500);
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-bottom: var(--ruler-scale-dimension-300);
+}
+
+.pdp-product-info img {
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+  border-radius: var(--ruler-scale-corner-radius-25);
+}
+
+/* 상품 타이틀 */
+.product-title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: var(--ruler-scale-dimension-font-size-300);
+  font-weight: var(--ruler-scale-font-weight-bold);
+  line-height: var(--ruler-scale-line-height-4);
+  border-top: 2px solid var(--ruler-semantic-color-border-divider-strong);
+  white-space: normal; /* 기본 줄바꿈 허용 */
+  word-wrap: break-word; /* 단어가 길 경우 줄바꿈 */
+  word-break: keep-all; /* 한국어 등 단어 중간 줄바꿈 방지, 영어는 단어 단위로 */
+}
+
+.product-title p {
+  width: 78%;
+}
+
+.like-button {
+  width: 100px;
+  height: 100px;
+  border: none;
+  border-radius: var(--ruler-scale-corner-radius-25);
+  background-color: transparent;
+  cursor: pointer;
+  border-left: 1px solid var(--ruler-semantic-color-border-line);
+}
+
+.like-button:hover {
+  background-color: var(--ruler-semantic-color-fill-silent-hover);
+}
+
+.user-action {
+  display: flex;
+  align-items: center;
+  font-size: var(--ruler-scale-dimension-font-size-100);
+}
+.user-action svg {
+  width: var(--ruler-scale-dimension-150);
+  height: var(--ruler-scale-dimension-150);
+}
+.user-action p {
+  margin-left: var(--ruler-scale-dimension-50);
+  text-decoration: underline;
+  color: var(--ruler-semantic-color-text-secondary);
+}
+
+.pdp-pricing-info {
+  margin-top: var(--ruler-scale-dimension-300);
+  margin-bottom: var(--ruler-scale-dimension-300);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sell-pricing-info {
+  display: flex;
+  font-size: var(--ruler-scale-dimension-font-size-300);
+  font-weight: var(--ruler-scale-font-weight-bold);
+  line-height: var(--ruler-scale-line-height-4);
+}
+
+.sell-pricing {
+  color: var(--ruler-semantic-color-common-accent);
+  margin-right: var(--ruler-scale-dimension-50);
+}
+
+.pdp-pricing-info button {
+  min-width: 66px;
+  font-size: var(--ruler-scale-dimension-font-size-125);
+  font-weight: var(--ruler-scale-font-weight-semibold);
+  padding-left: var(--ruler-scale-dimension-225);
+  padding-right: var(--ruler-scale-dimension-225);
+  padding-top: var(--ruler-scale-dimension-150);
+  padding-bottom: var(--ruler-scale-dimension-150);
+  border: none;
+  border-radius: var(--ruler-scale-corner-radius-50);
+  background-color: var(--ruler-semantic-color-fill-primary);
+  color: var(--ruler-semantic-color-text-on-color);
+}
+
+.product-cost {
+  font-size: var(--ruler-scale-dimension-font-size-100);
+  color: var(--ruler-semantic-color-text-tertiary);
+  text-decoration: line-through;
+}
+
+/* 서브 정보 */
+
+.pdp-sub-info {
+  border-top: 1px solid var(--ruler-semantic-color-border-line);
+  width: 100%;
+  padding-top: var(--ruler-scale-dimension-400);
+  padding-left: var(--ruler-scale-dimension-150);
+  padding-bottom: var(--ruler-scale-dimension-400);
+  font-size: var(--ruler-scale-dimension-font-size-125);
+}
+
+/* 옵션 및 버튼 그룹 */
+
+.pdp-option {
+  width: 100%;
+  padding-top: var(--ruler-scale-dimension-150);
+  padding-left: var(--ruler-scale-dimension-150);
+  padding-bottom: var(--ruler-scale-dimension-150);
+  padding-right: var(--ruler-scale-dimension-125);
+  border: 1px solid var(--ruler-semantic-color-border-line);
+  border-radius: var(--ruler-scale-corner-radius-50);
+  font-size: var(--ruler-scale-dimension-font-size-125);
+  color: var(--ruler-semantic-color-text-tertiary);
+  appearance: none; /* 기본 드롭다운 화살표 제거 */
+  -webkit-appearance: none; /* Safari 기본 화살표 제거 */
+  -moz-appearance: none; /* Firefox 기본 화살표 제거 */
+  margin-bottom: var(--ruler-scale-dimension-200);
+}
+
+.pdp-button-group {
+  width: 100%;
+  display: flex;
+  gap: var(--ruler-scale-dimension-75);
+}
+
+.pdp-button-group button {
+  width: 100%;
+  padding-top: var(--ruler-scale-dimension-200);
+  padding-left: var(--ruler-scale-dimension-250);
+  padding-bottom: var(--ruler-scale-dimension-200);
+  padding-right: var(--ruler-scale-dimension-250);
+  font-size: var(--ruler-scale-dimension-font-size-125);
+  font-weight: var(--ruler-scale-font-weight-bold);
+  border-radius: var(--ruler-scale-corner-radius-50);
+  border: none;
+}
+
+.primary {
+  background-color: var(--ruler-semantic-color-fill-primary);
+  color: var(--ruler-semantic-color-text-on-color);
+}
+
+.secondary {
+  background-color: var(--ruler-semantic-color-fill-silent);
+  border: 1px solid var(--ruler-semantic-color-border-line) !important;
+}
+
+/* --------------------------- */
+/* PDP 하단 파트너사 등록 이미지 */
+/* --------------------------- */
+.pdp-product-explanation {
+  padding-right: 50px;
+  padding-left: 50px;
+  background-color: var(--ruler-scale-color-blue-100);
+}
+
+.pdp-product-explanation p {
+  text-align: center;
+  background-color: var(--ruler-scale-color-blue-200);
+}
