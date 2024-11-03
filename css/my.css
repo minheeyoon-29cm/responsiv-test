@@ -73,6 +73,7 @@ aside a {
   display: grid;
   grid-template-columns: repeat(5, 1fr); /* 5열 그리드 */
   gap: 8px; /* 열 사이 간격 설정 */
+  margin-bottom: var(--ruler-scale-dimension-400);
 }
 
 /* --------------------------- */
@@ -154,4 +155,118 @@ aside a {
   width: 14px; /* 원하는 너비 */
   height: 14px; /* 원하는 높이 */
   fill: var(--ruler-semantic-color-text-tertiary);
+}
+
+
+/* --------------------------- */
+/* 테이블 */
+/* --------------------------- */
+
+.user-table {
+  width: 100%;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-top: 1px solid var(--ruler-scale-color-gray-200);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+/* --------------------------- */
+/* 프로덕트 호라이젠탈 카드 */
+/* --------------------------- */
+
+.product-h-card {
+  display: flex;
+  align-items: center;
+  padding-right: var(--ruler-scale-dimension-225);
+  width: 50%;
+}
+
+.product-h-card img {
+  max-width: 100px;
+  margin-right: 8px;
+  border-radius: var(--ruler-scale-corner-radius-50);
+}
+
+
+.product-h-card-brand {
+  margin-top: var(--ruler-scale-dimension-50);
+  margin-bottom: var(--ruler-scale-dimension-50);
+  font-size: var(--ruler-semantic-typography-text-l-bold-font-size);
+  font-weight: var(--ruler-semantic-typography-text-l-medium-font-weight);
+  display: -webkit-box; /* Flexbox 기반으로 줄 수 제한 */
+  -webkit-box-orient: vertical; /* 박스 방향을 세로로 설정 */
+  -webkit-line-clamp: 1; /* 1줄로 제한 */
+  overflow: hidden; /* 넘치는 텍스트 숨기기 */
+  text-overflow: ellipsis; /* 넘치는 텍스트에 '...' 표시 */
+}
+
+.product-h-card-title {
+  font-size: var(  --ruler-scale-dimension-font-size-200);
+  line-height: var(--ruler-semantic-typography-text-l-line-height);
+  font-weight: var(--ruler-scale-font-weight-semibold);
+  display: -webkit-box; /* Flexbox 기반으로 줄 수 제한 */
+  -webkit-box-orient: vertical; /* 박스 방향을 세로로 설정 */
+  -webkit-line-clamp: 2; /* 2줄로 제한 */
+  overflow: hidden; /* 넘치는 텍스트 숨기기 */
+  text-overflow: ellipsis; /* 넘치는 텍스트에 '...' 표시 */
+  margin-bottom: var(--ruler-scale-dimension-50);
+}
+
+.product-h-card-price {
+  display: flex;
+  font-size: var(  --ruler-scale-dimension-font-size-125);
+}
+
+.buy-state {
+  width: 20%;
+  display: flex;
+  flex-direction: column; /* 수직으로 배치 */
+  align-items: center;    /* 가로 중앙 정렬 */
+  justify-content: center; /* 세로 중앙 정렬 */
+  text-align: center;      /* 텍스트와 내용의 중앙 정렬 */
+}
+
+.buy-state p {
+  font-size: var( --ruler-scale-dimension-font-size-125);
+  color: var(--ruler-semantic-color-text-secondary);
+  margin-top: var(--ruler-scale-dimension-50);
+}
+
+.badge {
+  width: fit-content;
+  font-weight: var(--ruler-scale-font-weight-medium);
+  color: var(--ruler-scale-color-green-700);
+  background-color: var(--ruler-scale-color-green-200);
+  padding-left: var(--ruler-scale-dimension-75);
+  padding-right: var(--ruler-scale-dimension-75);
+  padding-top: var(--ruler-scale-dimension-50);
+  padding-bottom: var(--ruler-scale-dimension-50);
+  border-radius: var(--ruler-scale-corner-radius-25);
+}
+
+/* 버튼 */
+
+.button-group {
+  /* background-color: antiquewhite; */
+}
+
+.primary, .secondary {
+  font-size: var(--ruler-scale-dimension-font-size-75);
+  padding-top: var(--ruler-scale-dimension-125);
+  padding-bottom: var(--ruler-scale-dimension-125);
+  padding-right: var(--ruler-scale-dimension-225);
+  padding-left: var(--ruler-scale-dimension-225);
+  border: none;
+  border-radius: var( --ruler-scale-corner-radius-25);
+  cursor: pointer;
+}
+
+.primary {
+  background-color: var(--ruler-semantic-color-fill-primary);
+  color: var(--ruler-scale-color-gray-00);
+  width: 100%;
+  margin-top: var(--ruler-scale-dimension-50);
 }
