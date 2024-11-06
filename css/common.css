@@ -43,6 +43,11 @@ code {
   word-wrap: break-word;
 }
 
+video {
+  width: 100%;
+  border-radius: var(--ruler-scale-corner-radius-75);
+}
+
 header {
   background-color: #333;
   color: white;
