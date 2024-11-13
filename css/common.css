@@ -11,6 +11,7 @@ html {
     "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   box-sizing: border-box;
   background-color: var(--ruler-semantic-color-background-low);
+  scroll-behavior: smooth;
 }
 
 h1,
@@ -91,7 +92,7 @@ nav ul li a {
   padding-left: 50px;
   margin-bottom: 24px;
   border-bottom: 1px solid var(--ruler-semantic-color-border-line);
-  text-align: center;
+  text-align: left;
 }
 
 .guide {
@@ -100,9 +101,15 @@ nav ul li a {
   padding-bottom: 100px;
 }
 
+.guide .page-title {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
 .guide p {
   line-height: 180%;
   font-size: 15px;
+  margin-bottom: 8px;
   white-space: normal; /* 기본 줄바꿈 허용 */
   word-wrap: break-word; /* 단어가 길 경우 줄바꿈 */
   word-break: keep-all; /* 한국어 등 단어 중간 줄바꿈 방지, 영어는 단어 단위로 */
@@ -115,4 +122,64 @@ nav ul li a {
   white-space: normal; /* 기본 줄바꿈 허용 */
   word-wrap: break-word; /* 단어가 길 경우 줄바꿈 */
   word-break: keep-all; /* 한국어 등 단어 중간 줄바꿈 방지, 영어는 단어 단위로 */
+}
+
+.ruler-token {
+  width: fit-content;
+  background-color: var(--ruler-scale-color-blue-100);
+  border-radius: var(--ruler-scale-corner-radius-50);
+  padding: 8px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ruler-scale-color-blue-500);
+}
+
+.ruler-tf-decision {
+  display: flex;
+  width: 100%;
+}
+
+.ruler-tf-decision section {
+  scroll-margin-top: 80px;
+}
+
+.ruler-tf-decision h3 {
+  margin-bottom: 12px;
+}
+
+/* TOC 기본 스타일 */
+
+.toc li {
+  margin: 0;
+}
+
+.ruler-tf-decision nav {
+  height: fit-content;
+  width: 20%;
+  padding: 16px;
+  margin-bottom: 20px;
+  margin-right: 24px;
+  background-color: var(--ruler-scale-color-blue-100); /* 배경색 설정 */
+  border-radius: 5px;
+  position: sticky;
+  top: 24px; /* 화면 상단에서 20px 떨어진 위치에 고정 */
+}
+
+/* TOC 링크 스타일 */
+.ruler-tf-decision a {
+  text-decoration: none;
+  color: var(--ruler-scale-color-blue-500);
+  font-size: 13px;
+  line-height: 136%;
+  display: inline-block;
+  margin-bottom: 12px;
+  width: 100%;
+  text-align: left;
+}
+
+.toc p {
+  width: 100%;
+  text-align: left;
+  font-weight: 500;
+  color: var(--ruler-scale-color-blue-800);
 }

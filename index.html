@@ -10,7 +10,7 @@
     />
     <meta
       property="og:image"
-      content="https://img.29cm.co.kr/next-edition/2024/11/07/98cfd19e92b946aba1e82d9e0b61cc18_20241107012125.jpg"
+      content="https://img.29cm.co.kr/next-edition/2024/11/13/e922e4ccd45a43fd885c6fdcb6f3f6dc_20241113184433.jpg"
     />
     <meta property="og:url" content="https://29responsive-test.netlify.app/" />
     <meta property="og:type" content="website" />
@@ -38,217 +38,289 @@
         </ul>
       </nav>
     </header>
-    <main class="container">
-      <h1 class="page-title">29CM 반응형 의사결정을 위한 프로토타입</h1>
-      <div class="guide">
-        <br />
-<div>
-  <p>
-    <strong>적은 사용자 수와 점차 사라지고 있는 1024px 해상도를 여전히 고려해야 하는 이유</strong>에 대해 생각해보겠습니다.
-    <br /><br />
-    미래는 예측할 수 없기 때문에 디자인에서 <strong>유연성과 확장성</strong>을 확보하는 것이 매우 중요합니다. <br />
-    1024px 이하의 해상도를 고려하는 것은 앞으로 변화하는 다양한 해상도에 대응할 수 있는 준비를 의미합니다.
-    <br /><br />
-    예를 들어, 한때 모바일의 최소 기준 해상도였던 320px이 360px로 상향되었을 때 많은 디자이너들이 더 넓어진 작업 영역을 반겼습니다. 하지만 최근에는 <strong>갤럭시 폴드4와 같은 345px 가로폭</strong>을 가진 디바이스도 등장하면서, 또다시 최소 해상도에 맞춰야 하는 도전이 생겼습니다.
-    <br /><br />
-    <strong>제 의견은 1024px 전용 디자인을 반드시 준비하자는 것이 아닙니다.</strong> <br /> 대신, <strong>모든 해상도에서 유연하게 대응할 수 있는 레이아웃을 설계</strong>하는 것이 중요하다는 것입니다. 최소한 1024px까지 대응 가능한 디자인을 만드는 것이 여전히 유효한 접근이라는 것입니다.
-  </p>
+    <main class="container guide">
+      <div class="page-title">
+        <h2>29CM 반응형 의사결정을 위한 프로토타입</h2>
+        <p>이 사이트는 데스크탑에서 보시는 걸 권장드립니다.</p>
+        <p>
+          이 사이트는 앞으로 적용될 29CM의 반응형 디자인 전략을 미리 확인할 수
+          있는 프로토타입으로, 각 페이지의 반응형 분기 선택에 대한 디자인 및
+          개발 의사결정을 요약한 페이지입니다.
+        </p>
+      </div>
 
-  <br /><br />
-  
-  <h3>해외 사례를 살펴보겠습니다.</h3>
-  
-  <br />
-  
-  <video controls width="100%">
-    <source src="https://asset.29cm.co.kr/next-edition/2024/11/07/937eabe6b9744373a48a7c47067828da_20241107003405.mov" type="video/mp4" />
-    <!-- 브라우저가 <video> 태그를 지원하지 않는 경우를 대비한 대체 텍스트 -->
-    사용 중인 브라우저는 HTML5 비디오 태그를 지원하지 않습니다.
-  </video>
-  
-  <p>
-    에어비앤비의 제품 상세 페이지(PDP)는 1024px 이하 해상도에서도 문제없이 표시되도록 설계되었습니다.
-  </p>
-  
-  <br />
-  
-  <video controls width="100%">
-    <source src="https://asset.29cm.co.kr/next-edition/2024/11/07/fe2e7a7dd4a44e188d45cb570ab3b62d_20241107003405.mov" type="video/mp4" />
-    <!-- 브라우저가 <video> 태그를 지원하지 않는 경우를 대비한 대체 텍스트 -->
-    사용 중인 브라우저는 HTML5 비디오 태그를 지원하지 않습니다.
-  </video>
-  
-  <p>
-    쇼피파이 또한 1024px 이하의 해상도에서 문제없이 보여지도록 디자인되어 있습니다.
-  </p>
+      <div class="ruler-tf-decision">
+        <!-- TOC -->
 
-  <br />
-  
-  <p>
-    <strong>이와 같이 작업하는 것이 디자이너에게 큰 공수 부담을 주는 일일까요?</strong> 그렇지 않습니다.
-    <br /><br />
-    반응형 디자인을 준비할 때 <strong>Figma의 오토 레이아웃과 그리드 시스템</strong>을 잘 활용하면, 각기 다른 해상도에 맞춘 디자인을 추가로 준비할 필요가 없습니다. <br />
-    예를 들어 1280px와 1024px 사이 256px 사이의 내부 콘텐츠 기준만 고려하여 디자인하면, 대부분의 조정은 브라우저가 자동으로 처리하게 됩니다.
-    <br/>이 프로토타입 사이트를 구성한 디자인을 보면 그렇게 큰 공수가 들지 않는다는 것을 알 수 있을 것 입니다.
-    <br /><br />
-    즉, <strong>모듈을 설계할 때 각 콘텐츠의 비율과 그리드 구성만 신경 써서 작업하면</strong>, 반응형 웹사이트는 자연스럽게 다양한 해상도에 대응할 수 있습니다.
-    <br /><br />
-    중요한 점은 <strong>1024px 이하의 해상도에서도 자연스럽게 레이아웃이 맞춰지도록 설계하되, 별도의 디자인 파일을 추가 준비할 필요는 없다는 것 입니다.</strong>
-  </p>
-</div>
-        
-      <hr />
-      <h3>데스크탑 화면 스타일 (1281px 이상)</h3>
-      <code>
-        @media only screen and (min-width: 1281px) { <br />
-        .container { max-width:1280px; }<br />
-        }
-      </code>
-      <p>
-        이 부분은 <strong>1281px 이상</strong>의 넓은 화면에서 적용됩니다. 주로
-        데스크탑과 같은 큰 화면을 기준으로, 콘텐츠가 1280px의 최대 너비 내에서
-        중앙 정렬됩니다.
-      </p>
+        <nav>
+          <ul class="toc">
+            <p>주요 목차</p>
+            <li><a href="#breakpoints">29CM Breakpoints 종류</a></li>
+            <li><a href="#strategy">각 분기 선택의 이유</a></li>
+            <li>
+              <a href="#reason-for-1024">1024px 해상도를 고려해야 하는 이유</a>
+            </li>
+            <li><a href="#examples">사례 보기</a></li>
+            <li>
+              <a href="#design-considerations">디자인과 개발 시 고려할 것</a>
+            </li>
+          </ul>
+        </nav>
 
-      <hr />
+        <div>
+          <!-- 1. 29CM 데스크탑 분기 종류 -->
+          <section id="breakpoints">
+            <h3>데스크탑 화면 스타일 (2560px 이상)</h3>
+            <code>
+              @media only screen and (min-width: 2560px) { <br />
+              .container { max-width:2560px; }<br />
+              }
+            </code>
+            <p>
+              이 부분은 <strong>1281px 이상</strong>의 넓은 화면에서 적용됩니다.
+              주로 데스크탑과 같은 큰 화면을 기준으로, 콘텐츠가 1280px의 최대
+              너비 내에서 중앙 정렬됩니다.
+            </p>
 
-      <h3>1025px ~ 1280px 사이의 데스크탑 화면 (포인터 디바이스)</h3>
-      <code>
-        @media only screen and (min-width: 1025px) and (max-width: 1280px) and
-        (pointer: fine) { <br />
-        .container { <br />
-        max-width: 1280px; <br />
-        margin: 0 auto; }<br />
-        }
-      </code>
-      <p>
-        <strong>1025px에서 1280px 사이의 포인터 디바이스</strong> (주로
-        데스크탑)에서 적용됩니다. 이 구간에서는 화면 너비가 1025px에서 1280px
-        사이에 맞춰 자연스럽게 줄어들며,
-        <strong
-          >콘텐츠 너비는 최대 1280px까지 확장되지만, 화면에 맞게 조정</strong
-        >되어 가로 스크롤이 생기지 않습니다.
-      </p>
+            <div class="ruler-token">
+              design token : container-max-width-2560
+            </div>
+            <hr />
 
-      <li>
-        max-width: 1280px; 으로 화면이 1280px보다 좁아질 경우 자동으로 화면
-        너비에 맞춰 줄어들기 때문에 가로 스크롤이 생기지 않습니다.
-      </li>
+            <h3>데스크탑 화면 스타일 (1281px 이상)</h3>
+            <code>
+              @media only screen and (min-width: 1281px) { <br />
+              .container { max-width:1280px; }<br />
+              }
+            </code>
+            <p>
+              이 부분은 <strong>1281px 이상</strong>의 넓은 화면에서 적용됩니다.
+              주로 데스크탑과 같은 큰 화면을 기준으로, 콘텐츠가 1280px의 최대
+              너비 내에서 중앙 정렬됩니다.
+            </p>
+            <div class="ruler-token">
+              design token : container-max-width-1280
+            </div>
 
-      <hr />
+            <hr />
 
-      <h3>모바일 화면 스타일 (1024px 이하)</h3>
-      <code>
-        @media only screen and (max-width: 1024px) { <br />
-        .container { <br />
-        width: 100%; <br />
-        max-width: 700px; }<br />
-        }
-      </code>
-      <p>
-        <strong>1024px 이하</strong>의 작은 화면(주로 모바일)에서 적용됩니다.
-        콘텐츠의 너비가 100%로 확장되어 화면 전체를 채우며, 최대 너비는 700px로
-        제한됩니다.
-      </p>
+            <h3>1025px ~ 1280px 사이의 데스크탑 화면 (포인터 디바이스)</h3>
+            <code>
+              @media only screen and (min-width: 1025px) and (max-width: 1280px)
+              and (pointer: fine) { <br />
+              .container { max-width: 1280px; margin: 0 auto; }<br />
+              }
+            </code>
+            <p>
+              <strong>1025px에서 1280px 사이의 포인터 디바이스</strong> (주로
+              데스크탑)에서 적용됩니다. 이 구간에서는 화면 너비가 1025px에서
+              1280px 사이에 맞춰 자연스럽게 줄어들며,
+              <strong
+                >콘텐츠 너비는 최대 1280px까지 확장되지만, 화면에 맞게
+                조정</strong
+              >되어 가로 스크롤이 생기지 않습니다.
+            </p>
+            <div class="ruler-token">
+              design token : container-max-width-1280
+            </div>
+            <hr />
 
-      <hr />
+            <h3>모바일 화면 스타일 (1024px 이하)</h3>
+            <code>
+              @media only screen and (max-width: 1024px) { <br />
+              .container { width: 100%; max-width: 700px; }<br />
+              }
+            </code>
+            <p>
+              <strong>1024px 이하</strong>의 작은 화면(주로 모바일)에서
+              적용됩니다. 콘텐츠의 너비가 100%로 확장되어 화면 전체를 채우며,
+              최대 너비는 700px로 제한됩니다.
+            </p>
+            <div class="ruler-token">
+              design token : container-max-width-700
+            </div>
 
-      <h3>터치 디바이스 스타일 (1280px 이하의 터치 기반 디바이스)</h3>
-      <code>
-        @media only screen and (max-width: 1280px) and (pointer: coarse) {<br />
-        .container { <br />
-        max-width: 700px; <br />
-        margin: 0 auto; }<br />
-        }
-      </code>
-      <p>
-        <strong>1280px 이하의 터치 디바이스</strong>(태블릿 또는 모바일)에서
-        적용되며, 콘텐츠의 최대 너비를 700px로 제한하여 터치 기반의 편리한
-        인터페이스를 제공합니다.
-      </p>
+            <hr />
 
-      <hr />
+            <h3>터치 디바이스 스타일 (1280px 이하의 터치 기반 디바이스)</h3>
+            <code>
+              @media only screen and (max-width: 1280px) and (pointer: coarse)
+              {<br />
+              .container { max-width: 700px; margin: 0 auto; }<br />
+              }
+            </code>
+            <p>
+              <strong>1280px 이하의 터치 디바이스</strong>(태블릿 또는
+              모바일)에서 적용되며, 콘텐츠의 최대 너비를 700px로 제한하여 터치
+              기반의 편리한 인터페이스를 제공합니다.
+            </p>
+            <div class="ruler-token">
+              design token : container-max-width-700
+            </div>
+            <hr />
+          </section>
 
-      <p>
-        이와 같이, CSS는 <strong>4개의 분기</strong>로 구성되어 다양한 화면
-        크기와 디바이스에 맞게 레이아웃을 자동으로 조정합니다.
-      </p>
+          <!-- 1-2. 위와 같은 분기 선택의 이유  -->
+          <section id="strategy">
+            <h3>각 분기 선택의 이유</h3>
+            <p>
+              <strong>유지보수 효율성 </strong><br />1280px, 1024px, 700px과
+              같은 주요 분기는 여러 해상도에서 디자인을 재사용할 수 있도록 해
+              줍니다. 개발자와 디자이너가 한 번 설정해 놓으면, 새로운 화면
+              크기나 디바이스가 추가되더라도 기존 설정에 따라 대응할 수 있기
+              때문에 유지보수 공수가 크게 줄어듭니다.
+              <br />
+              <br />
 
-      <ul>
-        <li>
-          <strong>CSS 분기 4개</strong>는 코드에서 화면 크기와 입력 방식(터치
-          또는 포인터)에 맞춰 자동으로 레이아웃을 조정합니다.
-        </li>
-        <li>
-          하지만 핵심은, <strong>1024px와 1280px</strong>이 두 가지 분기만
-          기억하면 된다는 것입니다.
-        </li>
-        <li>
-          <strong>디자인 작업은 2가지 주요 화면 크기</strong>에 맞추면
-          충분합니다. 개발 시 CSS가 해당 화면에 맞는 스타일을 적용하여
-          디자이너의 작업을 그대로 반영합니다.
-        </li>
-        <li>
-          1280px 이상 화면에서는 콘텐츠가 최대 1280px 너비로 표시됩니다.
-          <strong>1280px (좌우 패딩 50px로 실제 작업 영역은 1180px)</strong>:
-          넓은 화면을 위한
-          <strong>데스크탑 디자인</strong>
-        </li>
-        <li>
-          1024px 이하 화면에서는 콘텐츠가 최대 700px로 맞춰집니다.
-          <strong>700px (좌우 패딩 20px로 실제 작업 영역은 660px)</strong>: 좁은
-          화면을 위한
-          <strong>모바일 및 태블릿 디자인</strong>
-        </li>
-        <li>
-          예외적으로 <strong>container 영역이 100%</strong>로 확장되는 매우 넓은
-          화면을 작업할 경우도
-          <strong>1024px의 분기만 고려하여 작업</strong>하면 됩니다.
-        </li>
-      </ul>
+              디자이너의 입장에서도 디자이너가 반응형 디자인을 준비할 때,
+              Figma의 오토 레이아웃과 그리드 시스템을 잘 활용하면 추가적인
+              디자인 작업이 거의 필요하지 않습니다. 예를 들어, 1280px와 1024px
+              사이의 차이(256px)만 신경 써서 내부 콘텐츠 배치를 디자인하면,
+              나머지는 브라우저가 자동으로 조정해 줍니다.
+              <br />
+              <br />
 
-      <p>
-        최종적으로 디자이너는 1280px과 700px의 두 가지 레이아웃에 맞춰 작업을
-        진행하면, 각기 다른 화면 크기와 디바이스에서 자동으로 조정되는 반응형 웹
-        디자인을 완성할 수 있습니다.
-      </p>
+              즉, 모듈의 비율과 그리드 구조만 고려하여 디자인을 준비하면 다양한
+              해상도에 자연스럽게 대응할 수 있습니다.
+              <strong>핵심</strong>은 1024px 이하의 해상도까지도 자연스럽게
+              맞춰지도록 설계하되, 별도로 1024px 전용 디자인을 준비할 필요가
+              없다는 점입니다. 디자이너는 1280px(데스크탑)과 700(모바일)px 단
+              2벌의 디자인만 고려하면 됩니다.
+            </p>
+            <br />
 
-      <hr />
+            <p>
+              <strong>일관된 화면 규칙성 </strong><br />각 분기를 명확하게
+              정의함으로써, 디자이너와 개발자는 특정 해상도와 디바이스 유형을
+              일관되게 지원할 수 있습니다. 특히, 1280px과 1024px 분기를 기본으로
+              작업하면, 화면 크기가 다양해져도 새로운 레이아웃을 추가할 필요
+              없이 효율적인 유지보수가 가능합니다.
+            </p>
+            <br />
 
-      <h3>고려할 것</h3>
+            <p>
+              <strong>다양한 디바이스 경험 고려</strong><br />모바일, 태블릿,
+              데스크탑 등 각 디바이스는 서로 다른 사용 방식을 가지고 있습니다.
+              29CM 사용자들은 다양한 기기를 통해 접속하기 때문에, 디바이스에
+              맞는 경험을 제공하면서도 일관성을 유지하는 것이 중요합니다. 터치와
+              포인터 디바이스를 구분하여 반응형 디자인에서 다양한 사용자
+              경험(UX) 요구를 전략적으로 반영하고자 합니다.
+            </p>
+            <br />
 
-      <p>
-        우리의 반응형 전략에 맞춰 화면의 크기와 디바이스의 입력 방식에 따라
-        자동으로 최적화된 레이아웃이 설정됩니다. 따라서, 이제는 모바일 기기와
-        데스크탑의 각각 다른 사용 방식을 고려한 인터랙션 설계에 집중하는 것이
-        중요합니다.
-      </p>
-      <br />
+            <p>
+              <strong>확장성과 예외 케이스 보완</strong><br />
+              2560px와 같은 고해상도 분기를 추가함으로써, 일반적인 화면 환경을
+              넘어서는 디바이스에서도 사용자의 요구를 충족시킬 수 있습니다.
+              특히, 고해상도 모니터를 사용하는 사용자에게 최적화된 경험을
+              제공하며, 다양한 화면 크기에서 일관된 품질을 유지합니다.
 
-      <strong>데스크탑</strong>
-      <ul>
-        <li>그리드 시스템: 화면 크기에 따라 컬럼 수를 조정하세요.</li>
-        <li>
-          콘텐츠의 너비: 자동으로 줄어들 수 있는 너비와 여백을 설정하세요.
-        </li>
-        <li>
-          큰 화면과 포인터(마우스) 기반 인터랙션을 사용하는 환경이므로, 클릭과
-          마우스 오버(hover) 등의 조작에 반응할 수 있도록 세밀한 인터랙션을
-          설계합니다.
-        </li>
-      </ul>
+              <br />
+              또한, 29CM의 대형 기획전과 같이 시각적 임팩트가 중요한 상황에서도
+              다양한 디자인 표현을 지원할 수 있어, 다채로운 비주얼 플레이와
+              차별화된 경험을 제공할 수 있습니다.
+            </p>
+            <br />
 
-      <strong>모바일 기기</strong>
-      <ul>
-        <li>
-          작은 화면에서 터치 기반 인터랙션을 사용하므로, 손가락으로 쉽게 터치할
-          수 있는 넓은 버튼과 스크롤을 통해 쉽게 탐색할 수 있는 디자인을
-          고려합니다.
-        </li>
-      </ul>
+            <hr />
+          </section>
 
-      <hr />
+          <!-- 2. 1024px 해상도를 고려해야하는 이유 -->
+          <section id="reason-for-1024">
+            <h3>1024px 해상도를 고려해야 하는 이유</h3>
+            <p>
+              <strong
+                >적은 사용자 수와 점차 사라지고 있는 1024px 해상도를 여전히
+                고려해야 하는 이유</strong
+              >에 대해 생각해보겠습니다. <br /><br />
+              미래는 예측할 수 없기 때문에 디자인에서
+              <strong>유연성과 확장성</strong>을 확보하는 것이 매우 중요합니다.
+              1024px 이하의 해상도를 고려하는 것은 앞으로 변화하는 다양한
+              해상도에 대응할 수 있는 준비를 의미합니다. <br /><br />
+              예를 들어, 한때 모바일의 최소 기준 해상도였던 320px이 360px로
+              상향되었을 때 많은 디자이너들이 더 넓어진 작업 영역을 반겼습니다.
+              하지만 최근에는
+              <strong>갤럭시 폴드4와 같은 345px 가로폭</strong>을 가진
+              디바이스도 등장하면서, 또다시 최소 해상도에 맞춰야 하는 도전이
+              생겼습니다. <br /><br />
+              <strong
+                >제 의견은 1024px 전용 디자인을 반드시 준비하자는 것이
+                아닙니다.</strong
+              >
+              대신,
+              <strong
+                >모든 해상도에서 유연하게 대응할 수 있는 레이아웃을 설계</strong
+              >하는 것이 중요하다는 것입니다. 최소한 1024px까지는 대응 가능한
+              디자인을 만드는 것이 여전히 유효한 접근이라는 의견입니다.
+            </p>
+          </section>
+          <hr />
+
+          <!-- 3. 사례 보기 -->
+          <section id="examples">
+            <h3>사례 보기</h3>
+            <video controls width="100%">
+              <source
+                src="https://asset.29cm.co.kr/next-edition/2024/11/07/937eabe6b9744373a48a7c47067828da_20241107003405.mov"
+                type="video/mp4"
+              />
+              사용 중인 브라우저는 HTML5 비디오 태그를 지원하지 않습니다.
+            </video>
+            <p>
+              에어비앤비의 제품 상세 페이지(PDP)는 1024px 이하 해상도에서도
+              문제없이 표시되도록 설계되었습니다.
+            </p>
+
+            <video controls width="100%">
+              <source
+                src="https://asset.29cm.co.kr/next-edition/2024/11/07/fe2e7a7dd4a44e188d45cb570ab3b62d_20241107003405.mov"
+                type="video/mp4"
+              />
+              사용 중인 브라우저는 HTML5 비디오 태그를 지원하지 않습니다.
+            </video>
+            <p>
+              쇼피파이 또한 1024px 이하의 해상도에서 문제없이 보여지도록
+              디자인되어 있습니다.
+            </p>
+          </section>
+          <hr />
+
+          <!-- 4. 디자인과 개발 시 고려할 것 -->
+          <section id="design-considerations">
+            <h3>디자인과 개발 시 고려할 것</h3>
+            <p>
+              우리의 반응형 전략에 맞춰 화면의 크기와 디바이스의 입력 방식에
+              따라 자동으로 최적화된 레이아웃이 설정됩니다. 따라서, 이제는
+              모바일 기기와 데스크탑의 각각 다른 사용 방식을 고려한 인터랙션
+              설계에 집중하는 것이 중요합니다.
+            </p>
+
+            <strong>데스크탑</strong>
+            <ul>
+              <li>그리드 시스템: 화면 크기에 따라 컬럼 수를 조정하세요.</li>
+              <li>
+                콘텐츠의 너비: 자동으로 줄어들 수 있는 너비와 여백을 설정하세요.
+              </li>
+              <li>
+                큰 화면과 포인터(마우스) 기반 인터랙션을 사용하는 환경이므로,
+                클릭과 마우스 오버(hover) 등의 조작에 반응할 수 있도록 세밀한
+                인터랙션을 설계합니다.
+              </li>
+            </ul>
+
+            <strong>모바일 기기</strong>
+            <ul>
+              <li>
+                작은 화면에서 터치 기반 인터랙션을 사용하므로, 손가락으로 쉽게
+                터치할 수 있는 넓은 버튼과 스크롤을 통해 쉽게 탐색할 수 있는
+                디자인을 고려합니다.
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
     </main>
+
     <script src="js/scripts.js"></script>
   </body>
 </html>
