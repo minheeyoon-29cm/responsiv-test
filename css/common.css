@@ -137,10 +137,17 @@ nav ul li a {
 .ruler-tf-decision {
   display: flex;
   width: 100%;
+  box-sizing: border-box;
+}
+
+.ruler-contents {
+  width: 100%;
 }
 
 .ruler-tf-decision section {
   scroll-margin-top: 80px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .ruler-tf-decision h3 {
@@ -155,8 +162,8 @@ nav ul li a {
 
 .ruler-tf-decision nav {
   height: fit-content;
-  width: 20%;
   padding: 16px;
+  width: 24%;
   margin-bottom: 20px;
   margin-right: 24px;
   background-color: var(--ruler-scale-color-blue-100); /* 배경색 설정 */
