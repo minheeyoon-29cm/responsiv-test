@@ -274,15 +274,6 @@
     padding-left: 20px;
   }
 
-  .pdp-product-info {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr); /* 2열 그리드 */
-    gap: var(--ruler-scale-dimension-300);
-    padding-right: 20px;
-    padding-left: 20px;
-    margin-bottom: var(--ruler-scale-dimension-300);
-  }
-
   /* 상품 타이틀 */
   .product-title {
     border-top: none;
