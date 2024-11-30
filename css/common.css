@@ -25,6 +25,11 @@ p {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: var(--ruler-scale-color-blue-500);
+}
+
 hr {
   border: none;
   border-top: 1px solid var(--ruler-semantic-color-border-line); /* 두께와 색상 조절 */
@@ -46,19 +51,21 @@ code {
 
 video {
   width: 100%;
-  border-radius: var(--ruler-scale-corner-radius-75);
 }
 
 header {
-  background-color: #333;
-  color: white;
-  padding: 10px 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  padding: 5px 0;
+  position: sticky;
+  top: 0px;
+  z-index: 99;
 }
 
 nav ul {
   list-style: none;
-  padding: 0;
-  text-align: center;
 }
 
 nav ul li {
@@ -67,7 +74,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white;
+  color: var(--ruler-semantic-color-text-primary);
   text-decoration: none;
 }
 
@@ -134,24 +141,20 @@ nav ul li a {
   color: var(--ruler-scale-color-blue-500);
 }
 
-.ruler-tf-decision {
-  display: flex;
-  width: 100%;
-  box-sizing: border-box;
-}
-
 .ruler-contents {
   width: 100%;
 }
 
-.ruler-tf-decision section {
-  scroll-margin-top: 80px;
-  width: 100%;
-  box-sizing: border-box;
+.ruler-contents-use {
+  display: flex;
+  align-items: center;
+  font-size: var(--ruler-scale-dimension-font-size-200);
+  font-weight: 500;
 }
 
-.ruler-tf-decision h3 {
-  margin-bottom: 12px;
+.ruler-contents code {
+  width: fit-content;
+  margin: 0px;
 }
 
 /* TOC 기본 스타일 */

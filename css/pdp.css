@@ -231,7 +231,6 @@
 /* 반응형 */
 /* --------------------------- */
 
-/* 1024px 이하의 모바일 화면 스타일 */
 @media only screen and (max-width: 1024px) {
   .brand-card {
     padding-right: 20px;
@@ -240,7 +239,7 @@
 
   .pdp-product-info {
     display: grid;
-    grid-template-columns: repeat(1, 1fr); /* 2열 그리드 */
+    grid-template-columns: repeat(1, 1fr);
     gap: var(--ruler-scale-dimension-300);
     padding-right: 20px;
     padding-left: 20px;
@@ -267,11 +266,19 @@
   }
 }
 
-/* 1280px 이하의 터치 디바이스 (모바일 또는 태블릿 화면) */
-@media only screen and (max-width: 1280px) and (pointer: coarse) {
+@media only screen and (max-width: 1280px) {
   .brand-card {
     padding-right: 20px;
     padding-left: 20px;
+  }
+
+  .pdp-product-info {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: var(--ruler-scale-dimension-300);
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: var(--ruler-scale-dimension-300);
   }
 
   /* 상품 타이틀 */

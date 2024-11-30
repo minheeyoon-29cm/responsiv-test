@@ -18,7 +18,7 @@
 
   /* 스크롤 시 고정 설정 */
   position: sticky;
-  top: 20px; /* 화면 상단에서 20px 떨어진 위치에 고정 */
+  top: 72px;
 }
 
 aside p {
@@ -339,7 +339,7 @@ aside a {
 }
 
 /* 1280px 이하의 터치 디바이스 (모바일 또는 태블릿 화면) */
-@media only screen and (max-width: 1280px) and (pointer: coarse) {
+@media only screen and (max-width: 1280px) {
   .my-section {
     padding-right: 20px;
     padding-left: 20px;
